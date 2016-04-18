@@ -1,0 +1,67 @@
+//Nav
+
+.container-fluid {
+	padding:20px 20px 0 20px;
+	background-color:$blue-color;
+}
+
+.navbar {
+	border:none;
+	border-radius:none;
+}
+
+.fa {
+	color:$white-color;
+	display:inline-block;
+}
+
+.fa-bars {
+	float:left;
+	font-size:20px !important;
+}
+
+.fa-question-circle {
+	margin-left:8px;
+	font-size:16px !important;
+}
+
+.navy h4 {
+	text-transform:uppercase;
+	color:$white-color;
+	margin: 0 0 0 15px;
+	display: inline-block;
+}
+
+.navy a {
+	text-decoration:none;
+	color:$white-color;
+	
+}
+
+.navy a:hover {
+	display:inline-block;
+	text-decoration:none;
+	color:$white-color;
+}
+
+//Dropdown
+
+.nav-wrapper {
+	margin:0 auto;
+	display:inline-block;
+}
+
+
+.navbar-nav > li > a {
+	padding: 0 100px 15px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:$white-color;
+	
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	color:$white-color;
+	background-color:transparent;
+}

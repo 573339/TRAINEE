@@ -1,0 +1,25 @@
+//Buttons
+
+.btn {
+	border-radius:15px;
+	padding:7px 15px;
+}
+
+.btn-default, .btn-default:focus {
+	background-color:$accent-color;
+	color:$white-color;
+	border-color:#c84e4e;
+}
+
+.btn-default:hover {
+	background-color:#c84e4e;
+	color:$white-color;
+	border-color:#c84e4e;
+}
+
+.btn-default:active  {
+	background-color:$accent-color;
+	color:$white-color;
+	border-color:#c84e4e;
+	
+}
