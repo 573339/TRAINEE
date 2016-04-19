@@ -1,0 +1,18 @@
+//Hero
+
+.hero {
+    background: url("../img/banner-2.jpg");
+    background-position: center center;
+    background-color:#044175;
+    height: 270px;
+    width: 100%;
+}
+
+.hero-header {
+	text-align:center;
+    font-size: 60px;
+    font-weight: 100;
+  	color:$white-color;
+  	margin-top:90px;
+  	letter-spacing: 3px;
+}

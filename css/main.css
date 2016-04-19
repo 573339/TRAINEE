@@ -6,7 +6,29 @@ Version 0.0.1
 /* BASE- Base styles, variables, mixins, etc*/
 /* line 1, ../scss/base/_base.scss */
 body {
+  font-family: "Open Sans", Arial, sans-serif;
   color: #666666;
+  line-height: 26px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+/* line 9, ../scss/base/_base.scss */
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 14, ../scss/base/_base.scss */
+h2 {
+  font-weight: 100;
+  color: #2e7dbb;
+  letter-spacing: 1px;
+}
+
+/* line 21, ../scss/base/_base.scss */
+.main-content {
+  margin-top: 30px;
 }
 
 /* MODULES- Individual Site Components*/
@@ -35,6 +57,11 @@ body {
   background-color: #e25858;
   color: white;
   border-color: #c84e4e;
+}
+
+/* line 29, ../scss/modules/_buttons.scss */
+.dropdown-menu {
+  top: 117%;
 }
 
 /* line 3, ../scss/modules/_sections.scss */
@@ -211,27 +238,29 @@ small {
 .navbar {
   border: none;
   border-radius: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid #7bbdf0;
 }
 
-/* line 13, ../scss/layouts/_nav.scss */
+/* line 15, ../scss/layouts/_nav.scss */
 .fa {
   color: white;
   display: inline-block;
 }
 
-/* line 18, ../scss/layouts/_nav.scss */
+/* line 20, ../scss/layouts/_nav.scss */
 .fa-bars {
   float: left;
   font-size: 20px !important;
 }
 
-/* line 23, ../scss/layouts/_nav.scss */
+/* line 25, ../scss/layouts/_nav.scss */
 .fa-question-circle {
   margin-left: 8px;
   font-size: 16px !important;
 }
 
-/* line 28, ../scss/layouts/_nav.scss */
+/* line 30, ../scss/layouts/_nav.scss */
 .navy h4 {
   text-transform: uppercase;
   color: white;
@@ -239,37 +268,56 @@ small {
   display: inline-block;
 }
 
-/* line 35, ../scss/layouts/_nav.scss */
+/* line 37, ../scss/layouts/_nav.scss */
 .navy a {
   text-decoration: none;
   color: white;
 }
 
-/* line 41, ../scss/layouts/_nav.scss */
+/* line 43, ../scss/layouts/_nav.scss */
 .navy a:hover {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 
-/* line 49, ../scss/layouts/_nav.scss */
+/* line 51, ../scss/layouts/_nav.scss */
 .nav-wrapper {
   margin: 0 auto;
   display: inline-block;
 }
 
-/* line 55, ../scss/layouts/_nav.scss */
+/* line 57, ../scss/layouts/_nav.scss */
 .navbar-nav > li > a {
   padding: 0 100px 15px 0;
 }
 
-/* line 59, ../scss/layouts/_nav.scss */
+/* line 61, ../scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: white;
 }
 
-/* line 64, ../scss/layouts/_nav.scss */
+/* line 66, ../scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   color: white;
   background-color: transparent;
+}
+
+/* line 3, ../scss/layouts/_header.scss */
+.hero {
+  background: url("../img/banner-2.jpg");
+  background-position: center center;
+  background-color: #044175;
+  height: 270px;
+  width: 100%;
+}
+
+/* line 11, ../scss/layouts/_header.scss */
+.hero-header {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  margin-top: 90px;
+  letter-spacing: 3px;
 }

@@ -1,3 +1,23 @@
 body {
+	font-family:$base-font-family;
 	color:$grey-color;
+	line-height: 26px;
+    font-weight: lighter;
+    font-size:16px;
+}
+
+p {
+	font-size:16px;
+	line-height:24px;
+}
+
+h2 {
+	font-weight:100;
+	color:$blue-color;
+	letter-spacing: 1px;
+
+}
+
+.main-content {
+	margin-top:30px;
 }
