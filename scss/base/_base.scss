@@ -6,6 +6,17 @@ body {
     font-size:16px;
 }
 
+a {
+    color: $accent-color;
+    text-decoration: none;
+
+    }
+
+a:hover, a:focus {
+	text-decoration:none;
+	color:#c84e4e;
+}
+
 p {
 	font-size:16px;
 	line-height:24px;

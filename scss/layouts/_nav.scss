@@ -1,10 +1,5 @@
 //Nav
 
-.container-fluid {
-	padding:20px 20px 0 20px;
-	background-color:$blue-color;
-}
-
 .navbar {
 	border:none;
 	border-radius:none;
@@ -54,10 +49,6 @@
 }
 
 
-.navbar-nav > li > a {
-	padding: 0 100px 15px 0;
-}
-
 .navbar-inverse .navbar-nav > li > a {
 	color:$white-color;
 	
@@ -66,4 +57,27 @@
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
 	color:$white-color;
 	background-color:transparent;
+}
+
+.dropdown-menu {
+	top:204%;
+}
+
+.navy-menu {
+	display:inline-block;
+	padding-right:10px;
+	
+}
+
+.nav > li > a {
+display:block;
+	
+}
+
+.navbar-nav > li > a {
+	padding:0 20px;
+}
+
+.caret {
+	margin-left:5px;
 }

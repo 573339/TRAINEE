@@ -1,3 +1,30 @@
+//Utility
+
+.utility {
+  background-color: #faf8f8;
+  padding:15px 15px 15px 6px;
+  border-bottom:1px solid $light-grey;
+}
+
+.utility-menu a {
+  color:$dark-grey;
+  font-weight:bolder;
+
+}
+
+.utility-menu a i, .utility-menu i {
+  color:$dark-grey;
+}
+
+.fa-expand {
+  padding-left:5px;
+}
+
+.fa-external-link {
+padding-left:5px;
+  
+}
+
 //Hero
 
 .hero {
@@ -15,4 +42,11 @@
   	color:$white-color;
   	margin-top:90px;
   	letter-spacing: 3px;
+}
+
+//Header 
+
+.navy-header {
+  padding: 20px 20px 15px 20px;
+    background-color: #2e7dbb;
 }

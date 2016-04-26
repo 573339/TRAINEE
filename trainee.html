@@ -25,7 +25,7 @@
         <div id="sidebar-wrapper">
             <div class="sidebar-nav">
               <div class="sidebar-brand">
-                  <a href="#"><i class="fa fa-plus-circle" ></i>New Note</a>
+                  <a href="#" data-toggle="modal" data-target="#note1"><i class="fa fa-plus-circle" ></i>New Note</a>
                 </div>
 
             <div id="view">    
@@ -67,40 +67,43 @@
 
   <!-- Page Content -->
         <div id="page-content-wrapper">
-             <nav class="navbar navbar-inverse">
-              <div class="container-fluid">
+             <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid navy-header">
               
                 <!-- Collect the nav links, forms, and other content for toggling -->  
                     <div class="row">
-                      <div class="col-sm-3 col-md-3 navy">
+                      <div class="col-sm-4 col-md-3 navy">
                         <a href="#menu-toggle" class="fa fa-bars" id="menu-toggle"></a>
-                        <h4>Training Guide</h4>  
+                        <h4>Trainee Guide</h4>  
                       </div>
-                      <div class="col-md-6 text-center">
+                      <div class="col-sm-5 col-md-6 text-center">
                          <div class="nav-wrapper">
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav navy-menu">
                           <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">U.S Navy Ships <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li role="separator" class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                              <li role="separator" class="divider"></li>
-                              <li><a href="#">One more separated link</a></li>
+                              <li><a href="#" class="selected">Navy Ships</a></li>
+                              <li><a href="#">Watchstanding</a></li>
+                              <li><a href="#">Montgomery G.I. Bill</a></li>
+                              <li><a href="#">Time Critical Risk Mgmt.</a></li>
+                              <li><a href="#">Civil Relief Act of 2003</a></li>
+                              <li><a href="#">Nutrition</a></li>
+                              <li><a href="#">Uniform Code</a></li>
                             </ul>
                           </li>
                         </ul>                
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav navy-menu">
                           <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Introduction<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Section<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li role="separator" class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
+                              <li><a href="#">Introduction</a></li>
+                              <li><a href="#">Objectives</a></li>
+                              <li><a href="#">Categories</a></li>
+                              <li><a href="#">Ships History</a></li>
+                              <li><a href="#">Auxiliary Ships</a></li>
+                              <li><a href="#">The Future</a></li>
+                              <li><a href="#">Summary and Review</a></li>
+                              <li><a href="#">Assignment</a></li>
                             </ul>
                           </li>
                         </ul>
@@ -115,12 +118,23 @@
                 </div><!-- /.container-fluid -->
             </nav>
 
+     
       <section class="hero">
         <div class="row">
           <div class="col-sm-12 col-md-12">
             <h1 class="hero-header">U.S Navy Ships</h1>
           </div>
         </div></section>  
+
+           <section class="utility">
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 utility-menu"><a href="">Expand<i class="fa fa-expand"></i></a></div>
+          <div class="col-sm-5 col-md-5 utility-menu text-right"><a href="">Export<i class="fa fa-external-link"></i></a></div>
+          <div class="col-sm-1 col-md-1 utility-menu text-right"><i class="fa fa-search"></i></div>
+        </div>
+      </div>
+      </section>   
 
       <div class="container">
     <div class="container">
@@ -148,26 +162,113 @@
                   <li>History</li>
                   <ol type="1">
                 <li>Nov. 14, 1910, Eugene Ely, a civilian pilot took off from a wooden platform built over the bow of the light cruiser USS Birmingham</li>
-                <li>March 20, 1922, the <a href="#">USS Langley (CV-1)</a> converted from the collier USS Jupiter (AC-3) was commissioned as the Navy’s first aircraft carrier.</li>
-                <li>June 4, 1934, the <a href="#">USS Ranger (CV-4)</a>, was commission as the first ship designed and built from the keel up as an aircraft carrier.</li>
+                <li>March 20, 1922, the <a href="#" data-toggle="modal" data-target="#uss">USS Langley (CV-1)</a> converted from the collier USS Jupiter (AC-3) was commissioned as the Navy’s first aircraft carrier.</li>
+                <li>June 4, 1934, the <a href="#" data-toggle="modal" data-target="#ranger">USS Ranger (CV-4)</a>, was commission as the first ship designed and built from the keel up as an aircraft carrier.</li>
                 <li>WWII saw the utility, diversity and speed of the aircraft carrier become the backbone of Navy Task Forces, replacing the Battleship.</li>
                 <li>The US Navy presently only has Nuclear Powered carriers (CVN) in commission.</li>
                 </ol>
+                <li>Mission-Carry, launch, and retrieve aircraft at sea.</li>
+                 <li>Weapons-Primary weapons system are the aircraft. Other offensive and defensive weapons include; Sea Sparrow, Phalanx CIWS, and Torpedo Counter Measures.</li>
+                </ol>
+                <li>Cruisers (CG)</li>
+                <ol type="a">
+                  <li>History</li>
+                   <ol type="1">
+                <li>The word “Cruiser” was first used by the English in 1651.</li>
+                <li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
+                <li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
+                <li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
+                <li>Mission</li>
+                </ol>
+                  <li>Mission</li>
+                  <ol type="1">
+                <li>The word “Cruiser” was first used by the English in 1651.</li>
+                <li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
+                <li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
+                <li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
+                <li>Mission</li>
+      
+                </ol>
+                  <li>Weapons</li>
                 </ol>
               </ol>
               </ol>
 
           </ol>
-          <h2>Enabling Objective(s):</h2>
-          <h2>Enabling Objective(s):</h2>
-          <h2>Enabling Objective(s):</h2>
-          <h2>Enabling Objective(s):</h2>
         </div>
       </div>
 
         </div><!-- /end of container -->
 
       </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6"><p class="left">A-950-0001</p></div>
+            <div class="col-md-6"> <p class="right">For Training Use Only</p></div>
+      </div>
+        </div>
+      </footer>
+
+      <!-- NOTE MODAL ONE -->
+                        <div id="note1" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Title of Note Here</h4>
+                              </div>
+                              <div class="modal-body">
+                                <p>Some text in the modal.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div><!-- NOTE END MODAL ONE -->
+
+                        <!-- LANGLEY MODAL ONE -->
+                        <div id="uss" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">USS Langley (CV-1)</h4>
+                              </div>
+                              <div class="modal-body">
+                                <img src="img/USS-Langley.jpg" class="img-responsive">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div><!-- LANGLEY END MODAL ONE -->
+
+                        <!-- RANGER MODAL ONE -->
+                        <div id="ranger" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">USS Ranger</h4>
+                              </div>
+                              <div class="modal-body">
+                                <img src="img/uss-ranger.jpg" class="img-responsive">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div><!-- RANGER END MODAL ONE -->
     <!-- /#wrapper -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -182,5 +283,9 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+    <script>$(".dropdown-menu li a").click(function(){
+  var selText = $(this).text();
+  $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+});</script>
   </body>
 </html>

@@ -1,3 +1,9 @@
+//Note Modal
+
+.modal-dialog {
+	margin:100px auto;
+}
+
 //Notes Section
 
 .sidebar-brand {
@@ -42,7 +48,6 @@ small {
 }
 
 
-
 //Sidebar Styles
 
 .sidebar-nav {
@@ -79,7 +84,8 @@ small {
 	background-color:$dark-grey;
 	padding:15px 20px 20px 20px;
 	color: $light-grey;
-	position:relative;
+    width: 100%;
+    bottom: 0;
 	
 }
 
