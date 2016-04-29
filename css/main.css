@@ -72,100 +72,6 @@ h2 {
 }
 
 /* line 3, ../scss/modules/_sections.scss */
-.modal-dialog {
-  margin: 100px auto;
-}
-
-/* line 9, ../scss/modules/_sections.scss */
-.sidebar-brand {
-  background-color: #373b42;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* line 17, ../scss/modules/_sections.scss */
-#view {
-  margin: 0 auto;
-  text-align: center;
-  border-bottom: 1px solid #d7d7d7;
-  padding-bottom: 20px;
-}
-
-/* line 24, ../scss/modules/_sections.scss */
-#note-wrap {
-  padding: 20px;
-}
-
-/* line 28, ../scss/modules/_sections.scss */
-small {
-  color: #e25858;
-}
-
-/* line 33, ../scss/modules/_sections.scss */
-.note {
-  border-bottom: 1px solid #d7d7d7;
-  padding: 20px;
-}
-
-/* line 38, ../scss/modules/_sections.scss */
-.note h4 {
-  margin-top: 0;
-  color: #2e7dbb;
-  font-weight: lighter;
-}
-
-/* line 45, ../scss/modules/_sections.scss */
-.fa-plus-circle {
-  margin-right: 8px;
-  color: #d7d7d7;
-}
-
-/* line 53, ../scss/modules/_sections.scss */
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-family: "Open Sans", Arial, sans-serif;
-  border-right: 1px solid #d7d7d7;
-}
-
-/* line 65, ../scss/modules/_sections.scss */
-.sidebar-brand a:link, .sidebar-brand a:visited {
-  color: #d7d7d7;
-  text-decoration: none;
-}
-
-/* line 70, ../scss/modules/_sections.scss */
-.sidebar-brand a:hover {
-  color: white;
-}
-
-/* line 75, ../scss/modules/_sections.scss */
-.sidebar-nav > .sidebar-brand {
-  height: 65px;
-  font-size: 18px;
-  line-height: 60px;
-}
-
-/* line 83, ../scss/modules/_sections.scss */
-.gt-wrapper {
-  background-color: #373b42;
-  padding: 15px 20px 20px 20px;
-  color: #d7d7d7;
-  width: 100%;
-  bottom: 0;
-}
-
-/* line 92, ../scss/modules/_sections.scss */
-.gt-notes {
-  bottom: 0;
-}
-
-/* line 3, ../scss/modules/_components.scss */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -174,12 +80,12 @@ small {
   transition: all 0.5s ease;
 }
 
-/* line 11, ../scss/modules/_components.scss */
+/* line 11, ../scss/modules/_sections.scss */
 #wrapper.toggled {
   padding-left: 250px;
 }
 
-/* line 15, ../scss/modules/_components.scss */
+/* line 15, ../scss/modules/_sections.scss */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -187,7 +93,7 @@ small {
   width: 0;
   height: 100%;
   margin-left: -250px;
-  overflow-y: auto;
+  overflow: hidden;
   background: white;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -196,45 +102,163 @@ small {
   border-right: 1px solid #d7d7d7;
 }
 
-/* line 31, ../scss/modules/_components.scss */
+/* line 32, ../scss/modules/_sections.scss */
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
 }
 
-/* line 35, ../scss/modules/_components.scss */
+/* line 36, ../scss/modules/_sections.scss */
 #page-content-wrapper {
   width: 100%;
   position: absolute;
 }
 
-/* line 40, ../scss/modules/_components.scss */
+/* line 41, ../scss/modules/_sections.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px;
 }
 
+/* line 49, ../scss/modules/_sections.scss */
+.modal-dialog {
+  margin: 100px auto;
+}
+
+/* line 55, ../scss/modules/_sections.scss */
+.sidebar-brand {
+  background-color: #373b42;
+  color: white;
+  text-align: center;
+  padding:15px
+}
+
+/* line 63, ../scss/modules/_sections.scss */
+#view {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 15px;
+  width:100%;
+  display:inline-block;
+}
+
+/* line 70, ../scss/modules/_sections.scss */
+#note-wrap {
+  padding: 20px;
+}
+
+/* line 74, ../scss/modules/_sections.scss */
+small {
+  color: #e25858;
+}
+
+/* line 79, ../scss/modules/_sections.scss */
+.note {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px;
+}
+
+.note p {
+  color:#666666;
+}
+
+/* line 84, ../scss/modules/_sections.scss */
+.note h4 {
+  margin-top: 0;
+  color: #2e7dbb;
+  font-weight: lighter;
+  font-size:22px;
+}
+
+/* line 91, ../scss/modules/_sections.scss */
+.fa-plus-circle {
+  margin-left: 8px;
+  color: #d7d7d7;
+}
+
+/* line 99, ../scss/modules/_sections.scss */
+.sidebar-nav {
+  position: relative;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  top: 63px;
+}
+
+/* line 111, ../scss/modules/_sections.scss */
+.sidebar-brand a:link, .sidebar-brand a:visited {
+  color: #d7d7d7;
+  text-decoration: none;
+}
+
+/* line 116, ../scss/modules/_sections.scss */
+.sidebar-brand a:hover {
+  color: white;
+}
+
+/* line 121, ../scss/modules/_sections.scss */
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+}
+
+
+/* line 129, ../scss/modules/_sections.scss */
+.gt-wrapper {
+  background-color: #373b42;
+  padding: 15px 20px 20px 20px;
+  color: #d7d7d7;
+  width: 100%;
+  bottom: 0;
+}
+
+/* line 138, ../scss/modules/_sections.scss */
+.gt-notes {
+  bottom: 0;
+}
+
+/* line 3, ../scss/modules/_components.scss */
+label {
+  display: inline-block;
+  text-align: left;
+  width: 140px;
+  font-weight: lighter;
+}
+
+/* line 10, ../scss/modules/_components.scss */
+.control-label {
+  padding-right: 0;
+}
+
+/* line 14, ../scss/modules/_components.scss */
+.study-qa {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
-  /* line 49, ../scss/modules/_components.scss */
+  /* line 24, ../scss/modules/_components.scss */
   #wrapper {
     padding-left: 250px;
   }
 
-  /* line 53, ../scss/modules/_components.scss */
+  /* line 28, ../scss/modules/_components.scss */
   #wrapper.toggled {
     padding-left: 0;
   }
 
-  /* line 57, ../scss/modules/_components.scss */
+  /* line 32, ../scss/modules/_components.scss */
   #sidebar-wrapper {
     width: 250px;
   }
 
-  /* line 61, ../scss/modules/_components.scss */
+  /* line 36, ../scss/modules/_components.scss */
   #wrapper.toggled #sidebar-wrapper {
     width: 0;
   }
 
-  /* line 65, ../scss/modules/_components.scss */
+  /* line 40, ../scss/modules/_components.scss */
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
@@ -250,24 +274,29 @@ small {
 }
 
 /* line 10, ../scss/layouts/_nav.scss */
+.navbar-nav {
+  margin: 0;
+}
+
+/* line 14, ../scss/layouts/_nav.scss */
 .fa {
   color: white;
   display: inline-block;
 }
 
-/* line 15, ../scss/layouts/_nav.scss */
+/* line 19, ../scss/layouts/_nav.scss */
 .fa-bars {
   float: left;
   font-size: 20px !important;
 }
 
-/* line 20, ../scss/layouts/_nav.scss */
+/* line 24, ../scss/layouts/_nav.scss */
 .fa-question-circle {
   margin-left: 8px;
   font-size: 16px !important;
 }
 
-/* line 25, ../scss/layouts/_nav.scss */
+/* line 29, ../scss/layouts/_nav.scss */
 .navy h4 {
   text-transform: uppercase;
   color: white;
@@ -275,58 +304,58 @@ small {
   display: inline-block;
 }
 
-/* line 32, ../scss/layouts/_nav.scss */
+/* line 36, ../scss/layouts/_nav.scss */
 .navy a {
   text-decoration: none;
   color: white;
 }
 
-/* line 38, ../scss/layouts/_nav.scss */
+/* line 42, ../scss/layouts/_nav.scss */
 .navy a:hover {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 
-/* line 46, ../scss/layouts/_nav.scss */
+/* line 50, ../scss/layouts/_nav.scss */
 .nav-wrapper {
   margin: 0 auto;
   display: inline-block;
 }
 
-/* line 52, ../scss/layouts/_nav.scss */
+/* line 56, ../scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: white;
 }
 
-/* line 57, ../scss/layouts/_nav.scss */
+/* line 61, ../scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   color: white;
   background-color: transparent;
 }
 
-/* line 62, ../scss/layouts/_nav.scss */
+/* line 66, ../scss/layouts/_nav.scss */
 .dropdown-menu {
   top: 204%;
 }
 
-/* line 66, ../scss/layouts/_nav.scss */
+/* line 70, ../scss/layouts/_nav.scss */
 .navy-menu {
   display: inline-block;
   padding-right: 10px;
 }
 
-/* line 72, ../scss/layouts/_nav.scss */
+/* line 76, ../scss/layouts/_nav.scss */
 .nav > li > a {
   display: block;
 }
 
-/* line 77, ../scss/layouts/_nav.scss */
+/* line 81, ../scss/layouts/_nav.scss */
 .navbar-nav > li > a {
   padding: 0 20px;
 }
 
-/* line 81, ../scss/layouts/_nav.scss */
+/* line 85, ../scss/layouts/_nav.scss */
 .caret {
   margin-left: 5px;
 }
@@ -361,10 +390,18 @@ small {
 
 /* line 30, ../scss/layouts/_header.scss */
 .hero {
-  background: url("../img/banner-2.jpg");
+  background: url("../img/banner-3.jpg");
   background-position: center center;
   background-color: #044175;
-  height: 270px;
+  height: 330px;
+  width: 100%;
+}
+
+.hero-assignment {
+  background: url("../img/banner-4.jpg");
+  background-position: center center;
+  background-color: #044175;
+  height: 330px;
   width: 100%;
 }
 
@@ -374,10 +411,17 @@ small {
   font-size: 60px;
   font-weight: 100;
   color: white;
-  margin-top: 90px;
+  margin-top: 154px;
   letter-spacing: 3px;
 }
 
+.subhead {
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:20px;
+  letter-spacing: 1px;
+}
 /* line 49, ../scss/layouts/_header.scss */
 .navy-header {
   padding: 20px 20px 15px 20px;
@@ -390,14 +434,70 @@ small {
   color: white;
   padding: 15px;
   text-transform: uppercase;
+  margin-top: 50px;
 }
 
-/* line 8, ../scss/layouts/_footer.scss */
+/* line 9, ../scss/layouts/_footer.scss */
 .footer p {
   font-size: 14px;
 }
 
-/* line 12, ../scss/layouts/_footer.scss */
+/* line 13, ../scss/layouts/_footer.scss */
 .right {
   float: right;
 }
+
+/*NOTES*/
+
+.filter  {
+    color:#636363;
+    font-size:14px;
+    float: right;
+
+}
+
+.date {
+  text-transform: uppercase;
+  font-size:12px;
+  color:#636363;
+}
+
+.all {
+  color:#636363;
+  float:left;
+}
+
+.all-notes {
+  overflow: auto;
+  height: 768px;
+}
+
+.all-notes a:hover {
+  background-color: #f4f6f6;
+  display:block;
+
+}
+
+.sidebar-brand h2 {
+  color:#fff;
+  font-weight:lighter;
+  float:left;
+  margin:0;
+}
+
+.sidebar-brand a {
+  float:right;
+  font-size:14px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.sort {
+top: 30px;
+left: -92px;
+}
+
+/*NOTE DROPDOWN*/
+
+

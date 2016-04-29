@@ -1,3 +1,49 @@
+//Toggle Styles 
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow: hidden;
+    background: $white-color;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+     border-right:1px solid $light-grey;
+}
+
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+
 //Note Modal
 
 .modal-dialog {
@@ -48,11 +94,11 @@ small {
 }
 
 
-//Sidebar Styles
+//Sidebar 
 
 .sidebar-nav {
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 63px;
     width: 250px;
     margin: 0;
     padding: 0;

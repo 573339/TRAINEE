@@ -1,46 +1,21 @@
-//Toggle Styles 
+//Forms
 
-#wrapper {
-    padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+label {
+    display:inline-block;
+    text-align:left;
+    width:140px;
+    font-weight:lighter;
 }
 
-#wrapper.toggled {
-    padding-left: 250px;
+.control-label {
+    padding-right:0;
 }
 
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    left: 250px;
-    width: 0;
-    height: 100%;
-    margin-left: -250px;
-    overflow-y: auto;
-    background: $white-color;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-     border-right:1px solid $light-grey;
+.study-qa {
+margin-bottom:20px;
+    
 }
 
-#wrapper.toggled #sidebar-wrapper {
-    width: 250px;
-}
-
-#page-content-wrapper {
-    width: 100%;
-    position: absolute;
-}
-
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
-    margin-right: -250px;
-}
 
 
 //Media Queries 
