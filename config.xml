@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.navy.traineeguide"
+    versionCode = "10" 
+    version     = "1.0.0" >
+
+    <name>Trainee Guide</name>
+
+    <description>
+        Prototype trainee guide
+    </description>
+
+	
+    <plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
+
+    <access origin="*"/>
+    
+    <preference name="fullscreen" value="true" />
+    
+    
+    <preference name="webviewbounce" value="false" />
+
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+        <true/>
+    </gap:config-file>
+
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
+
+
+
+ 
+  
+
+</widget>
+
+
+
