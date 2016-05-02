@@ -42,7 +42,14 @@ $(document).ready(function(){
             var len = results.rows.length, i;
             msg = "Found rows: " + len;
             console.log(msg);
-            $('#notes-counter').text(len+' notes');
+            
+            if(len===1){
+               $('#notes-counter').text(len+' note');
+            }
+            else{
+               $('#notes-counter').text(len+' notes');
+            }
+            
             
             for (i = 0; i < len; i++){
                msg = results.rows.item(i).title;
