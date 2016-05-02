@@ -1,424 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <title>Trainee Guide</title>
+	<title>Trainee Guide</title>
 
-    <!-- CORE CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <!-- TYPOGRAPHY -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700,600,400,300,300italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- CORE CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- TYPOGRAPHY -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700,600,400,300,300italic,700italic' rel='stylesheet' type='text/css'>
 
-  </head>
+</head>
 
-  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
-  <div id="wrapper" class="toggled">
-    <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <div class="sidebar-nav">
-              <div class="sidebar-brand">
-                  <h2>Notes</h2>
-                  <a href="#" data-toggle="modal" data-target="#note1">Add Note<i class="fa fa-plus-circle"></i></a>
-                </div>
+	<div id="wrapper" class="toggled">
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<div class="sidebar-nav">
+				<div class="sidebar-brand">
+					<h2>Notes</h2>
+					<a href="#" data-toggle="modal" data-target="#new-note">Add Note<i class="fa fa-plus-circle"></i></a>
+				</div>
 
-            <div id="view">    
-            <small class="all">4 notes</small>
-            <div class="dropdown filter">
-              <a href="" class="dropdown-toggle filter" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Sort by:
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu sort" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Title</a></li>
-                <li><a href="#">Date Created</a></li>
-                <li><a href="#">Date Updated</a></li>
-              </ul>
-            </div>
-            </div>
+				<div id="view">    
+					<small class="all" id="notes-counter"></small>
+					<div class="dropdown filter">
+						<a href="" class="dropdown-toggle filter" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Sort by:
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu sort" aria-labelledby="dropdownMenu1">
+							<li><a href="#">Title</a></li>
+							<li><a href="#">Date Created</a></li>
+							<li><a href="#">Date Updated</a></li>
+						</ul>
+					</div>
+				</div>
 
-              <div class="all-notes">
-                <a href="#">
-                <div class="note">
-                  <small class="date">4 days ago</small>
-                  <h4>Example Note 1</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex orci, tincidunt a metus at...</p>
-                </div></a>
+				<div class="all-notes">
 
-                <a href="#">
-                <div class="note">
-                  <small class="date">2 weeks ago</small>
-                  <h4>Example Note 2</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex orci, tincidunt a metus at...</p>
-                </div></a>
-
-                <a href="#">
-                <div class="note">
-                  <small class="date">3/10/16</small>
-                  <h4>Example Note 3</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex orci, tincidunt a metus at...</p>
-                </div></a>
-
-                <a href="#">
-                <div class="note">
-                  <small class="date">2/21/16</small>
-                  <h4>Example Note 4</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex orci, tincidunt a metus at...</p>
-                </div></a>
-              </div>              
-            </div><!-- /end of sidebar-nav -->
-        </div><!-- /sidebar-wrapper -->
+				</div>              
+			</div><!-- /end of sidebar-nav -->
+		</div><!-- /sidebar-wrapper -->
 
 
 
-  <!-- Page Content -->
-        <div id="page-content-wrapper" >
-             <nav class="navbar navbar-inverse navbar-fixed-top">
-              <div class="container-fluid navy-header">
-              
-                <!-- Collect the nav links, forms, and other content for toggling -->  
-                    <div class="row">
-                      <div class="col-xs-4 col-sm-4 col-md-3 navy">
-                        <a href="#menu-toggle" class="fa fa-bars" id="menu-toggle"></a>
-                        <h4>Trainee Guide</h4>  
-                      </div>
-                      <div class="col-xs-5 col-sm-5 col-md-6 text-center">
-                         <div class="nav-wrapper">
-                        <ul class="nav navbar-nav navy-menu">
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#" class="selected">Navy Ships</a></li>
-                              <li><a href="#">Watchstanding</a></li>
-                              <li><a href="#">Montgomery G.I. Bill</a></li>
-                              <li><a href="#">Time Critical Risk Mgmt.</a></li>
-                              <li><a href="#">Civil Relief Act of 2003</a></li>
-                              <li><a href="#">Nutrition</a></li>
-                              <li><a href="#">Uniform Code</a></li>
-                            </ul>
-                          </li>
-                        </ul>                
-                        <ul class="nav navbar-nav navy-menu" id="myScrollspy">
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Section<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#section1">Introduction</a></li>
-                              <li><a href="#section2">Objectives</a></li>
-                              <li><a href="#section3">Categories</a></li>
-                              <li><a href="#section4">Ships History</a></li>
-                              <li><a href="#section5">Auxiliary Ships</a></li>
-                              <li><a href="#section6">The Future</a></li>
-                              <li><a href="#section7">Summary and Review</a></li>
-                              <li><a href="#section8">Assignment</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div><!--end nav-wrapper-->  
+		<!-- Page Content -->
+		<div id="page-content-wrapper" >
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid navy-header">
 
-                      </div><!--end col-md-6-->  
-                      <div class="col-sm-3 col-md-3 navy text-right">
-                        <a href="#">Help<i class="fa fa-question-circle"></i></a>
-                      </div>
-                    </div>
+					<!-- Collect the nav links, forms, and other content for toggling -->  
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-3 navy">
+							<a href="#menu-toggle" class="fa fa-bars" id="menu-toggle"></a>
+							<h4>Trainee Guide</h4>  
+						</div>
+						<div class="col-xs-5 col-sm-5 col-md-6 text-center">
+							<div class="nav-wrapper">
+								<ul class="nav navbar-nav navy-menu">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="#" class="selected">Navy Ships</a></li>
+											<li><a href="#">Watchstanding</a></li>
+											<li><a href="#">Montgomery G.I. Bill</a></li>
+											<li><a href="#">Time Critical Risk Mgmt.</a></li>
+											<li><a href="#">Civil Relief Act of 2003</a></li>
+											<li><a href="#">Nutrition</a></li>
+											<li><a href="#">Uniform Code</a></li>
+										</ul>
+									</li>
+								</ul>                
+								<ul class="nav navbar-nav navy-menu" id="myScrollspy">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Section<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="#section1">Introduction</a></li>
+											<li><a href="#section2">Objectives</a></li>
+											<li><a href="#section3">Categories</a></li>
+											<li><a href="#section4">Ships History</a></li>
+											<li><a href="#section5">Auxiliary Ships</a></li>
+											<li><a href="#section6">The Future</a></li>
+											<li><a href="#section7">Summary and Review</a></li>
+											<li><a href="#section8">Assignment</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div><!--end nav-wrapper-->  
 
-                </div><!-- /.container-fluid -->
-            </nav>
+						</div><!--end col-md-6-->  
+						<div class="col-sm-3 col-md-3 navy text-right">
+							<a href="#">Help<i class="fa fa-question-circle"></i></a>
+						</div>
+					</div>
 
-     
-      <section class="hero">
-        <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <h1 class="hero-header">U.S. Navy Ships</h1>
-          </div>
-        </div></div></section>  
-
-           <section class="utility">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-6 col-md-6 utility-menu"><a href="">Expand<i class="fa fa-expand"></i></a></div>
-                <div class="col-sm-5 col-md-5 utility-menu text-right"><a href="">Export<i class="fa fa-external-link"></i></a></div>
-                <div class="col-sm-1 col-md-1 utility-menu text-right"><i class="fa fa-search"></i></div>
-              </div>
-            </div>
-           </section> 
+				</div><!-- /.container-fluid -->
+			</nav>
 
 
-    <!-- MAIN CONTENT -->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 main-content">
-            <div id="section1">
-            <h2>A. Introduction</h2>
-          <p>During your Navy career, you will encounter many different types of ships and aircraft. The types of ships and aircraft have evolved to meet the challenge of changing warfare and doctrine. This lesson is an introduction to a brief history and overview of the US Navy ships and aircraft mission and weapon systems. The following Naval Standards will be touched on in this lesson: H038, H239. NAVPERS 18068F, Naval Standards for E1 through E3 may be found in the Recruit Trainee Guide.</p>
-        </div>
-        <div id="section2">
-        <h2>B. Enabling Objective(s):</h2>
-        <p>7.1 <strong>IDENTIFY</strong> the categories of U.S. Navy ships.</p>
-        <p>7.2 <strong>RECOGNIZE</strong> a brief history, their mission and weapons capability of U.S. Navy ships.</p>
-        </div>
+			<section class="hero">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<h1 class="hero-header">U.S. Navy Ships</h1>
+						</div>
+					</div>
+				</div>
+			</section>  
 
-          <h2>C. Topic Outline:</h2>
-          <ol>
-            <li>Introduction</li>
-            <div id="section3">
-            <li>Categories of U.S. Navy Ships</li>
-              <ol type="a">
-                <li>Surface combatants</li>
-                <li>Submarines</li>
-                <li>Auxiliaries</li>
-              </ol>
-            </div>
-            <li>Ships history, mission and weapons</li>
-             <ol type="a">
-                <li>Mission--Varies with the type of combatant ship. Some engage primarily in combat with enemy forces, such as carriers, cruisers, frigates and submarines. Others have supporting roles, such as repairs salvage and delivery of supplies. The Naval Reserve forces also completely and independently maintain and operate many surface combatant ships. Their missions are the same as their active duty counterpart.</li>
-                <li>Surface Combatants</li>
-                 <ol type="1">
-                <li>Aircraft Carriers</li>
-                <ol type="a">
-                  <li>History</li>
-                  <ol type="1">
-                <li>Nov. 14, 1910, Eugene Ely, a civilian pilot took off from a wooden platform built over the bow of the light cruiser USS Birmingham</li>
-                <li>March 20, 1922, the <a href="#" data-toggle="modal" data-target="#uss">USS Langley (CV-1)</a> converted from the collier USS Jupiter (AC-3) was commissioned as the Navy’s first aircraft carrier.</li>
-                <li>June 4, 1934, the <a href="#" data-toggle="modal" data-target="#ranger">USS Ranger (CV-4)</a>, was commission as the first ship designed and built from the keel up as an aircraft carrier.</li>
-                <li>WWII saw the utility, diversity and speed of the aircraft carrier become the backbone of Navy Task Forces, replacing the Battleship.</li>
-                <li>The US Navy presently only has Nuclear Powered carriers (CVN) in commission.</li>
-                </ol>
-                <li>Mission-Carry, launch, and retrieve aircraft at sea.</li>
-                 <li>Weapons-Primary weapons system are the aircraft. Other offensive and defensive weapons include; Sea Sparrow, Phalanx CIWS, and Torpedo Counter Measures.</li>
-                </ol>
-                <li>Cruisers (CG)</li>
-                <ol type="a">
-                  <li>History</li>
-                   <ol type="1">
-                <li>The word “Cruiser” was first used by the English in 1651.</li>
-                <li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
-                <li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
-                <li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
-                <li>Mission</li>
-                </ol>
-                  <li>Mission</li>
-                  <ol type="1">
-                <li>The word “Cruiser” was first used by the English in 1651.</li>
-                <li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
-                <li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
-                <li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
-                <li>Mission</li>
-                </ol>
-                  <li>Weapons</li>
-                <ol type="1">
-                <li>MK-41 Vertical Launching System Standard Missile.</li>
-                <li>Anti-Submarine Rocket (ASROC)</li>
-                <li>Tomahawk Cruise Missile</li>
-                <li>MK-46 Torpedoes</li>
-                <li>MK-45 5-inch/54 caliber lightweight guns</li>
-                <li>Phalanx Close-In Weapons Systems (CIWS)</li>
-                </ol>
-                </ol>
-                <li>Destroyers (DDG)</li>
-                  <ol type="a">
-                  <li>History</li>
-                   <ol type="1">
-                <li>Destroyers came about in the late 1890’s as a defense against the new class of ship, the Torpedo Boat. Initially called the “Torpedo Boat Destroyer”, it was later shortened to Destroyer.</li>
-                <li>Before WWII destroyers were light vessels with little endurance for ocean operations.</li>
-                <li>After WWII, with the advent of the guided missile, destroyers took on a surface combatant role previously filled by battleships and cruisers.</li>
-                </ol>
-                  <li>Mission: provide offensive and defensive support by:</li>
-                  <ol type="1">
-                <li>Detecting and engaging enemy submarines, aircraft and surface ships</li>
-                <li>Conducting land attacks</li>
-                <li>Performing patrol, search and rescue operations.</li>
-                </ol>
-                  <li>Weapons</li>
-                <ol type="1">
-                <li>AVLS cells for Tomahawk, ESSM and Standard Missiles</li>
-                <li>AGS 155mm guns, Long Range, Land Attack Projectiles, 155 mm rounds</li>
-                <li>Mk-46 Close in guns</li>
-                </ol>
-                </ol>
-              </ol>
-              </ol>
-
-          </ol>
-            <!--ASSIGNMENT-->
-            <h2>A. Study Assignment</h2>
-            <p>The Bluejacket’s Manual, 24th Edition, pages 261 through 284</p>
-            <h2>B. Study Questions</h2>
-              <ol type="1">
-                <li class="study-qa">What are the three categories of U.S. Navy ships?</li>
-                <form class="form-horizontal">
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">a.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">b.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">c.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What do the letters “N” and “G” stand for when used with ship designators?</li>
-                 <form class="form-horizontal">
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">a.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">b.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What type of submarine is designated by SSGN?</li>
-                 <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What is the mission of an SSBN?</li>
-                <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What is the primary mission of an attack submarine?</li>
-                <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What are two missions of a cruiser?</li>
-                     <form class="form-horizontal">
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">a.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                  <div class="form-group">
-                  <label class="col-sm-1 control-label">b.</label>
-                  <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What is the mission of amphibious ships?</li>
-                  <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">What is the mission of a dock landing ship?</li>
-                  <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-                <li class="study-qa">The mission of auxiliary ships is to provide what services for the fleet.</li>
-                <form class="form-horizontal">
-                  <div class="form-group">
-                  <div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
-                  </div>
-                </form>
-              </ol>      
-
-         </div>
-        </div><!-- end of row -->
-      </div><!-- end of container -->
-   
+			<section class="utility">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6 col-md-6 utility-menu"><a href="">Expand<i class="fa fa-expand"></i></a></div>
+						<div class="col-sm-5 col-md-5 utility-menu text-right"><a href="">Export<i class="fa fa-external-link"></i></a></div>
+						<div class="col-sm-1 col-md-1 utility-menu text-right"><i class="fa fa-search"></i></div>
+					</div>
+				</div>
+			</section> 
 
 
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6"><p class="left">A-950-0001</p></div>
-            <div class="col-xs-6 col-sm-6 col-md-6"> <p class="right">For Training Use Only</p></div>
-      </div>
-        </div>
-      </footer>
+			<!-- MAIN CONTENT -->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 main-content">
+						<div id="section1">
+							<h2>A. Introduction</h2>
+							<p>During your Navy career, you will encounter many different types of ships and aircraft. The types of ships and aircraft have evolved to meet the challenge of changing warfare and doctrine. This lesson is an introduction to a brief history and overview of the US Navy ships and aircraft mission and weapon systems. The following Naval Standards will be touched on in this lesson: H038, H239. NAVPERS 18068F, Naval Standards for E1 through E3 may be found in the Recruit Trainee Guide.</p>
+						</div>
+						<div id="section2">
+							<h2>B. Enabling Objective(s):</h2>
+							<p>7.1 <strong>IDENTIFY</strong> the categories of U.S. Navy ships.</p>
+							<p>7.2 <strong>RECOGNIZE</strong> a brief history, their mission and weapons capability of U.S. Navy ships.</p>
+						</div>
 
-      <!-- NOTE MODAL ONE -->
-                        <div id="note1" class="modal fade" role="dialog">
-                          <div class="modal-dialog">
+						<h2>C. Topic Outline:</h2>
+						<ol>
+							<li>Introduction</li>
+							<div id="section3">
+								<li>Categories of U.S. Navy Ships</li>
+								<ol type="a">
+									<li>Surface combatants</li>
+									<li>Submarines</li>
+									<li>Auxiliaries</li>
+								</ol>
+							</div>
+							<li>Ships history, mission and weapons</li>
+							<ol type="a">
+								<li>Mission--Varies with the type of combatant ship. Some engage primarily in combat with enemy forces, such as carriers, cruisers, frigates and submarines. Others have supporting roles, such as repairs salvage and delivery of supplies. The Naval Reserve forces also completely and independently maintain and operate many surface combatant ships. Their missions are the same as their active duty counterpart.</li>
+								<li>Surface Combatants</li>
+								<ol type="1">
+									<li>Aircraft Carriers</li>
+									<ol type="a">
+										<li>History</li>
+										<ol type="1">
+											<li>Nov. 14, 1910, Eugene Ely, a civilian pilot took off from a wooden platform built over the bow of the light cruiser USS Birmingham</li>
+											<li>March 20, 1922, the <a href="#" data-toggle="modal" data-target="#uss">USS Langley (CV-1)</a> converted from the collier USS Jupiter (AC-3) was commissioned as the Navy’s first aircraft carrier.</li>
+											<li>June 4, 1934, the <a href="#" data-toggle="modal" data-target="#ranger">USS Ranger (CV-4)</a>, was commission as the first ship designed and built from the keel up as an aircraft carrier.</li>
+											<li>WWII saw the utility, diversity and speed of the aircraft carrier become the backbone of Navy Task Forces, replacing the Battleship.</li>
+											<li>The US Navy presently only has Nuclear Powered carriers (CVN) in commission.</li>
+										</ol>
+										<li>Mission-Carry, launch, and retrieve aircraft at sea.</li>
+										<li>Weapons-Primary weapons system are the aircraft. Other offensive and defensive weapons include; Sea Sparrow, Phalanx CIWS, and Torpedo Counter Measures.</li>
+									</ol>
+									<li>Cruisers (CG)</li>
+									<ol type="a">
+										<li>History</li>
+										<ol type="1">
+											<li>The word “Cruiser” was first used by the English in 1651.</li>
+											<li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
+											<li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
+											<li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
+											<li>Mission</li>
+										</ol>
+										<li>Mission</li>
+										<ol type="1">
+											<li>The word “Cruiser” was first used by the English in 1651.</li>
+											<li>By 1694, the term was used for ships detached from the main fleet to “cruise” and protect the harbor.</li>
+											<li>The cruiser as a “named” ship, vice mission, evolved when the world’s navies phased out sail propulsion ships with wooden hulls, creating armored, steel “battleships”.</li>
+											<li>With the emergence of naval strategy using the large battleship, the need arose for a middle-size combatant—the cruiser</li>
+											<li>Mission</li>
+										</ol>
+										<li>Weapons</li>
+										<ol type="1">
+											<li>MK-41 Vertical Launching System Standard Missile.</li>
+											<li>Anti-Submarine Rocket (ASROC)</li>
+											<li>Tomahawk Cruise Missile</li>
+											<li>MK-46 Torpedoes</li>
+											<li>MK-45 5-inch/54 caliber lightweight guns</li>
+											<li>Phalanx Close-In Weapons Systems (CIWS)</li>
+										</ol>
+									</ol>
+									<li>Destroyers (DDG)</li>
+									<ol type="a">
+										<li>History</li>
+										<ol type="1">
+											<li>Destroyers came about in the late 1890’s as a defense against the new class of ship, the Torpedo Boat. Initially called the “Torpedo Boat Destroyer”, it was later shortened to Destroyer.</li>
+											<li>Before WWII destroyers were light vessels with little endurance for ocean operations.</li>
+											<li>After WWII, with the advent of the guided missile, destroyers took on a surface combatant role previously filled by battleships and cruisers.</li>
+										</ol>
+										<li>Mission: provide offensive and defensive support by:</li>
+										<ol type="1">
+											<li>Detecting and engaging enemy submarines, aircraft and surface ships</li>
+											<li>Conducting land attacks</li>
+											<li>Performing patrol, search and rescue operations.</li>
+										</ol>
+										<li>Weapons</li>
+										<ol type="1">
+											<li>AVLS cells for Tomahawk, ESSM and Standard Missiles</li>
+											<li>AGS 155mm guns, Long Range, Land Attack Projectiles, 155 mm rounds</li>
+											<li>Mk-46 Close in guns</li>
+										</ol>
+									</ol>
+								</ol>
+							</ol>
 
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                 <input type="title" class="form-control" id="exampleInputPassword1" placeholder="Title goes here">
-                              </div>
-                              <div class="modal-body">
-                                <textarea class="form-control" rows="5"></textarea>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div><!-- NOTE END MODAL ONE -->
+						</ol>
+						<!--ASSIGNMENT-->
+						<h2>A. Study Assignment</h2>
+						<p>The Bluejacket’s Manual, 24th Edition, pages 261 through 284</p>
+						<h2>B. Study Questions</h2>
+						<ol type="1">
+							<li class="study-qa">What are the three categories of U.S. Navy ships?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-1 control-label">a.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label">b.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label">c.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What do the letters “N” and “G” stand for when used with ship designators?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-1 control-label">a.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label">b.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What type of submarine is designated by SSGN?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What is the mission of an SSBN?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What is the primary mission of an attack submarine?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What are two missions of a cruiser?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-1 control-label">a.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label">b.</label>
+									<div class="col-sm-10"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What is the mission of amphibious ships?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">What is the mission of a dock landing ship?</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+							<li class="study-qa">The mission of auxiliary ships is to provide what services for the fleet.</li>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-11"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+								</div>
+							</form>
+						</ol>      
 
-                        <!-- LANGLEY MODAL ONE -->
-                        <div id="uss" class="modal fade" role="dialog">
-                          <div class="modal-dialog">
+					</div>
+				</div><!-- end of row -->
+			</div><!-- end of container -->
 
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">USS Langley (CV-1)</h4>
-                              </div>
-                              <div class="modal-body">
-                                <img src="img/USS-Langley.jpg" class="img-responsive">
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div><!-- LANGLEY END MODAL ONE -->
 
-                        <!-- RANGER MODAL ONE -->
-                        <div id="ranger" class="modal fade" role="dialog">
-                          <div class="modal-dialog">
 
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">USS Ranger</h4>
-                              </div>
-                              <div class="modal-body">
-                                <img src="img/uss-ranger.jpg" class="img-responsive">
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div><!-- RANGER END MODAL ONE -->
-    <!-- /#wrapper -->
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6"><p class="left">A-950-0001</p></div>
+						<div class="col-xs-6 col-sm-6 col-md-6"> <p class="right">For Training Use Only</p></div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- NOTE MODAL ONE -->
+			<div id="new-note" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<input type="title" class="form-control modal-input" id="new-note-title" placeholder="Title goes here">
+						</div>
+						<div class="modal-body">
+							<textarea class="form-control modal-input" id="new-note-note" rows="5"></textarea>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary save-note-button" data-dismiss="modal">Save</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- NOTE END MODAL ONE -->
+
+			<!-- NOTE MODAL ONE -->
+			<div id="edit-note" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<input type="title" class="form-control modal-input" id="edit-note-title" placeholder="Title goes here">
+						</div>
+						<div class="modal-body">
+							<textarea class="form-control modal-input" id="edit-note-note" rows="5"></textarea>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary edit-save-note-button" data-dismiss="modal">Save</button>
+							<button type="button" class="btn btn-danger edit-delete-note-button" data-dismiss="modal">Delete</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- NOTE END MODAL ONE -->
+
+			<!-- LANGLEY MODAL ONE -->
+			<div id="uss" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">USS Langley (CV-1)</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/USS-Langley.jpg" class="img-responsive">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- LANGLEY END MODAL ONE -->
+
+			<!-- RANGER MODAL ONE -->
+			<div id="ranger" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">USS Ranger</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/uss-ranger.jpg" class="img-responsive">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- RANGER END MODAL ONE -->
+		</div><!-- /#wrapper -->
+	</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+    	$("#menu-toggle").click(function(e) {
+    		e.preventDefault();
+    		$("#wrapper").toggleClass("toggled");
+    	});
     </script>
     <script>$(".dropdown-menu li a").click(function(){
-  var selText = $(this).text();
-  $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
-});</script>
-  </body>
+    	var selText = $(this).text();
+    	$(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+    });</script>
+</body>
 </html>
