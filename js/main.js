@@ -126,4 +126,23 @@ $(document).ready(function(){
       });
    });
 
+   //save study questions
+   function saveStudy(){
+      $('.study-saved').each(function(){
+         localStorage.setItem($(this).attr('id'),$(this).val());
+      });
+   }
+
+   function restoreStudy(){
+      $('.study-saved').each(function(){
+         $(this).val(localStorage.getItem($(this).attr('id')));
+      });
+   }
+   restoreStudy();
+
+   //save study guides
+   $('.study-saved').keyup(function(){
+      console.log('saved');
+      saveStudy();
+   });
 });
