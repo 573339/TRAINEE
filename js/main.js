@@ -173,7 +173,7 @@ $(document).ready(function(){
 
       //generate section navigation
       function generateSectionNav(){
-         $('#sectionnav').empty();
+         $('#sectionNav').empty();
          $('#portal .sectionNavPoint').each(function(){
             var newNavPoint='<li><a href="#" data-sectionTarget="'+$(this).attr('data-sectionTitle')+'"">'+$(this).attr('data-sectionTitle')+'</a></li>';
             $(newNavPoint).appendTo('#sectionNav');
@@ -193,6 +193,7 @@ $(document).ready(function(){
       function loadTopic(topic){
          $('#portal').load(topic.location,function(){
             $('#topic-title').text(topic.title);
+            restoreStudy();
             generateSectionNav();
          });
       }
@@ -210,12 +211,9 @@ $(document).ready(function(){
          return false;
       });
 
-      //click handler for topic navigation
+      //click handler for section navigation
       $('#sectionNav').on('click','a',function(){
          var el=$(this);
-         // $('html, body').animate({
-         //    scrollTop: $('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70
-         // }, 1000);
 
          $(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
          return false;
