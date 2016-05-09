@@ -1,5 +1,6 @@
 var db = openDatabase('traineeDB', '1.0', 'Trainee DB', 2 * 1024 * 1024);
 var msg;
+var topics;
 
 //db init
 db.transaction(function (tx) {
@@ -69,80 +70,157 @@ $(document).ready(function(){
       });
    }
 
-   refreshNotes();
-
-   //save new note
-   $('.save-note-button').click(function(){
-      var title=$('#new-note-title').val();
-      var note=$('#new-note-note').val();
-      var modified = new Date();
-
-      db.transaction(function (tx) {
-         tx.executeSql('INSERT INTO NOTES (title, note, modified) VALUES (?,?,?)',[title,note,(modified.getMonth()+1)+'/'+modified.getDate()+'/'+modified.getFullYear()],refreshNotes);
-      });
+   $.getJSON('topics.json',function(data){
+      topics=data;
+      startGuide();
    });
 
-   //clear notes modal on hide
-   $('#new-note, #edit-note').on('hidden.bs.modal',function(){
-      $('#new-note .modal-input').val('');
-   });
+   function startGuide(){
+      refreshNotes();
 
+      //save new note
+      $('.save-note-button').click(function(){
+         var title=$('#new-note-title').val();
+         var note=$('#new-note-note').val();
+         var modified = new Date();
 
-   //open edit note modal
-   $('.all-notes').on('click','a',function(){
-      var id=$(this).attr('data-id');
-
-      db.transaction(function (tx) {   
-         tx.executeSql('SELECT * FROM NOTES WHERE ID=?', [id], function (tx, results) {
-            $('#edit-note-title').val(results.rows.item(0).title);
-            $('#edit-note-note').val(results.rows.item(0).note);
-            $('.edit-save-note-button').data('ID',results.rows.item(0).ID);
-            $('.edit-delete-note-button').data('ID',results.rows.item(0).ID);
-            $('#edit-note').modal();
-         }, null);
-      });      
-   });
-
-   //delete note button
-   $('.edit-delete-note-button').click(function(){
-      var ID=$(this).data('ID');
-      console.log(ID);
-      db.transaction(function (tx) {
-         tx.executeSql('DELETE FROM NOTES WHERE ID=?',[ID],function(){
-            refreshNotes();
+         db.transaction(function (tx) {
+            tx.executeSql('INSERT INTO NOTES (title, note, modified) VALUES (?,?,?)',[title,note,(modified.getMonth()+1)+'/'+modified.getDate()+'/'+modified.getFullYear()],refreshNotes);
          });
       });
-   });
 
-   //save edited note
-   $('.edit-save-note-button').click(function(){
-      var title=$('#edit-note-title').val();
-      var note=$('#edit-note-note').val();
-      var ID=$(this).data('ID');
-      console.log(title,note,ID);
-
-      db.transaction(function (tx) {
-         tx.executeSql('UPDATE NOTES SET title=?, note=? WHERE ID=?',[title,note,ID],refreshNotes);
+      //clear notes modal on hide
+      $('#new-note, #edit-note').on('hidden.bs.modal',function(){
+         $('#new-note .modal-input').val('');
       });
-   });
 
-   //save study questions
-   function saveStudy(){
-      $('.study-saved').each(function(){
-         localStorage.setItem($(this).attr('id'),$(this).val());
+
+      //open edit note modal
+      $('.all-notes').on('click','a',function(){
+         var id=$(this).attr('data-id');
+
+         db.transaction(function (tx) {   
+            tx.executeSql('SELECT * FROM NOTES WHERE ID=?', [id], function (tx, results) {
+               $('#edit-note-title').val(results.rows.item(0).title);
+               $('#edit-note-note').val(results.rows.item(0).note);
+               $('.edit-save-note-button').data('ID',results.rows.item(0).ID);
+               $('.edit-delete-note-button').data('ID',results.rows.item(0).ID);
+               $('#edit-note').modal();
+            }, null);
+         });      
+      });
+
+      //delete note button
+      $('.edit-delete-note-button').click(function(){
+         var ID=$(this).data('ID');
+         console.log(ID);
+         db.transaction(function (tx) {
+            tx.executeSql('DELETE FROM NOTES WHERE ID=?',[ID],function(){
+               refreshNotes();
+            });
+         });
+      });
+
+      //save edited note
+      $('.edit-save-note-button').click(function(){
+         var title=$('#edit-note-title').val();
+         var note=$('#edit-note-note').val();
+         var ID=$(this).data('ID');
+         console.log(title,note,ID);
+
+         db.transaction(function (tx) {
+            tx.executeSql('UPDATE NOTES SET title=?, note=? WHERE ID=?',[title,note,ID],refreshNotes);
+         });
+      });
+
+
+
+
+
+
+
+
+
+      //save study questions
+      function saveStudy(){
+         $('.study-saved').each(function(){
+            localStorage.setItem($(this).attr('id'),$(this).val());
+         });
+      }
+
+      //restore saved study questions
+      function restoreStudy(){
+         $('.study-saved').each(function(){
+            $(this).val(localStorage.getItem($(this).attr('id')));
+         });
+      }
+      restoreStudy();
+
+      //save study guides
+      $('.study-saved').keyup(function(){
+         saveStudy();
+      });
+
+
+
+
+
+
+
+
+
+
+
+      //generate section navigation
+      function generateSectionNav(){
+         $('#sectionnav').empty();
+         $('#portal .sectionNavPoint').each(function(){
+            var newNavPoint='<li><a href="#" data-sectionTarget="'+$(this).attr('data-sectionTitle')+'"">'+$(this).attr('data-sectionTitle')+'</a></li>';
+            $(newNavPoint).appendTo('#sectionNav');
+         });
+      }
+
+      //generate topic navigation
+      function generateTopicNav(){
+
+         $.each(topics,function(index){
+            var newTopicNav='<li><a href="'+index+'" class="">'+this.title+'</a></li>';
+            $(newTopicNav).appendTo('#topicNav');
+         });
+      }
+
+      //function to load new topics
+      function loadTopic(topic){
+         $('#portal').load(topic.location,function(){
+            $('#topic-title').text(topic.title);
+            generateSectionNav();
+         });
+      }
+
+      //load initial content
+      loadTopic(topics[0]);
+
+      //generate topics list
+      generateTopicNav();
+
+      //click handler for topic navigation
+      $('#topicNav').on('click','a',function(){
+         loadTopic(topics[$(this).attr('href')]);
+         $(this).addClass('selected').parent().siblings().children().removeClass('selected');
+         return false;
+      });
+
+      //click handler for topic navigation
+      $('#sectionNav').on('click','a',function(){
+         var el=$(this);
+         // $('html, body').animate({
+         //    scrollTop: $('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70
+         // }, 1000);
+
+         $(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
+         return false;
+
       });
    }
-
-   function restoreStudy(){
-      $('.study-saved').each(function(){
-         $(this).val(localStorage.getItem($(this).attr('id')));
-      });
-   }
-   restoreStudy();
-
-   //save study guides
-   $('.study-saved').keyup(function(){
-      console.log('saved');
-      saveStudy();
-   });
+   
 });
