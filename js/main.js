@@ -248,6 +248,23 @@ $(document).ready(function(){
       $('#search-clear').click(function(){
          $('#search').val('').trigger('keyup');
       });
+
+      function createPDF(){
+         try{
+            window.html2pdf.create(
+               $('#portal').html(),
+               "~/Documents/output.pdf" // on iOS,
+               // "test.pdf", on Android (will be stored in /mnt/sdcard/at.modalog.cordova.plugin.html2pdf/test.pdf)
+            );
+         }
+         catch(e){
+            console.log('no cordova for pdf output');
+         }
+      }
+
+      $('#export').click(function(){
+         createPDF();
+      });
    }
    
 });
