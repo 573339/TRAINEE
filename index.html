@@ -78,7 +78,7 @@
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Section<span class="caret"></span></a>
 										<ul class="dropdown-menu" id="sectionNav">
-										
+
 										</ul>
 									</li>
 								</ul>
@@ -107,9 +107,16 @@
 			<section class="utility">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-6 col-md-6 utility-menu"><!-- <a href="">Expand<i class="fa fa-expand"></i></a> --></div>
-						<div class="col-sm-5 col-md-5 utility-menu text-right"><a href="">Export<i class="fa fa-external-link"></i></a></div>
-						<div class="col-sm-1 col-md-1 utility-menu text-right"><i class="fa fa-search"></i></div>
+						<!-- <div class="col-sm-6 col-md-6 utility-menu"><a href="">Expand<i class="fa fa-expand"></i></a></div> -->
+						<div class="col-sm-4 utility-menu text-left"><a href="">Export<i class="fa fa-external-link"></i></a></div>
+						<div class="col-sm-8 utility-menu text-right">
+							<span id="search-count"></span>
+							<div class="icon-wrapper">
+								<input type="text" class="form-control" id="search" style="display:inline-block;">
+								<i class="fa fa-search"></i>
+								<i class="fa fa-times-circle" id="search-clear" style="display:none;"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section> 
@@ -224,6 +231,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.highlight.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 

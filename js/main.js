@@ -219,6 +219,35 @@ $(document).ready(function(){
          return false;
 
       });
+
+
+
+
+
+
+
+      //search highlight
+      $('#search').keyup(function(){
+         var query=$(this).val();
+         $('#portal').unhighlight().highlight(query);
+         //$(window).scrollTop($('#portal .highlight').eq(0).offset().top-70);
+
+         if (query!==''){
+            $(this).siblings('.fa').hide().siblings('#search-clear').show();
+            $('#search-count').text('Found '+$('#portal .highlight').length);
+         }
+         else{
+            $(this).siblings('#search-clear').hide().siblings('.fa').show();
+            $('#search-count').text('');
+         }
+
+
+      });
+
+      //clear search
+      $('#search-clear').click(function(){
+         $('#search').val('').trigger('keyup');
+      });
    }
    
 });

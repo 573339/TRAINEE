@@ -31,6 +31,9 @@ h2 {
 .main-content {
   margin-top: 30px; }
 
+.highlight {
+  background-color: yellow; }
+
 /* MODULES- Individual Site Components*/
 .btn {
   border-radius: 15px;
@@ -303,6 +306,21 @@ label {
 
 .fa-external-link {
   padding-left: 5px; }
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block; }
+  .icon-wrapper i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.utility-menu #search {
+  width: 250px; }
+.utility-menu #search-count {
+  font-style: italic;
+  margin-right: 10px; }
 
 .hero {
   background: url("../img/banner-4.jpg");
