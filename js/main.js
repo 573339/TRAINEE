@@ -1,3 +1,4 @@
+var inputTimer;
 var db = openDatabase('traineeDB', '1.0', 'Trainee DB', 2 * 1024 * 1024);
 var msg;
 var topics;
@@ -229,16 +230,29 @@ $(document).ready(function(){
       //search highlight
       $('#search').keyup(function(){
          var query=$(this).val();
-         $('#portal').unhighlight().highlight(query);
-         //$(window).scrollTop($('#portal .highlight').eq(0).offset().top-70);
+         var el=$(this);
 
-         if (query!==''){
-            $(this).siblings('.fa').hide().siblings('#search-clear').show();
-            $('#search-count').text('Found '+$('#portal .highlight').length);
+         if(query.length>3){
+         
+            clearTimeout(inputTimer);
+            inputTimer=setTimeout(function(){
+               $('#portal').unhighlight().highlight(query);
+               //$(window).scrollTop($('#portal .highlight').eq(0).offset().top-70);
+
+               if (query!==''){
+                  el.siblings('.fa').hide().siblings('#search-clear').show();
+                  $('#search-count').text('Found '+$('#portal .highlight').length);
+               }
+               else{
+                  el.siblings('#search-clear').hide().siblings('.fa').show();
+                  $('#search-count').text('');
+               }
+               console.log(query);
+            },500);
          }
          else{
-            $(this).siblings('#search-clear').hide().siblings('.fa').show();
-            $('#search-count').text('');
+             $('#portal').unhighlight();
+             $('#search-count').text('');
          }
 
 
