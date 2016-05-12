@@ -28,6 +28,10 @@ db.transaction(function (tx) {
 });*/
 
 $(document).ready(function(){
+
+   //implement fastclick
+   FastClick.attach(document.body);
+   
    function truncateTo(text,len){
       if (text.length>len){
          text=text.substr(0,len);
