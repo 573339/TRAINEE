@@ -197,6 +197,7 @@ $(document).ready(function(){
             $('.hero').css('background-image','url(\''+topic.image+'\')');
             restoreStudy();
             generateSectionNav();
+            $(window).scrollTop(0);
          });
       }
 
