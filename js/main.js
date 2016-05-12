@@ -240,19 +240,16 @@ $(document).ready(function(){
                $('#portal').unhighlight().highlight(query);
                //$(window).scrollTop($('#portal .highlight').eq(0).offset().top-70);
 
-               if (query!==''){
-                  el.siblings('.fa').hide().siblings('#search-clear').show();
-                  $('#search-count').text('Found '+$('#portal .highlight').length);
-               }
-               else{
-                  el.siblings('#search-clear').hide().siblings('.fa').show();
-                  $('#search-count').text('');
-               }
+               el.siblings('.fa').hide().siblings('#search-clear').show();
+               $('#search-count').text('Found '+$('#portal .highlight').length);
+
                console.log(query);
             },500);
          }
          else{
              $('#portal').unhighlight();
+             $('#search-count').text('');
+             el.siblings('#search-clear').hide().siblings('.fa').show();
              $('#search-count').text('');
          }
 
