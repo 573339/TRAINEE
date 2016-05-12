@@ -158,7 +158,7 @@ $(document).ready(function(){
       restoreStudy();
 
       //save study guides
-      $('.study-saved').keyup(function(){
+      $('#portal').on('keyup','.study-saved',function(){
          saveStudy();
       });
 
@@ -175,7 +175,7 @@ $(document).ready(function(){
       //generate section navigation
       function generateSectionNav(){
          $('#sectionNav').empty();
-         $('#portal .sectionNavPoint').each(function(){
+         $('#portal [data-sectionTitle]').each(function(){
             var newNavPoint='<li><a href="#" data-sectionTarget="'+$(this).attr('data-sectionTitle')+'"">'+$(this).attr('data-sectionTitle')+'</a></li>';
             $(newNavPoint).appendTo('#sectionNav');
          });
@@ -194,6 +194,7 @@ $(document).ready(function(){
       function loadTopic(topic){
          $('#portal').load(topic.location,function(){
             $('#topic-title').text(topic.title);
+            $('.hero').css('background-image','url(\''+topic.image+'\')');
             restoreStudy();
             generateSectionNav();
          });
