@@ -253,6 +253,9 @@ small {
   padding: 2rem 2rem;
   background-color: #d7d7d7; }
 
+.dropdown-menu {
+  top: 62px; }
+
 label {
   display: inline-block;
   text-align: left;
