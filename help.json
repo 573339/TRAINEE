@@ -1,0 +1,19 @@
+[
+	{
+		"question": "This is an example question",
+		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+	},
+	{
+		"question": "Another common question",
+		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+	},{
+		"question": "Question about this thing",
+		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+	},{
+		"question": "What do I do here?",
+		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+	},{
+		"question": "Common problem people run into",
+		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+	}
+]

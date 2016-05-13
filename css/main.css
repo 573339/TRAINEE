@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 TRAINEE Bootstrap Sass Theme
 Author: Terrell Summers
@@ -53,6 +54,9 @@ h2 {
   background-color: #e25858;
   color: #ffffff;
   border-color: #c84e4e; }
+
+#helpModal .help-item {
+  border-top: 1px solid #ffffff; }
 
 #wrapper {
   padding-left: 0;
@@ -192,6 +196,62 @@ small {
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px; }
+
+#helpModal .modal-dialog {
+  width: 480px; }
+#helpModal .help-filters {
+  position: relative; }
+  #helpModal .help-filters::after {
+    content: "\f002";
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-family: 'FontAwesome';
+    font-size: 2rem;
+    color: #d7d7d7; }
+  #helpModal .help-filters .help-search {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    border: 1px solid #d7d7d7;
+    box-shadow: none; }
+#helpModal .help-item:first-child {
+  border: 0; }
+  #helpModal .help-item:first-child .help-question {
+    border-radius: 4px 4px 0 0; }
+#helpModal .help-item:last-child .help-question {
+  border-radius: 0 0 4px 4px; }
+#helpModal .help-item .help-question {
+  display: block;
+  position: relative;
+  background-color: #373b42;
+  padding: 2rem 2rem;
+  color: white;
+  font-weight: normal; }
+  #helpModal .help-item .help-question::after {
+    content: '+';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 2rem;
+    margin-top: -3px; }
+  #helpModal .help-item .help-question.open::after {
+    content: '–'; }
+#helpModal .help-item .help-answer {
+  display: none;
+  position: relative;
+  padding: 2rem 2rem;
+  background-color: #d7d7d7; }
 
 label {
   display: inline-block;

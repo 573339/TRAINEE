@@ -27,6 +27,14 @@ db.transaction(function (tx) {
    }, null);
 });*/
 
+
+//PLUGIN::containsIN
+$.extend($.expr[":"], {
+"containsIN": function(elem, i, match, array) {
+return (elem.textContent || elem.innerText || "").toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+}
+});
+
 $(document).ready(function(){
 
    //implement fastclick
@@ -75,9 +83,42 @@ $(document).ready(function(){
       });
    }
 
+   //load data
    $.getJSON('topics.json',function(data){
       topics=data;
       startGuide();
+   });
+
+   //help accordions 
+   $.getJSON('help.json',function(data){
+      $.each(data,function(){
+         var newHelp='<div class="help-item">'+
+            '<div class="help-question">'+
+               this.question +
+            '</div>' +
+            '<div class="help-answer">'+
+               this.answer +
+            '</div>' +
+         '</div>';
+
+         $(newHelp).appendTo('.help-items');
+      });
+
+      $('.help-question').click(function(){
+         $(this).toggleClass('open').siblings('.help-answer').toggle();
+      });
+
+      //catalog search
+      $('.help-search').keyup(function(){
+         if($('.help-search').val()!=''){
+            $('.help-item').hide();
+            $('.help-question:containsIN("'+$('.help-search').val()+'")').parent().show();
+         }
+         else{
+            $('.help-item').show();
+         }
+         
+      });
    });
 
    function startGuide(){
@@ -215,6 +256,7 @@ $(document).ready(function(){
       $('#topicNav').on('click','a',function(){
          loadTopic(topics[$(this).attr('href')]);
          $(this).addClass('selected').parent().siblings().children().removeClass('selected');
+         $('.dropdown.open .dropdown-toggle').dropdown('toggle');
          return false;
       });
 
@@ -223,6 +265,7 @@ $(document).ready(function(){
          var el=$(this);
 
          $(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
+         $('.dropdown.open .dropdown-toggle').dropdown('toggle');
          return false;
 
       });
