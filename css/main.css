@@ -330,7 +330,7 @@ label {
   background-color: transparent; }
 
 .dropdown-menu {
-  top: 204%; }
+  top: 63px; }
 
 .navy-menu {
   display: inline-block;
@@ -344,6 +344,10 @@ label {
 
 .caret {
   margin-left: 5px; }
+
+.navpadding {
+  padding-top: 20px !important;
+  padding-bottom: 15px !important; }
 
 .utility {
   background-color: #faf8f8;
@@ -394,7 +398,7 @@ label {
   letter-spacing: 3px; }
 
 .navy-header {
-  padding: 20px 20px 15px 20px;
+  padding: 0px 20px 0px 20px;
   background-color: #2e7dbb; }
 
 .footer {
