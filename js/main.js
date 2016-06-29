@@ -2,6 +2,8 @@
 var db = openDatabase('traineeDB', '1.0', 'Trainee DB', 2 * 1024 * 1024);
 var msg;
 var topics;
+var currentTopic='';
+var prefix='NAVYTG';
 
 //db init
 db.transaction(function (tx) {
@@ -189,21 +191,22 @@ $(document).ready(function(){
 
       //save study questions
       function saveStudy(){
-         $('.study-saved').each(function(){
-            localStorage.setItem($(this).attr('id'),$(this).val());
+         $('[data-save]').each(function(){
+            localStorage.setItem(prefix+'/'+currentTopic+'-'+$(this).attr('data-save'),$(this).val());
+            //localStorage.setItem($(this).attr('id'),$(this).val());
          });
       }
 
       //restore saved study questions
       function restoreStudy(){
-         $('.study-saved').each(function(){
-            $(this).val(localStorage.getItem($(this).attr('id')));
+         $('[data-save]').each(function(){
+            $(this).val(localStorage.getItem(prefix+'/'+currentTopic+'-'+$(this).attr('data-save')));
          });
       }
       restoreStudy();
 
       //save study guides
-      $('#portal').on('keyup','.study-saved',function(){
+      $('#portal').on('keyup','[data-save]',function(){
          saveStudy();
       });
 
@@ -237,6 +240,7 @@ $(document).ready(function(){
 
       //function to load new topics
       function loadTopic(topic){
+         currentTopic=topic.id;
          $('#portal').load(topic.location,function(){
             $('#topic-title').text(topic.title);
             $('.hero').css('background-image','url(\''+topic.image+'\')');

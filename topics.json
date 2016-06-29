@@ -1,15 +1,18 @@
 [
 	{
+		"id":"ships",
 		"title": "U.S. Navy Ships",
 		"location": "content/navyships.html",
 		"image": "content/navyships.jpg"
 	},
 	{
+		"id":"watch",
 		"title": "Watchstanding",
 		"location": "content/watch.html",
 		"image": "content/watch.jpg"
 	},
 	{
+		"id":"bill",
 		"title": "Montgomery GI Bill",
 		"location": "content/bill.html",
 		"image": "content/bill.jpg"
