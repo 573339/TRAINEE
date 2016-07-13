@@ -327,11 +327,22 @@ $(document).ready(function(){
       });
 
       function createPDF(){
+         var success = function(status) {
+            alert('Message: ' + status);
+         }
+
+         var error = function(status) {
+            alert('Error: ' + status);
+         }
+
+
          try{
             window.html2pdf.create(
-               $('#portal').html(),
-               "~/Documents/output.pdf" // on iOS,
+               "<html><head></head><body><h1>Some</h1><p>html content.</p></body></html>",
+               "~/Documents/output.pdf", // on iOS,
                // "test.pdf", on Android (will be stored in /mnt/sdcard/at.modalog.cordova.plugin.html2pdf/test.pdf)
+               success,
+               error
             );
          }
          catch(e){
