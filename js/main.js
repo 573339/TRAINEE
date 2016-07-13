@@ -330,14 +330,14 @@ $(document).ready(function(){
          var success = function(status) {
             //alert('Message: ' + status);
             cordova.plugins.fileOpener2.open(
-               '~/Documents/output.pdf', // You can also use a Cordova-style file uri: cdvfile://localhost/persistent/Download/starwars.pdf
+               workingDirectory.toNativeURL() + "/output.pdf", // You can also use a Cordova-style file uri: cdvfile://localhost/persistent/Download/starwars.pdf
                'application/pdf', 
                { 
                   error : function(e) { 
                      console.log('Error status: ' + e.status + ' - Error message: ' + e.message);
                   },
                   success : function () {
-                     console.log('file opened successfully');                
+                     alert('file opened successfully');                
                   }
                }
                );
@@ -351,7 +351,7 @@ $(document).ready(function(){
          try{
             window.html2pdf.create(
                "<html><head></head><body><h1>Some</h1><p>html content.</p></body></html>",
-               "~/Documents/output.pdf", // on iOS,
+               workingDirectory.toNativeURL() + "/output.pdf", // on iOS,
                // "test.pdf", on Android (will be stored in /mnt/sdcard/at.modalog.cordova.plugin.html2pdf/test.pdf)
                success,
                error
