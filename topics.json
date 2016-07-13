@@ -1,9 +1,39 @@
 [
 	{
-		"id":"ships",
-		"title": "U.S. Navy Ships",
-		"location": "content/navyships.html",
-		"image": "content/navyships.jpg"
+		"id":"pledge",
+		"title": "The Pledge of Allegiance",
+		"location": "content/pledge.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"introduction",
+		"title": "Introduction To The Navy",
+		"location": "content/introduction.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"safety",
+		"title": "Safety/Hazard Awareness Notice",
+		"location": "content/safety.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"how",
+		"title": "How To Use Your Trainee Guide",
+		"location": "content/how.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"terminal",
+		"title": "Terminal Objectives",
+		"location": "content/terminal.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"legal",
+		"title": "Leagal Readiness For New Sailors",
+		"location": "content/legal.html",
+		"image": "content/bill.jpg"
 	},
 	{
 		"id":"watch",
@@ -12,9 +42,27 @@
 		"image": "content/watch.jpg"
 	},
 	{
+		"id":"ships",
+		"title": "U.S. Navy Ships",
+		"location": "content/navyships.html",
+		"image": "content/navyships.jpg"
+	},
+	{
 		"id":"bill",
 		"title": "Montgomery GI Bill",
 		"location": "content/bill.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"sound",
+		"title": "Sound-Powered Telephones",
+		"location": "content/sound.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"sound2",
+		"title": "Sound-Powered Telephones 2",
+		"location": "content/sound2.html",
 		"image": "content/bill.jpg"
 	}
 ]
