@@ -328,7 +328,8 @@ $(document).ready(function(){
 
       function createPDF(){
          var success = function(status) {
-            alert('Message: ' + status);
+            //alert('Message: ' + status);
+            window.plugins.fileOpener.open("~/Documents/output.pdf");
          };
 
          var error = function(status) {
