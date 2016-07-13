@@ -16,7 +16,7 @@
 	
     <plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
     <plugin name="at.modalog.cordova.plugin.html2pdf" spec="1.0.119" source="pgb" />
-    <plugin name="com.cordova.plugins.fileopener" spec="1.0.1" source="pgb" />
+    <plugin name="io.github.pwlin.cordova.plugins.fileopener2" spec="1.0.11" source="pgb" />
 
     <access origin="*"/>
     
