@@ -36,6 +36,65 @@ h2 {
   background-color: yellow; }
 
 /* MODULES- Individual Site Components*/
+/* General */
+.list {
+  margin-bottom: 20px; }
+
+.list-2 {
+  text-decoration: none;
+  list-style-type: none; }
+
+.list-3 {
+  margin-top: 15px; }
+
+.minusPadding {
+  padding-right: 0;
+  padding-left: 0; }
+
+h5 {
+  color: #e25858; }
+
+/* Content Heading Styles */
+.head-1 {
+  color: #373b42;
+  font-weight: normal;
+  margin-top: 20px; }
+
+.head-2 {
+  color: #2e7dbb;
+  font-weight: normal; }
+
+.underline {
+  text-decoration: underline;
+  font-weight: normal; }
+
+/* Pledge Paragraph Styles */
+.section1 {
+  border-bottom: 1px solid #d7d7d7; }
+
+.section1 p {
+  margin: 15px 0 15px 0; }
+.section1 em {
+  font-size: 12px; }
+.section1 span {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #373b42;
+  display: block; }
+.section1 h4 {
+  text-align: center; }
+
+/* Forms */
+.form-control {
+  display: inline-block; }
+
+.inline-form {
+  width: 175px; }
+  .inline-form.inline-form-large {
+    width: 250px; }
+  .inline-form.inline-form-small {
+    width: 100px; }
+
 .btn {
   border-radius: 15px;
   padding: 7px 15px; }
