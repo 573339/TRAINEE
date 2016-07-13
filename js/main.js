@@ -340,7 +340,9 @@ $(document).ready(function(){
       }
 
       $('#export').click(function(){
+         console.log('click');
          createPDF();
+         return false;
       });
    }
    
