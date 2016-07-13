@@ -329,18 +329,10 @@ $(document).ready(function(){
       function createPDF(){
          var success = function(status) {
             //alert('Message: ' + status);
-            cordova.plugins.fileOpener2.open(
-               '~/Documents/output.pdf', // You can also use a Cordova-style file uri: cdvfile://localhost/persistent/Download/starwars.pdf
-               'application/pdf', 
-               { 
-                  error : function(e) { 
-                     alert('Error status: ' + e.status + ' - Error message: ' + e.message);
-                  },
-                  success : function () {
-                     alert('file opened successfully');                
-                  }
-               }
-               );
+            PDFViewer.open("~/Documents/output.pdf","output.pdf", function (msg) {
+               console.log(msg);
+               alert(msg);
+            });
          };
 
          var error = function(status) {
