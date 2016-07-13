@@ -329,11 +329,11 @@ $(document).ready(function(){
       function createPDF(){
          var success = function(status) {
             alert('Message: ' + status);
-         }
+         };
 
          var error = function(status) {
             alert('Error: ' + status);
-         }
+         };
 
 
          try{
