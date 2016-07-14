@@ -82,5 +82,11 @@
 		"title": "U.S. Navy Ships",
 		"location": "content/navy.html",
 		"image": "content/bill.jpg"
+	},
+	{
+		"id":"uniforms",
+		"title": "Navy Working Uniforms",
+		"location": "content/uniforms.html",
+		"image": "content/bill.jpg"
 	}
 ]
