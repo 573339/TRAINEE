@@ -324,7 +324,7 @@ label {
 .control-label {
   padding-right: 0; }
 
-.study-qa {
+#portal li, .study-qa {
   margin-bottom: 20px; }
 
 @media (min-width: 768px) {
