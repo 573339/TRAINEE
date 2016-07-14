@@ -465,6 +465,7 @@ label {
   padding-right: 0;
 }
 
+<<<<<<< HEAD
 /* line 14, ../scss/modules/_components.scss */
 .study-qa {
   margin-bottom: 20px;
@@ -474,6 +475,10 @@ label {
 .photos {
   margin: 20px 0;
 }
+=======
+#portal li, .study-qa {
+  margin-bottom: 20px; }
+>>>>>>> bc6e9ed17ade47c4e222fd9765174c178ee97b34
 
 @media (min-width: 768px) {
   /* line 30, ../scss/modules/_components.scss */
