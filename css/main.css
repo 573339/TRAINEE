@@ -523,8 +523,12 @@ label {
   font-size: 20px !important;
 }
 
+<<<<<<< HEAD
 /* line 24, ../scss/layouts/_nav.scss */
 .fa-question-circle {
+=======
+.navy-header .fa {
+>>>>>>> 9558328931c2302e5f87f89ecbcc66fe71ca0e49
   margin-left: 8px;
   font-size: 16px !important;
 }
