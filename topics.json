@@ -76,5 +76,11 @@
 		"title": "UCMJ",
 		"location": "content/ucmj.html",
 		"image": "content/bill.jpg"
+	},
+	{
+		"id":"navy",
+		"title": "U.S. Navy Ships",
+		"location": "content/navy.html",
+		"image": "content/bill.jpg"
 	}
 ]
