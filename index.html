@@ -86,7 +86,7 @@
 
 						</div><!--end col-md-6-->  
 						<div class="col-sm-3 col-md-3 navy text-right">
-							<a href="#" id="export" class="navpadding" style="margin-right: 30px;display: inline-block;" >Export<i class="fa fa-download"></i></a>
+							<a href="#" data-toggle="modal" data-target="#exportModal" id="export" class="navpadding" style="margin-right: 30px;display: inline-block;" >Export<i class="fa fa-download"></i></a>
 							<a href="#" data-toggle="modal" data-target="#helpModal" class="navpadding" style="display: inline-block;" >Help<i class="fa fa-question-circle"></i></a>
 						</div>
 					</div>
@@ -164,6 +164,29 @@
 					</div>
 				</div>
 			</div><!-- NOTE END MODAL ONE -->
+
+			<!-- Export Modal -->
+			<div class="modal modal-dark fade" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="gtmpicon-delete"></span></button>
+							<h4 class="modal-title" id="myModalLabel"><span class="fa fa-download"></span> Export</h4>
+						</div>
+						<div class="modal-body">
+							<p class="text-center">Use the selection button below to select all of your study guide content, to easily copy and paste it into your email or notes for future reference.</p>
+							<textarea class="exportContainer form-control" style="height: 400px;">
+								
+							</textarea>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary copy-button" data-dismiss="modal">Select All to Copy</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end Export modal -->
 
 			<!-- Help Modal -->
 			<div class="modal modal-dark fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
