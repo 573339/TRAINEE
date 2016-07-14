@@ -326,38 +326,50 @@ $(document).ready(function(){
          $('#search').val('').trigger('keyup');
       });
 
-      function createPDF(){
-         var success = function(status) {
-            //alert('Message: ' + status);
-            PDFViewer.open("~/Documents/output.pdf","output.pdf", function (msg) {
-               console.log(msg);
-               alert(msg);
-            });
-         };
 
-         var error = function(status) {
-            alert('Error: ' + status);
-         };
+      //exports portal content as copyable
+      function exportPortal(){
+         
+         //clone portal content
+         var clone=$('#portal').clone();
+
+         //process answers and insert as text
+         clone.find('input').each(function(){
+            $(this).replaceWith('[ANSWER: '+$(this).val()+']');
+         });
+
+         //remove whitespaces
+         var oldString=clone.text();
+         var newString=oldString.replace(/^[ \t\r]+\b/gm,'');
+
+         oldString=newString;
+         newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
+
+         oldString=newString;
+         newString=oldString.replace(/^\s+$/gm,'\n');
+
+         oldString=newString;
+         newString=oldString.replace(/^\n+/gm,'\n');
+
+         console.log(newString);
+
+         //insert processed text into export textarea
+         $('.exportContainer').html(newString);
 
 
-         try{
-            window.html2pdf.create(
-               $('#portal').html(),
-               "~/Documents/output.pdf", // on iOS,
-               // "test.pdf", on Android (will be stored in /mnt/sdcard/at.modalog.cordova.plugin.html2pdf/test.pdf)
-               success,
-               error
-            );
-         }
-         catch(e){
-            console.log('no cordova for pdf output');
-         }
       }
 
+      //export button triggers export function
       $('#export').click(function(){
-         console.log('click');
-         createPDF();
+         exportPortal();
+      });
+
+      //select all exportable text
+      $('.copy-button').click(function(){
+         $('.exportContainer')[0].focus();
+         $('.exportContainer')[0].setSelectionRange(0,9999999);
          return false;
+
       });
    }
    
