@@ -70,5 +70,11 @@
 		"title": "TEST TOPIC",
 		"location": "content/test.html",
 		"image": "content/bill.jpg"
+	},
+	{
+		"id":"ucmj",
+		"title": "UCMJ",
+		"location": "content/ucmj.html",
+		"image": "content/bill.jpg"
 	}
 ]
