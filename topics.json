@@ -48,6 +48,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"recruit",
+		"title": "Recruit Writing",
+		"location": "content/recruit.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"watch",
 		"title": "Watchstanding",
 		"location": "content/watch.html",
