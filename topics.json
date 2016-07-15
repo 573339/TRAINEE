@@ -50,7 +50,19 @@
 	{
 		"id":"recruit",
 		"title": "Recruit Writing",
-		"location": "content/recruit.html",
+		"location": "content/writing.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"time",
+		"title": "24-Hour Time",
+		"location": "content/time.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"alphabet",
+		"title": "Phonetic Alphabet",
+		"location": "content/alphabet.html",
 		"image": "content/bill.jpg"
 	},
 	{
