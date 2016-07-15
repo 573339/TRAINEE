@@ -42,12 +42,6 @@
 		"image": "content/watch.jpg"
 	},
 	{
-		"id":"ships",
-		"title": "U.S. Navy Ships",
-		"location": "content/navyships.html",
-		"image": "content/navyships.jpg"
-	},
-	{
 		"id":"bill",
 		"title": "Montgomery GI Bill",
 		"location": "content/bill.html",
@@ -78,7 +72,7 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"navy",
+		"id":"navyships",
 		"title": "U.S. Navy Ships",
 		"location": "content/navy.html",
 		"image": "content/bill.jpg"

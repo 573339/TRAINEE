@@ -4,7 +4,7 @@ Author: Terrell Summers
 Version 0.0.1
 */
 /* BASE- Base styles, variables, mixins, etc*/
-/* line 1, ../scss/base/_base.scss */
+/* line 1, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   color: #666666;
@@ -13,168 +13,168 @@ body {
   font-size: 16px;
 }
 
-/* line 9, ../scss/base/_base.scss */
+/* line 9, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 a {
   color: #e25858;
   text-decoration: none;
 }
 
-/* line 15, ../scss/base/_base.scss */
+/* line 15, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 a:hover, a:focus {
   text-decoration: none;
   color: #c84e4e;
 }
 
-/* line 20, ../scss/base/_base.scss */
+/* line 20, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 p {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 25, ../scss/base/_base.scss */
+/* line 25, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 h2 {
   font-weight: 100;
   color: #2e7dbb;
   letter-spacing: 1px;
 }
 
-/* line 31, ../scss/base/_base.scss */
+/* line 31, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 .main-content {
   margin-top: 30px;
 }
 
-/* line 35, ../scss/base/_base.scss */
+/* line 35, /Applications/MAMP/htdocs/PhoneGap/scss/base/_base.scss */
 .highlight {
   background-color: yellow;
 }
 
 /* MODULES- Individual Site Components*/
-/* General */
-/* line 3, ../scss/modules/_typography.scss */
+/* List Styles */
+/* line 3, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .list {
   margin-bottom: 20px;
 }
 
-/* line 5, ../scss/modules/_typography.scss */
+/* line 5, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .list-2 {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 10, ../scss/modules/_typography.scss */
+/* line 10, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .list-3 {
   margin-top: 15px;
 }
 
-/* line 14, ../scss/modules/_typography.scss */
+/* line 14, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .minusPadding {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 19, ../scss/modules/_typography.scss */
+/* line 19, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 h5 {
   color: #e25858;
 }
 
 /* Content Heading Styles */
-/* line 26, ../scss/modules/_typography.scss */
+/* line 26, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .head-1 {
   color: #373b42;
   font-weight: normal;
   margin-top: 20px;
 }
 
-/* line 32, ../scss/modules/_typography.scss */
+/* line 32, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .head-2 {
   color: #2e7dbb;
   font-weight: normal;
 }
 
-/* line 37, ../scss/modules/_typography.scss */
+/* line 37, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .underline {
   text-decoration: underline;
   font-weight: normal;
 }
 
 /* Pledge Paragraph Styles */
-/* line 45, ../scss/modules/_typography.scss */
+/* line 45, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .section1 {
   border-bottom: 1px solid #d7d7d7;
 }
 
-/* line 52, ../scss/modules/_typography.scss */
+/* line 52, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .section1 p {
   margin: 15px 0 15px 0;
 }
-/* line 56, ../scss/modules/_typography.scss */
+/* line 56, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .section1 em {
   font-size: 12px;
 }
-/* line 60, ../scss/modules/_typography.scss */
+/* line 60, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .section1 span {
   margin: 20px 0;
   font-size: 12px;
   color: #373b42;
   display: block;
 }
-/* line 67, ../scss/modules/_typography.scss */
+/* line 67, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .section1 h4 {
   text-align: center;
 }
 
 /* Forms */
-/* line 75, ../scss/modules/_typography.scss */
+/* line 75, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .form-control {
   display: inline-block;
 }
 
-/* line 79, ../scss/modules/_typography.scss */
+/* line 79, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .inline-form {
   width: 175px;
 }
-/* line 82, ../scss/modules/_typography.scss */
+/* line 82, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .inline-form.inline-form-large {
   width: 250px;
 }
-/* line 86, ../scss/modules/_typography.scss */
+/* line 86, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_typography.scss */
 .inline-form.inline-form-small {
   width: 100px;
 }
 
-/* line 3, ../scss/modules/_buttons.scss */
+/* line 3, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_buttons.scss */
 .btn {
   border-radius: 15px;
   padding: 7px 15px;
 }
 
-/* line 8, ../scss/modules/_buttons.scss */
+/* line 8, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_buttons.scss */
 .btn-default, .btn-default:focus {
   background-color: #e25858;
   color: white;
   border-color: #c84e4e;
 }
 
-/* line 14, ../scss/modules/_buttons.scss */
+/* line 14, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_buttons.scss */
 .btn-default:hover {
   background-color: #c84e4e;
   color: white;
   border-color: #c84e4e;
 }
 
-/* line 20, ../scss/modules/_buttons.scss */
+/* line 20, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_buttons.scss */
 .btn-default:active {
   background-color: #e25858;
   color: white;
   border-color: #c84e4e;
 }
 
-/* line 1, ../scss/modules/_sections.scss */
+/* line 1, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item {
   border-top: 1px solid #ffffff;
 }
 
-/* line 7, ../scss/modules/_sections.scss */
+/* line 7, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -183,12 +183,12 @@ h5 {
   transition: all 0.5s ease;
 }
 
-/* line 15, ../scss/modules/_sections.scss */
+/* line 15, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #wrapper.toggled {
   padding-left: 250px;
 }
 
-/* line 19, ../scss/modules/_sections.scss */
+/* line 19, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -205,61 +205,61 @@ h5 {
   border-right: 1px solid #d7d7d7;
 }
 
-/* line 36, ../scss/modules/_sections.scss */
+/* line 36, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
 }
 
-/* line 40, ../scss/modules/_sections.scss */
+/* line 40, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #page-content-wrapper {
   width: 100%;
   position: absolute;
 }
 
-/* line 45, ../scss/modules/_sections.scss */
+/* line 45, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px;
 }
 
-/* line 53, ../scss/modules/_sections.scss */
+/* line 53, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .modal-dialog {
   margin: 100px auto;
 }
 
-/* line 59, ../scss/modules/_sections.scss */
+/* line 59, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .filter {
   color: #636363;
   font-size: 14px;
   float: right;
 }
 
-/* line 66, ../scss/modules/_sections.scss */
+/* line 66, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .date {
   text-transform: uppercase;
   font-size: 12px;
   color: #636363;
 }
 
-/* line 72, ../scss/modules/_sections.scss */
+/* line 72, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .all {
   color: #636363;
   float: left;
 }
 
-/* line 77, ../scss/modules/_sections.scss */
+/* line 77, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .all-notes {
   overflow: auto;
   height: 768px;
 }
 
-/* line 82, ../scss/modules/_sections.scss */
+/* line 82, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .all-notes a:active {
   background-color: #f4f6f6;
   display: block;
 }
 
-/* line 88, ../scss/modules/_sections.scss */
+/* line 88, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand h2 {
   color: #fff;
   font-weight: lighter;
@@ -267,7 +267,7 @@ h5 {
   margin: 0;
 }
 
-/* line 95, ../scss/modules/_sections.scss */
+/* line 95, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand a {
   float: right;
   font-size: 14px;
@@ -276,13 +276,13 @@ h5 {
   top: 2px;
 }
 
-/* line 103, ../scss/modules/_sections.scss */
+/* line 103, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sort {
   top: 30px !important;
   left: -92px;
 }
 
-/* line 108, ../scss/modules/_sections.scss */
+/* line 108, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand {
   background-color: #373b42;
   color: white;
@@ -290,7 +290,7 @@ h5 {
   padding: 15px;
 }
 
-/* line 116, ../scss/modules/_sections.scss */
+/* line 116, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand a {
   float: right;
   font-size: 14px;
@@ -299,7 +299,7 @@ h5 {
   top: 2px;
 }
 
-/* line 125, ../scss/modules/_sections.scss */
+/* line 125, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #view {
   margin: 0 auto;
   text-align: center;
@@ -309,28 +309,28 @@ h5 {
   display: inline-block;
 }
 
-/* line 134, ../scss/modules/_sections.scss */
+/* line 134, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #note-wrap {
   padding: 20px;
 }
 
-/* line 138, ../scss/modules/_sections.scss */
+/* line 138, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 small {
-  color: #e25858;
+  color: #373b42;
 }
 
-/* line 143, ../scss/modules/_sections.scss */
+/* line 143, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .note {
   border-bottom: 1px solid #d7d7d7;
   padding: 20px;
 }
 
-/* line 148, ../scss/modules/_sections.scss */
+/* line 148, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .note p {
   color: #666666;
 }
 
-/* line 152, ../scss/modules/_sections.scss */
+/* line 152, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .note h4 {
   margin-top: 0;
   color: #2e7dbb;
@@ -338,13 +338,13 @@ small {
   font-size: 22px;
 }
 
-/* line 160, ../scss/modules/_sections.scss */
+/* line 160, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .fa-plus-circle {
   margin-left: 8px;
   color: #d7d7d7;
 }
 
-/* line 168, ../scss/modules/_sections.scss */
+/* line 168, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-nav {
   position: relative;
   top: 63px;
@@ -356,32 +356,32 @@ small {
   border-right: 1px solid #d7d7d7;
 }
 
-/* line 180, ../scss/modules/_sections.scss */
+/* line 180, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand a:link, .sidebar-brand a:visited {
   color: #d7d7d7;
   text-decoration: none;
 }
 
-/* line 185, ../scss/modules/_sections.scss */
+/* line 185, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-brand a:hover {
   color: white;
 }
 
-/* line 190, ../scss/modules/_sections.scss */
+/* line 190, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
 }
 
-/* line 209, ../scss/modules/_sections.scss */
+/* line 209, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .modal-dialog {
   width: 480px;
 }
-/* line 213, ../scss/modules/_sections.scss */
+/* line 213, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-filters {
   position: relative;
 }
-/* line 215, ../scss/modules/_sections.scss */
+/* line 215, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-filters::after {
   content: "\f002";
   position: absolute;
@@ -392,7 +392,7 @@ small {
   font-size: 2rem;
   color: #d7d7d7;
 }
-/* line 227, ../scss/modules/_sections.scss */
+/* line 227, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-filters .help-search {
   appearance: none;
   border: 0;
@@ -404,19 +404,19 @@ small {
   border: 1px solid #d7d7d7;
   box-shadow: none;
 }
-/* line 242, ../scss/modules/_sections.scss */
+/* line 242, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item:first-child {
   border: 0;
 }
-/* line 244, ../scss/modules/_sections.scss */
+/* line 244, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item:first-child .help-question {
   border-radius: 4px 4px 0 0;
 }
-/* line 250, ../scss/modules/_sections.scss */
+/* line 250, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item:last-child .help-question {
   border-radius: 0 0 4px 4px;
 }
-/* line 255, ../scss/modules/_sections.scss */
+/* line 255, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item .help-question {
   display: block;
   position: relative;
@@ -425,7 +425,7 @@ small {
   color: white;
   font-weight: normal;
 }
-/* line 265, ../scss/modules/_sections.scss */
+/* line 265, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item .help-question::after {
   content: '+';
   position: absolute;
@@ -435,11 +435,11 @@ small {
   font-size: 2rem;
   margin-top: -3px;
 }
-/* line 275, ../scss/modules/_sections.scss */
+/* line 275, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item .help-question.open::after {
   content: '–';
 }
-/* line 280, ../scss/modules/_sections.scss */
+/* line 280, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 #helpModal .help-item .help-answer {
   display: none;
   position: relative;
@@ -447,12 +447,12 @@ small {
   background-color: #d7d7d7;
 }
 
-/* line 304, ../scss/modules/_sections.scss */
+/* line 304, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_sections.scss */
 .dropdown-menu {
   top: 62px;
 }
 
-/* line 3, ../scss/modules/_components.scss */
+/* line 3, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
 label {
   display: inline-block;
   text-align: left;
@@ -460,55 +460,50 @@ label {
   font-weight: lighter;
 }
 
-/* line 10, ../scss/modules/_components.scss */
+/* line 10, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
 .control-label {
   padding-right: 0;
 }
 
-<<<<<<< HEAD
-/* line 14, ../scss/modules/_components.scss */
-.study-qa {
+/* line 14, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
+#portal li, .study-qa {
   margin-bottom: 20px;
 }
 
-/* line 21, ../scss/modules/_components.scss */
+/* line 21, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
 .photos {
   margin: 20px 0;
 }
-=======
-#portal li, .study-qa {
-  margin-bottom: 20px; }
->>>>>>> bc6e9ed17ade47c4e222fd9765174c178ee97b34
 
 @media (min-width: 768px) {
-  /* line 30, ../scss/modules/_components.scss */
+  /* line 30, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
   #wrapper {
     padding-left: 250px;
   }
 
-  /* line 34, ../scss/modules/_components.scss */
+  /* line 34, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
   #wrapper.toggled {
     padding-left: 0;
   }
 
-  /* line 38, ../scss/modules/_components.scss */
+  /* line 38, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
   #sidebar-wrapper {
     width: 250px;
   }
 
-  /* line 42, ../scss/modules/_components.scss */
+  /* line 42, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
   #wrapper.toggled #sidebar-wrapper {
     width: 0;
   }
 
-  /* line 46, ../scss/modules/_components.scss */
+  /* line 46, /Applications/MAMP/htdocs/PhoneGap/scss/modules/_components.scss */
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
   }
 }
 /* LAYOUTS- Page Layout Styles*/
-/* line 3, ../scss/layouts/_nav.scss */
+/* line 3, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navbar {
   border: none;
   border-radius: none;
@@ -516,30 +511,30 @@ label {
   border-bottom: 1px solid #7bbdf0;
 }
 
-/* line 10, ../scss/layouts/_nav.scss */
+/* line 10, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navbar-nav {
   margin: 0;
 }
 
-/* line 14, ../scss/layouts/_nav.scss */
+/* line 14, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .fa {
   color: white;
   display: inline-block;
 }
 
-/* line 19, ../scss/layouts/_nav.scss */
+/* line 19, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .fa-bars {
   float: left;
   font-size: 20px !important;
 }
 
-/* line 25, ../scss/layouts/_nav.scss */
+/* line 25, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navy-header .fa {
   margin-left: 8px;
   font-size: 16px !important;
 }
 
-/* line 32, ../scss/layouts/_nav.scss */
+/* line 32, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navy h4 {
   text-transform: uppercase;
   color: white;
@@ -547,102 +542,102 @@ label {
   display: inline-block;
 }
 
-/* line 39, ../scss/layouts/_nav.scss */
+/* line 39, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navy a {
   text-decoration: none;
   color: white;
 }
 
-/* line 45, ../scss/layouts/_nav.scss */
+/* line 45, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navy a:hover {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 
-/* line 53, ../scss/layouts/_nav.scss */
+/* line 53, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .nav-wrapper {
   margin: 0 auto;
   display: inline-block;
 }
 
-/* line 59, ../scss/layouts/_nav.scss */
+/* line 59, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: white;
 }
 
-/* line 64, ../scss/layouts/_nav.scss */
+/* line 64, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   color: white;
   background-color: transparent;
 }
 
-/* line 69, ../scss/layouts/_nav.scss */
+/* line 69, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .dropdown-menu {
   top: 63px;
 }
 
-/* line 73, ../scss/layouts/_nav.scss */
+/* line 73, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navy-menu {
   display: inline-block;
   padding-right: 10px;
 }
 
-/* line 79, ../scss/layouts/_nav.scss */
+/* line 79, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .nav > li > a {
   display: block;
 }
 
-/* line 84, ../scss/layouts/_nav.scss */
+/* line 84, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navbar-nav > li > a {
   padding: 0 20px;
 }
 
-/* line 88, ../scss/layouts/_nav.scss */
+/* line 88, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .caret {
   margin-left: 5px;
 }
 
-/* line 92, ../scss/layouts/_nav.scss */
+/* line 92, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_nav.scss */
 .navpadding {
   padding-top: 20px !important;
   padding-bottom: 15px !important;
 }
 
-/* line 3, ../scss/layouts/_header.scss */
+/* line 3, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .utility {
   background-color: #faf8f8;
   padding: 15px 15px 15px 6px;
   border-bottom: 1px solid #d7d7d7;
 }
 
-/* line 9, ../scss/layouts/_header.scss */
+/* line 9, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .utility-menu a {
   color: #373b42;
   font-weight: bolder;
 }
 
-/* line 15, ../scss/layouts/_header.scss */
+/* line 15, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .utility-menu a i, .utility-menu i {
   color: #373b42;
 }
 
-/* line 19, ../scss/layouts/_header.scss */
+/* line 19, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .fa-expand {
   padding-left: 5px;
 }
 
-/* line 23, ../scss/layouts/_header.scss */
+/* line 23, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .fa-external-link {
   padding-left: 5px;
 }
 
-/* line 28, ../scss/layouts/_header.scss */
+/* line 28, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .icon-wrapper {
   position: relative;
   display: inline-block;
 }
-/* line 32, ../scss/layouts/_header.scss */
+/* line 32, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .icon-wrapper i {
   position: absolute;
   right: 12px;
@@ -650,17 +645,17 @@ label {
   transform: translateY(-50%);
 }
 
-/* line 41, ../scss/layouts/_header.scss */
+/* line 41, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .utility-menu #search {
   width: 250px;
 }
-/* line 45, ../scss/layouts/_header.scss */
+/* line 45, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .utility-menu #search-count {
   font-style: italic;
   margin-right: 10px;
 }
 
-/* line 53, ../scss/layouts/_header.scss */
+/* line 53, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .hero {
   background-position: center center;
   background-color: #044175;
@@ -668,7 +663,7 @@ label {
   width: 100%;
 }
 
-/* line 60, ../scss/layouts/_header.scss */
+/* line 60, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .hero-header {
   text-align: center;
   font-size: 60px;
@@ -678,13 +673,13 @@ label {
   letter-spacing: 3px;
 }
 
-/* line 71, ../scss/layouts/_header.scss */
+/* line 71, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_header.scss */
 .navy-header {
   padding: 0px 20px 0px 20px;
   background-color: #2e7dbb;
 }
 
-/* line 1, ../scss/layouts/_footer.scss */
+/* line 1, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_footer.scss */
 .footer {
   background-color: #373b42;
   color: white;
@@ -693,12 +688,12 @@ label {
   margin-top: 50px;
 }
 
-/* line 9, ../scss/layouts/_footer.scss */
+/* line 9, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_footer.scss */
 .footer p {
   font-size: 14px;
 }
 
-/* line 13, ../scss/layouts/_footer.scss */
+/* line 13, /Applications/MAMP/htdocs/PhoneGap/scss/layouts/_footer.scss */
 .right {
   float: right;
 }
