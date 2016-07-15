@@ -30,6 +30,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"topsix",
+		"title": "CO's Top Six",
+		"location": "content/topsix.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"legal",
 		"title": "Legal Readiness For New Sailors",
 		"location": "content/legal.html",
