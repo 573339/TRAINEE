@@ -42,6 +42,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"ethics",
+		"title": "Code of Ethics",
+		"location": "content/ethics.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"watch",
 		"title": "Watchstanding",
 		"location": "content/watch.html",
