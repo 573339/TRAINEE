@@ -6,6 +6,11 @@ body {
     font-size:16px;
 }
 
+ul {
+	text-decoration:none;
+	list-style-type:none;
+}
+
 a {
     color: $accent-color;
     text-decoration: none;

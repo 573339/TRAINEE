@@ -14,24 +14,30 @@ body {
 }
 
 /* line 9, ../scss/base/_base.scss */
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 14, ../scss/base/_base.scss */
 a {
   color: #e25858;
   text-decoration: none;
 }
 
-/* line 15, ../scss/base/_base.scss */
+/* line 20, ../scss/base/_base.scss */
 a:hover, a:focus {
   text-decoration: none;
   color: #c84e4e;
 }
 
-/* line 20, ../scss/base/_base.scss */
+/* line 25, ../scss/base/_base.scss */
 p {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 25, ../scss/base/_base.scss */
+/* line 30, ../scss/base/_base.scss */
 h2 {
   font-weight: 100;
   color: #2e7dbb;
@@ -39,12 +45,12 @@ h2 {
   line-height: 40px;
 }
 
-/* line 32, ../scss/base/_base.scss */
+/* line 37, ../scss/base/_base.scss */
 .main-content {
   margin-top: 30px;
 }
 
-/* line 36, ../scss/base/_base.scss */
+/* line 41, ../scss/base/_base.scss */
 .highlight {
   background-color: yellow;
 }
@@ -98,49 +104,63 @@ h5 {
   font-weight: normal;
 }
 
-/* Pledge Paragraph Styles */
+/* Alphabet Styles */
 /* line 45, ../scss/modules/_typography.scss */
+.alphabet h5 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/* line 50, ../scss/modules/_typography.scss */
+.letters li {
+  position: relative;
+  top: 35px;
+  left: 35px;
+}
+
+/* Pledge Paragraph Styles */
+/* line 58, ../scss/modules/_typography.scss */
 .section1 {
   border-bottom: 1px solid #d7d7d7;
   margin-top: 30px;
   padding-bottom: 20px;
 }
 
-/* line 54, ../scss/modules/_typography.scss */
+/* line 67, ../scss/modules/_typography.scss */
 .section1 p {
   margin: 15px 0 15px 0;
 }
-/* line 58, ../scss/modules/_typography.scss */
+/* line 71, ../scss/modules/_typography.scss */
 .section1 em {
   font-size: 12px;
 }
-/* line 62, ../scss/modules/_typography.scss */
+/* line 75, ../scss/modules/_typography.scss */
 .section1 span {
   margin: 20px 0;
   font-size: 12px;
   color: #373b42;
   display: block;
 }
-/* line 69, ../scss/modules/_typography.scss */
+/* line 82, ../scss/modules/_typography.scss */
 .section1 h4 {
   text-align: center;
 }
 
 /* Forms */
-/* line 77, ../scss/modules/_typography.scss */
+/* line 90, ../scss/modules/_typography.scss */
 .form-control {
   display: inline-block;
 }
 
-/* line 81, ../scss/modules/_typography.scss */
+/* line 94, ../scss/modules/_typography.scss */
 .inline-form {
   width: 175px;
 }
-/* line 84, ../scss/modules/_typography.scss */
+/* line 97, ../scss/modules/_typography.scss */
 .inline-form.inline-form-large {
   width: 250px;
 }
-/* line 88, ../scss/modules/_typography.scss */
+/* line 101, ../scss/modules/_typography.scss */
 .inline-form.inline-form-small {
   width: 100px;
 }
