@@ -66,6 +66,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"operational",
+		"title": "Operational Stress Control",
+		"location": "content/operational.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"watch",
 		"title": "Watchstanding",
 		"location": "content/watch.html",
