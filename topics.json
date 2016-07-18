@@ -53,10 +53,22 @@
 		"location": "content/attention.html",
 		"image": "content/bill.jpg"
 	},
-		{
+	{
 		"id":"command",
 		"title": "Recruit Chain of Command",
 		"location": "content/command.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"creed",
+		"title": "Sailors Creed",
+		"location": "content/creed.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"rtc",
+		"title": "RTC Maxim",
+		"location": "content/maxim.html",
 		"image": "content/bill.jpg"
 	},
 	{
