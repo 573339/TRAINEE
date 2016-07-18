@@ -48,6 +48,18 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"attention",
+		"title": "Office Entering Procedures",
+		"location": "content/attention.html",
+		"image": "content/bill.jpg"
+	},
+		{
+		"id":"command",
+		"title": "Recruit Chain of Command",
+		"location": "content/command.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"recruit",
 		"title": "Recruit Writing",
 		"location": "content/writing.html",
