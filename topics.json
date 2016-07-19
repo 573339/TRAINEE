@@ -12,6 +12,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"record",
+		"title": "Change Record",
+		"location": "content/record.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"safety",
 		"title": "Safety/Hazard Awareness Notice",
 		"location": "content/safety.html",
@@ -54,9 +60,21 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"address",
+		"title": "Recruit Mailing Address",
+		"location": "content/address.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"command",
 		"title": "Recruit Chain of Command",
 		"location": "content/command.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"sentry",
+		"title": "General Orders of a Sentry",
+		"location": "content/sentry.html",
 		"image": "content/bill.jpg"
 	},
 	{
@@ -135,6 +153,12 @@
 		"id":"navyships",
 		"title": "U.S. Navy Ships",
 		"location": "content/navy.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"grooming",
+		"title": "Uniforms and Grooming",
+		"location": "content/grooming.html",
 		"image": "content/bill.jpg"
 	},
 	{

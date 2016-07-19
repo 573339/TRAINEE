@@ -171,11 +171,16 @@ h5 {
 }
 
 /* line 7, ../scss/modules/_blocks.scss */
+ul.address {
+  padding: 0;
+}
+
+/* line 13, ../scss/modules/_blocks.scss */
 .form-spacing input {
   margin-bottom: 12px;
 }
 
-/* line 11, ../scss/modules/_blocks.scss */
+/* line 17, ../scss/modules/_blocks.scss */
 .commmand-line li {
   line-height: 26px;
 }
