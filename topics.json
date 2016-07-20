@@ -114,6 +114,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"learning",
+		"title": "Learning Skills",
+		"location": "content/learning.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"watch",
 		"title": "Watchstanding",
 		"location": "content/watch.html",
@@ -129,6 +135,24 @@
 		"id":"sound",
 		"title": "Sound-Powered Telephones",
 		"location": "content/sound.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"line",
+		"title": "Line Handling Laboratory 1",
+		"location": "content/line.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"tour",
+		"title": "Marlinespike Tour and Line Handling Laboratory 2",
+		"location": "content/tour.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"family",
+		"title": "Family Planning and Care Policies",
+		"location": "content/family.html",
 		"image": "content/bill.jpg"
 	},
 	{
