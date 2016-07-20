@@ -126,12 +126,6 @@
 		"image": "content/watch.jpg"
 	},
 	{
-		"id":"bill",
-		"title": "Montgomery GI Bill",
-		"location": "content/bill.html",
-		"image": "content/bill.jpg"
-	},
-	{
 		"id":"sound",
 		"title": "Sound-Powered Telephones",
 		"location": "content/sound.html",
@@ -171,6 +165,24 @@
 		"id":"ucmj",
 		"title": "UCMJ",
 		"location": "content/ucmj.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"pay",
+		"title": "Military Pay",
+		"location": "content/pay.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"benefits",
+		"title": "Military Benefits",
+		"location": "content/benefits.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"bill",
+		"title": "Montgomery GI Bill",
+		"location": "content/bill.html",
 		"image": "content/bill.jpg"
 	},
 	{
