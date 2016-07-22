@@ -120,12 +120,6 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"watch",
-		"title": "Watchstanding",
-		"location": "content/watch.html",
-		"image": "content/watch.jpg"
-	},
-	{
 		"id":"sound",
 		"title": "Sound-Powered Telephones",
 		"location": "content/sound.html",
@@ -186,21 +180,69 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"navyships",
-		"title": "U.S. Navy Ships",
-		"location": "content/navy.html",
+		"id":"nutrition",
+		"title": "Introduction to Nutrition",
+		"location": "content/nutrition.html",
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"grooming",
-		"title": "Uniforms and Grooming",
-		"location": "content/grooming.html",
+		"id":"procedures",
+		"title": "Introduction to Nutrition",
+		"location": "content/procedures.html",
 		"image": "content/bill.jpg"
 	},
 	{
 		"id":"uniforms",
 		"title": "Navy Working Uniforms",
 		"location": "content/uniforms.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"survival",
+		"title": "Survival At Sea",
+		"location": "content/survival.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"watch",
+		"title": "Watchstanding",
+		"location": "content/watch.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"first",
+		"title": "First Aid Training",
+		"location": "content/firstaid.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"navyships",
+		"title": "U.S. Navy Ships",
+		"location": "content/navy.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"civil",
+		"title": "Service Members Civil Relief Act",
+		"location": "content/civil.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"values",
+		"title": "Navy Core Values",
+		"location": "content/values.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"risk",
+		"title": "Time Critical Risk Management",
+		"location": "content/risk.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"grooming",
+		"title": "Uniforms and Grooming",
+		"location": "content/grooming.html",
 		"image": "content/bill.jpg"
 	},
 	{
