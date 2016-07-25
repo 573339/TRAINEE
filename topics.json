@@ -246,6 +246,18 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"seamanship",
+		"title": "Basic Seamanship, Part 1",
+		"location": "content/seamanship1.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"basicseamanship",
+		"title": "Basic Seamanship, Part 2",
+		"location": "content/seamanship2.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"line",
 		"title": "Line Handling Laboratory",
 		"location": "content/line.html",
