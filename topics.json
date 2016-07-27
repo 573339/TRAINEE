@@ -246,6 +246,18 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"equal",
+		"title": "Navy Equal Opportunity Program",
+		"location": "content/equal.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"courtesy",
+		"title": "Military Customs and Courtesies",
+		"location": "content/courtesy.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"seamanship",
 		"title": "Basic Seamanship, Part 1",
 		"location": "content/seamanship1.html",
