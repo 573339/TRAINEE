@@ -108,6 +108,19 @@ display:block;
 		line-height: 20px;
 		background:white;
 		border-radius: 4px;
+
+		&::before{
+			content: "\f078";
+			display: inline-block;
+			position: absolute;
+			bottom:2px;
+			font: normal normal normal 14px/1 FontAwesome;
+			font-size: inherit;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			right: 28px;
+			top:10px
+		}
 	}
 
 	#sectionNav{
