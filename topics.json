@@ -222,6 +222,18 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"aircraft",
+		"title": "U.S. Navy Aircraft",
+		"location": "content/aircraft.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"assault",
+		"title": "Sexual Assault Prevention and Reporting",
+		"location": "content/assualt.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"civil",
 		"title": "Service Members Civil Relief Act",
 		"location": "content/civil.html",
