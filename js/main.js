@@ -236,6 +236,8 @@ $(document).ready(function(){
             var newTopicNav='<li><a href="'+index+'" class="">'+this.title+'</a></li>';
             $(newTopicNav).appendTo('#topicNav');
          });
+
+         resetTopicNav();
       }
 
       //function to load new topics
@@ -260,7 +262,8 @@ $(document).ready(function(){
       $('#topicNav').on('click','a',function(){
          loadTopic(topics[$(this).attr('href')]);
          $(this).addClass('selected').parent().siblings().children().removeClass('selected');
-         $('.dropdown.open .dropdown-toggle').dropdown('toggle');
+         $('.topicNav-wrapper').hide();
+         resetTopicNav();
          return false;
       });
 
@@ -269,7 +272,8 @@ $(document).ready(function(){
          var el=$(this);
 
          $(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
-         $('.dropdown.open .dropdown-toggle').dropdown('toggle');
+         $('#sectionNav').hide();
+
          return false;
 
       });
@@ -371,6 +375,65 @@ $(document).ready(function(){
          return false;
 
       });
+
+      //sectionNav button
+      $('.sectionNav-button').click(function(){
+         $('#sectionNav').toggle();
+         return false;
+      });
+
+      //topicNav button
+      $('.topicNav-button').click(function(){
+         $('.topicNav-wrapper').toggle();
+         return false;
+      });
+
+      //clicks to window clear nav dropdowns
+      $(window).click(function() {
+         $('#sectionNav, .topicNav-wrapper').hide();
+         resetTopicNav();
+      });
+
+      //maintain clicks to search wrapper
+      $('.topicNav-search-wrapper').click(function(event){
+         var targ=$(event.target);
+
+         //if click to search clear button, clear search box
+         if(targ.is('#topicNav-search-clear')){
+            resetTopicNav();
+            console.log('hi');
+            $('#topicNav-search-clear').hide().siblings('.fa').show();
+         }
+
+         event.stopPropagation();
+      });
+
+      //reset topic nav textbox value and list items
+      function resetTopicNav(){
+         console.log('reset');
+         $('#topicNav-search').val('');
+         $('#topicNav li').show().removeClass('even');
+         $('#topicNav li:even').addClass('even');
+      }
+
+      //topic search/filter
+      $('#topicNav-search').keyup(function(){
+
+         if($('#topicNav-search').val()!=''){
+            $('#topicNav li').hide();
+            $('#topicNav li a:containsIN("'+$(this).val()+'")').parent().show();
+            $('#topicNav-search-clear').show().siblings('.fa').hide();
+            $('#topicNav li:visible:even').addClass('even');
+            $('#topicNav li:visible:odd').removeClass('even');
+         }
+         else{
+            $('#topicNav li').show();
+            $('#topicNav-search-clear').hide().siblings('.fa').show();
+            resetTopicNav();
+         }
+         
+      });
+
    }
    
 });
