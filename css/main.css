@@ -37,8 +37,9 @@ h2 {
 .main-content {
   margin-top: 30px; }
 
-.highlight {
-  background-color: yellow; }
+#portal span.highlight {
+  background-color: yellow;
+  display: inline-block; }
 
 /* MODULES- Individual Site Components*/
 /* List Styles */
@@ -553,7 +554,7 @@ label {
       padding: 6px 15px;
       display: block;
       color: #2e7dbb; }
-    .topicNav-area .topicNav-wrapper #topicNav li:nth-child(even) a {
+    .topicNav-area .topicNav-wrapper #topicNav li.even a {
       background: #f3f3f3; }
 
 .utility {

@@ -254,11 +254,8 @@ display:block;
 					color: #2e7dbb;
 				}
 
-				&:nth-child(even){
-					a{
-						background:#f3f3f3;
-
-					}
+				&.even a{
+					background:#f3f3f3
 				}
 			}
 

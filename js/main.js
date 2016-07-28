@@ -236,6 +236,8 @@ $(document).ready(function(){
             var newTopicNav='<li><a href="'+index+'" class="">'+this.title+'</a></li>';
             $(newTopicNav).appendTo('#topicNav');
          });
+
+         resetTopicNav();
       }
 
       //function to load new topics
@@ -408,8 +410,10 @@ $(document).ready(function(){
 
       //reset topic nav textbox value and list items
       function resetTopicNav(){
+         console.log('reset');
          $('#topicNav-search').val('');
-         $('#topicNav li').show();
+         $('#topicNav li').show().removeClass('even');
+         $('#topicNav li:even').addClass('even');
       }
 
       //topic search/filter
@@ -419,10 +423,13 @@ $(document).ready(function(){
             $('#topicNav li').hide();
             $('#topicNav li a:containsIN("'+$(this).val()+'")').parent().show();
             $('#topicNav-search-clear').show().siblings('.fa').hide();
+            $('#topicNav li:visible:even').addClass('even');
+            $('#topicNav li:visible:odd').removeClass('even');
          }
          else{
             $('#topicNav li').show();
             $('#topicNav-search-clear').hide().siblings('.fa').show();
+            resetTopicNav();
          }
          
       });
