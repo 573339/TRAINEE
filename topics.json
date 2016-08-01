@@ -230,13 +230,19 @@
 	{
 		"id":"assault",
 		"title": "Sexual Assault Prevention and Reporting",
-		"location": "content/assualt.html",
+		"location": "content/assault.html",
 		"image": "content/bill.jpg"
 	},
 	{
 		"id":"civil",
 		"title": "Service Members Civil Relief Act",
 		"location": "content/civil.html",
+		"image": "content/watch.jpg"
+	},
+	{
+		"id":"enlisted",
+		"title": "Enlisted Rate and Officer Rank Recognition",
+		"location": "content/enlisted.html",
 		"image": "content/watch.jpg"
 	},
 	{
