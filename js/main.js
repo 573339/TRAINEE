@@ -342,11 +342,19 @@ $(document).ready(function(){
          
          //clone portal content
          var clone=$('#portal').clone();
-         clone.text(($('#topic-title').text()+'\n'+clone.text()));
+         //clone.text(($('#topic-title').text()+'\n'+clone.text()));
          //process answers and insert as text
          clone.find('input').each(function(){
-            $(this).replaceWith('[ANSWER: '+$(this).val()+']');
+            if($(this).hasClass('inline-form')){
+               $(this).replaceWith('[ANSWER: '+$(this).val()+']]]');
+            }
+            else{
+               $(this).replaceWith('[ANSWER: '+$(this).val()+']');
+            }
+            
          });
+
+         console.log(clone);
 
          //remove whitespaces
          var oldString=clone.text();
@@ -356,12 +364,15 @@ $(document).ready(function(){
          newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
 
          oldString=newString;
+         newString=oldString.replace(/\]\]\]\n/gm,'\] ');
+
+         oldString=newString;
          newString=oldString.replace(/^\s+$/gm,'\n');
 
          oldString=newString;
          newString=oldString.replace(/^\n+/gm,'\n');
 
-         console.log(newString);
+         //console.log(newString);
 
          //insert processed text into export textarea
          $('.exportContainer').html(newString);
