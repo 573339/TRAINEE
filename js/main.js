@@ -227,6 +227,12 @@ $(document).ready(function(){
             var newNavPoint='<li><a href="#" data-sectionTarget="'+$(this).attr('data-sectionTitle')+'"">'+$(this).attr('data-sectionTitle')+'</a></li>';
             $(newNavPoint).appendTo('#sectionNav');
          });
+         if($('#portal [data-sectionTitle]').length<=1){
+            $('.sectionNav-button').hide();
+         }
+         else{
+            $('.sectionNav-button').show();
+         }
       }
 
       //generate topic navigation
@@ -262,7 +268,7 @@ $(document).ready(function(){
       $('#topicNav').on('click','a',function(){
          loadTopic(topics[$(this).attr('href')]);
          $(this).addClass('selected').parent().siblings().children().removeClass('selected');
-         $('.topicNav-wrapper').hide();
+         $('.topicNav-wrapper,.shroud').hide();
          resetTopicNav();
          return false;
       });
@@ -272,7 +278,7 @@ $(document).ready(function(){
          var el=$(this);
 
          $(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
-         $('#sectionNav').hide();
+         $('#sectionNav,.shroud').hide();
 
          return false;
 
@@ -378,19 +384,20 @@ $(document).ready(function(){
 
       //sectionNav button
       $('.sectionNav-button').click(function(){
-         $('#sectionNav').toggle();
+         $('#sectionNav, .shroud').toggle();
          return false;
       });
 
       //topicNav button
       $('.topicNav-button').click(function(){
-         $('.topicNav-wrapper').toggle();
+         $('.topicNav-wrapper, .shroud').toggle();
          return false;
       });
 
       //clicks to window clear nav dropdowns
       $(window).click(function() {
          $('#sectionNav, .topicNav-wrapper').hide();
+         $('.shroud').hide();
          resetTopicNav();
       });
 
