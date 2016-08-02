@@ -150,12 +150,6 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"production",
-		"title": "TEST TOPIC",
-		"location": "content/test.html",
-		"image": "content/bill.jpg"
-	},
-	{
 		"id":"ucmj",
 		"title": "UCMJ",
 		"location": "content/ucmj.html",
@@ -310,5 +304,72 @@
 		"title": "Naval History and Traditions",
 		"location": "content/history.html",
 		"image": "content/bill.jpg"
+	},
+	{
+		"id":"portable",
+		"title": "Portable and Fixed Fire Extinguishing Systems",
+		"location": "content/portable.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"chemical",
+		"title": "Chemical, Biological, and Radiological Defense (CBRD)",
+		"location": "content/chemical.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"fighting",
+		"title": "General Firefighting Procedures and Fire Party Organization",
+		"location": "content/fighting.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"laboratory",
+		"title": "Firefighting Trainer Laboratory",
+		"location": "content/laboratory.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"predatory",
+		"title": "Predatory Lending",
+		"location": "content/predatory.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"conduct",
+		"title": "Conduct and Precautions Ashore",
+		"location": "content/precautions.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"tools",
+		"title": "Navy Career Tools",
+		"location": "content/tools.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"reading",
+		"title": "Navy Professional Reading Program",
+		"location": "content/reading.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"center",
+		"title": "Naval Dental Center",
+		"location": "content/center.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"fitness",
+		"title": "Navy Operational Fitness Series",
+		"location": "content/fitness.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"standards",
+		"title": "Navy Standards",
+		"location": "content/standards.html",
+		"image": "content/bill.jpg"
 	}
+
 ]
