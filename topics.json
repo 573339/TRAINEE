@@ -424,5 +424,35 @@
 		"title": "Navy Standards",
 		"location": "content/standards.html",
 		"image": "content/bill.jpg"
+	},
+	{
+		"id":"formations",
+		"title": "Detail / Element Formations",
+		"location": "content/formations.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"pass",
+		"title": "Inter-station Pass",
+		"location": "content/pass.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"slip",
+		"title": "Recruit Stick Slip",
+		"location": "content/slip.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"ethos",
+		"title": "Navy Ethos",
+		"location": "content/ethos.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"protection",
+		"title": "Force Protection Conditions",
+		"location": "content/protection.html",
+		"image": "content/bill.jpg"
 	}
 ]
