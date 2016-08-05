@@ -120,36 +120,6 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"sound",
-		"title": "Sound-Powered Telephones",
-		"location": "content/sound.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"line",
-		"title": "Line Handling Laboratory 1",
-		"location": "content/line.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"tour",
-		"title": "Marlinespike Tour and Line Handling Laboratory 2",
-		"location": "content/tour.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"family",
-		"title": "Family Planning and Care Policies",
-		"location": "content/family.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"sound2",
-		"title": "Sound-Powered Telephones 2",
-		"location": "content/sound2.html",
-		"image": "content/bill.jpg"
-	},
-	{
 		"id":"ucmj",
 		"title": "UCMJ",
 		"location": "content/ucmj.html",
@@ -282,6 +252,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"sound",
+		"title": "Sound-Powered Telephones",
+		"location": "content/sound.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"line",
 		"title": "Line Handling Laboratory",
 		"location": "content/line.html",
@@ -303,6 +279,84 @@
 		"id":"history",
 		"title": "Naval History and Traditions",
 		"location": "content/history.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"armsa",
+		"title": "Smalls Arms Familiarization (Sim)",
+		"location": "content/arms.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"armsb",
+		"title": "Smalls Arms Familiarization (Live)",
+		"location": "content/arms2.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"conflict",
+		"title": "Conduct During Armed Conflict",
+		"location": "content/conflict.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"alcohol",
+		"title": "Navy Drug and Alcohol Program",
+		"location": "content/alcohol.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"thrift",
+		"title": "Thrift Savings Plan",
+		"location": "content/thrift.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"force",
+		"title": "Antiterrorism/Force Protection",
+		"location": "content/force.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"commission",
+		"title": "Enlisted to Officer Commissioning Programs",
+		"location": "content/commission.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"path",
+		"title": "Career Path and Advancement",
+		"location": "content/path.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"transfer",
+		"title": "Military Transfer Orders",
+		"location": "content/transfer.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"damage",
+		"title": "Basic Damage Control",
+		"location": "content/damage.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"control",
+		"title": "Portable Damage Control Pumps",
+		"location": "content/control.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"breathing",
+		"title": "Emergency Breathing Devices",
+		"location": "content/breathing.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"chemistry",
+		"title": "Chemistry and Classes of Fire",
+		"location": "content/chemistry.html",
 		"image": "content/bill.jpg"
 	},
 	{
@@ -371,5 +425,4 @@
 		"location": "content/standards.html",
 		"image": "content/bill.jpg"
 	}
-
 ]
