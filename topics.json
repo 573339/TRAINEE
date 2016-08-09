@@ -318,6 +318,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"force",
+		"title": "Combating Terrorism",
+		"location": "content/combat.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"commission",
 		"title": "Enlisted to Officer Commissioning Programs",
 		"location": "content/commission.html",
@@ -428,19 +434,13 @@
 	{
 		"id":"formations",
 		"title": "Detail / Element Formations",
-		"location": "content/formations.html",
+		"location": "content/formation.html",
 		"image": "content/bill.jpg"
 	},
 	{
 		"id":"pass",
 		"title": "Inter-station Pass",
 		"location": "content/pass.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"slip",
-		"title": "Recruit Stick Slip",
-		"location": "content/slip.html",
 		"image": "content/bill.jpg"
 	},
 	{
