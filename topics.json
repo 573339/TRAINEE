@@ -168,6 +168,24 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"lifestyle",
+		"title": "Nutrition Basics for a Healthy Lifestyle",
+		"location": "content/lifestyle.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"plate",
+		"title": "Choose my plate.gov",
+		"location": "content/plate.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"hydration",
+		"title": "Hydration Needs",
+		"location": "content/hydration.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"procedures",
 		"title": "Water Bottle Cleaning Procedures",
 		"location": "content/procedures.html",
