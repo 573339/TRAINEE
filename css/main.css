@@ -41,6 +41,30 @@ h2 {
   background-color: yellow;
   display: inline-block; }
 
+.fullImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px; }
+
+.rank-study {
+  text-align: center; }
+  .rank-study img {
+    display: inline-block;
+    max-width: 180px; }
+
+.list-wrapper ol {
+  list-style-type: decimal; }
+  .list-wrapper ol ol {
+    list-style-type: lower-alpha; }
+    .list-wrapper ol ol ol {
+      list-style-type: decimal; }
+      .list-wrapper ol ol ol ol {
+        list-style-type: lower-alpha; }
+
+.study-list-wrapper ol {
+  list-style-type: decimal; }
+
 /* MODULES- Individual Site Components*/
 /* List Styles */
 .list {

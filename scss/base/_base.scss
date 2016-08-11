@@ -43,3 +43,48 @@ h2 {
 	display:inline-block;
 
 }
+
+.fullImage{
+	width: 100%;
+	height: auto;
+	display:block;
+	margin-bottom: 30px;
+}
+
+.rank-study{
+	text-align:center;
+
+	img{
+		display:inline-block;
+		max-width: 180px;
+	}
+}
+
+.list-wrapper{
+	ol{
+		list-style-type: decimal;
+
+		ol{
+			list-style-type: lower-alpha;
+			
+			ol{
+				list-style-type: decimal;
+				ol{
+					list-style-type: lower-alpha;
+				}
+
+				
+			}
+		}
+
+	}
+
+}
+
+.study-list-wrapper{
+
+	ol{
+		list-style-type: decimal;
+	}
+
+}
