@@ -150,6 +150,18 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"comparison",
+		"title": "Quick Comparison Of Educational Benefits Programs",
+		"location": "content/comparison.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"enrollment",
+		"title": "Montgomery GI Bill Enrollment Form",
+		"location": "content/enrollment.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"nutrition",
 		"title": "Introduction to Nutrition",
 		"location": "content/nutrition.html",
