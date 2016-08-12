@@ -402,6 +402,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"markings",
+		"title": "Shipboard Markings",
+		"location": "content/markings.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"control",
 		"title": "Portable Damage Control Pumps",
 		"location": "content/control.html",

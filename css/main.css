@@ -381,6 +381,22 @@ small {
   .flag-table td:nth-child(2n), .flag-table th:nth-child(2n) {
     border-left: 0; }
 
+/* SHIPBOARD MARKINGS */
+.markings-example-box {
+  width: 360px;
+  min-height: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 30px; }
+  .markings-example-box .markings-example {
+    display: block;
+    border: 2px dotted #ffa500;
+    margin-bottom: 10px;
+    border-radius: 6px; }
+
 label {
   display: inline-block;
   text-align: left;
