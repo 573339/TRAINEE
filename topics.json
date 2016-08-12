@@ -294,6 +294,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"tieasquare",
+		"title": "Tie a Square Knot, Bowline, Clove Hitch, and Bowline on a Bight",
+		"location": "content/tieasquare.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"sound",
 		"title": "Sound-Powered Telephones",
 		"location": "content/sound.html",
