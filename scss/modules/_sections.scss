@@ -304,3 +304,27 @@ $medium: #333;
 .dropdown-menu{
     top: 62px;
 }
+
+
+
+/* FLAGS AND PENNANTS */
+
+
+.flag-table{
+  img{
+    max-width: 100px;
+  }
+
+  td, th{
+
+    vertical-align:middle !important;
+
+    &:nth-child(2n-1){
+      border-right: 0;
+    }
+
+    &:nth-child(2n){
+      border-left: 0;
+    }
+  }
+}

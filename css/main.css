@@ -53,7 +53,7 @@ h2 {
     display: inline-block;
     max-width: 180px; }
 
-.list-wrapper h2 {
+.list-wrapper h2, .list-wrapper h4 {
   margin-top: 30px; }
 .list-wrapper ol {
   list-style-type: decimal; }
@@ -370,6 +370,16 @@ small {
 
 .dropdown-menu {
   top: 62px; }
+
+/* FLAGS AND PENNANTS */
+.flag-table img {
+  max-width: 100px; }
+.flag-table td, .flag-table th {
+  vertical-align: middle !important; }
+  .flag-table td:nth-child(2n-1), .flag-table th:nth-child(2n-1) {
+    border-right: 0; }
+  .flag-table td:nth-child(2n), .flag-table th:nth-child(2n) {
+    border-left: 0; }
 
 label {
   display: inline-block;

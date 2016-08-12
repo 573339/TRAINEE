@@ -282,6 +282,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"flags",
+		"title": "Flags and Pennants",
+		"location": "content/flags.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"basicseamanship",
 		"title": "Basic Seamanship, Part 2",
 		"location": "content/seamanship2.html",
