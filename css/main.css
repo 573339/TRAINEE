@@ -651,16 +651,27 @@ label {
 .hero {
   background-position: center center;
   background-color: #044175;
-  height: 330px;
-  width: 100%; }
+  height: 270px;
+  width: 100%;
+  margin-top: 61px;
+  position: relative; }
 
 .hero-header {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 100;
-  color: #ffffff;
+  color: #fff;
   margin-top: 154px;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 50px; }
 
 .navy-header {
   padding: 0px 20px 0px 20px;
