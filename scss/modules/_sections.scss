@@ -304,3 +304,48 @@ $medium: #333;
 .dropdown-menu{
     top: 62px;
 }
+
+
+
+/* FLAGS AND PENNANTS */
+
+
+.flag-table{
+  img{
+    max-width: 100px;
+  }
+
+  td, th{
+
+    vertical-align:middle !important;
+
+    &:nth-child(2n-1){
+      border-right: 0;
+    }
+
+    &:nth-child(2n){
+      border-left: 0;
+    }
+  }
+}
+
+
+/* SHIPBOARD MARKINGS */
+
+.markings-example-box{
+  width: 360px;
+  min-height: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 30px;
+
+  .markings-example{
+    display:block;
+    border: 2px dotted #ffa500;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+}

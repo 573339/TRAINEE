@@ -74,7 +74,12 @@ h2 {
   max-width: 180px;
 }
 
+<<<<<<< HEAD
 /* line 64, ../scss/base/_base.scss */
+=======
+.list-wrapper h2, .list-wrapper h4 {
+  margin-top: 30px; }
+>>>>>>> 3c8c104e48ee1f7cdd3558e0d6027b45fbeadfc5
 .list-wrapper ol {
   list-style-type: decimal;
 }
@@ -554,7 +559,36 @@ small {
   top: 62px;
 }
 
+<<<<<<< HEAD
 /* line 3, ../scss/modules/_components.scss */
+=======
+/* FLAGS AND PENNANTS */
+.flag-table img {
+  max-width: 100px; }
+.flag-table td, .flag-table th {
+  vertical-align: middle !important; }
+  .flag-table td:nth-child(2n-1), .flag-table th:nth-child(2n-1) {
+    border-right: 0; }
+  .flag-table td:nth-child(2n), .flag-table th:nth-child(2n) {
+    border-left: 0; }
+
+/* SHIPBOARD MARKINGS */
+.markings-example-box {
+  width: 360px;
+  min-height: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 30px; }
+  .markings-example-box .markings-example {
+    display: block;
+    border: 2px dotted #ffa500;
+    margin-bottom: 10px;
+    border-radius: 6px; }
+
+>>>>>>> 3c8c104e48ee1f7cdd3558e0d6027b45fbeadfc5
 label {
   display: inline-block;
   text-align: left;
@@ -935,19 +969,41 @@ label {
 .hero {
   background-position: center center;
   background-color: #044175;
+<<<<<<< HEAD
   height: 330px;
   width: 100%;
 }
+=======
+  height: 270px;
+  width: 100%;
+  margin-top: 61px;
+  position: relative; }
+>>>>>>> 3c8c104e48ee1f7cdd3558e0d6027b45fbeadfc5
 
 /* line 60, ../scss/layouts/_header.scss */
 .hero-header {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 100;
+<<<<<<< HEAD
   color: white;
   margin-top: 154px;
   letter-spacing: 3px;
 }
+=======
+  color: #fff;
+  margin-top: 154px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 50px; }
+>>>>>>> 3c8c104e48ee1f7cdd3558e0d6027b45fbeadfc5
 
 /* line 71, ../scss/layouts/_header.scss */
 .navy-header {

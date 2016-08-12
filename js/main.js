@@ -327,6 +327,9 @@ $(document).ready(function(){
          $('#portal').load(topic.location,function(){
             $('#topic-title').text(topic.title);
             $('.hero').css('background-image','url(\''+topic.image+'\')');
+            $('#portal [data-toggle="tooltip"]').tooltip();
+            $('#portal .tooltip-show[data-toggle="tooltip"]').tooltip('show');
+
             restoreStudy();
             generateSectionNav();
             $(window).scrollTop(0);

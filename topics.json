@@ -282,9 +282,21 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"flags",
+		"title": "Flags and Pennants",
+		"location": "content/flags.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"basicseamanship",
 		"title": "Basic Seamanship, Part 2",
 		"location": "content/seamanship2.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"tieasquare",
+		"title": "Tie a Square Knot, Bowline, Clove Hitch, and Bowline on a Bight",
+		"location": "content/tieasquare.html",
 		"image": "content/bill.jpg"
 	},
 	{
@@ -360,6 +372,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"dodconduct",
+		"title": "DoD Code of Conduct for Personnel Subject to Terrorist Activity",
+		"location": "content/dodconduct.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"commission",
 		"title": "Enlisted to Officer Commissioning Programs",
 		"location": "content/commission.html",
@@ -381,6 +399,12 @@
 		"id":"damage",
 		"title": "Basic Damage Control",
 		"location": "content/damage.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"markings",
+		"title": "Shipboard Markings",
+		"location": "content/markings.html",
 		"image": "content/bill.jpg"
 	},
 	{
