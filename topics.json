@@ -372,6 +372,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"dodconduct",
+		"title": "DoD Code of Conduct for Personnel Subject to Terrorist Activity",
+		"location": "content/dodconduct.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"commission",
 		"title": "Enlisted to Officer Commissioning Programs",
 		"location": "content/commission.html",
