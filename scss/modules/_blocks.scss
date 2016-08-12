@@ -17,3 +17,21 @@ ul.address {
 .commmand-line li {
 	line-height:26px;
 }
+
+// NUTRITION BOX
+
+.box {
+	margin-top:40px;
+	border:1px solid $light-grey;
+	padding:20px;
+	margin-bottom:50px;
+
+	ul {
+	padding:0;
+	}
+}
+
+.borderR {
+	border-right:1px solid $light-grey;
+	padding:0 20px;
+}
