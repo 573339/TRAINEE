@@ -210,6 +210,12 @@
 		"image": "content/watch.jpg"
 	},
 	{
+		"id":"shipboard",
+		"title": "Shipboard Force Protection Conditions (FPCONS)",
+		"location": "content/shipboard.html",
+		"image": "content/watch.jpg"
+	},
+	{
 		"id":"first",
 		"title": "First Aid Training",
 		"location": "content/firstaid.html",
