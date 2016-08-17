@@ -283,7 +283,7 @@
 	},
 	{
 		"id":"seamanship",
-		"title": "Basic Seamanship, Part 1",
+		"title": "Basic Seamanship, Part 1- Nomenclature",
 		"location": "content/seamanship1.html",
 		"image": "content/bill.jpg"
 	},
@@ -295,7 +295,7 @@
 	},
 	{
 		"id":"basicseamanship",
-		"title": "Basic Seamanship, Part 2",
+		"title": "Basic Seamanship, Part 2- Lines, Wire Ropes, Small Boats and Sound-Powered Telephones",
 		"location": "content/seamanship2.html",
 		"image": "content/bill.jpg"
 	},
