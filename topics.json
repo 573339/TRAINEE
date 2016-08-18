@@ -126,12 +126,6 @@
 		"image": "content/bill.jpg"
 	},
 	{
-		"id":"briefing",
-		"title": "DoD Briefing On Separation Policy",
-		"location": "content/briefing.html",
-		"image": "content/bill.jpg"
-	},
-	{
 		"id":"pay",
 		"title": "Military Pay",
 		"location": "content/pay.html",
