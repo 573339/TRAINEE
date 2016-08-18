@@ -100,6 +100,17 @@ h5 {
   text-decoration: underline;
   font-weight: normal; }
 
+#portal h1 {
+  border-bottom: 1px solid #9e9e9e;
+  color: #9e9e9e;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 60px; }
+  #portal h1:first-child {
+    margin-top: 0; }
+
 /* Alphabet Styles */
 .alphabet h5 {
   margin: 0;

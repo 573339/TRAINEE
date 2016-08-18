@@ -40,6 +40,22 @@ h5 {
 
 }
 
+#portal{
+  h1{
+    border-bottom: 1px solid $medium-grey;
+    color: $medium-grey;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 60px;
+
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+}
+
 /* Alphabet Styles */
 
 .alphabet h5 {
