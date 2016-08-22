@@ -66,6 +66,8 @@ h2 {
 
 .study-list-wrapper ol {
   list-style-type: decimal; }
+  .study-list-wrapper ol ol {
+    list-style-type: lower-alpha; }
 
 /* MODULES- Individual Site Components*/
 /* List Styles */
