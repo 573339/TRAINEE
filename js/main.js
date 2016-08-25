@@ -112,6 +112,19 @@ return (elem.textContent || elem.innerText || "").toLowerCase().indexOf((match[3
 }
 });
 
+$(window).scroll(function(){
+  var scrolled=$(window).scrollTop();
+  console.log(scrolled);
+
+  if(scrolled>396){
+    $('.utility').addClass('scroll-sticky');
+  }
+  else{
+    $('.utility').removeClass('scroll-sticky');
+  }
+
+});
+
 $(document).ready(function(){
 
    //implement fastclick

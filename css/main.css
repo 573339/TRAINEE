@@ -663,6 +663,12 @@ label {
   background-color: #faf8f8;
   padding: 15px 15px 15px 6px;
   border-bottom: 1px solid #d7d7d7; }
+  .utility.scroll-sticky {
+    position: fixed;
+    top: 61px;
+    right: 0;
+    left: 0;
+    z-index: 9; }
 
 .utility-menu a {
   color: #373b42;
