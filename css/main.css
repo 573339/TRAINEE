@@ -7,7 +7,7 @@ Version 0.0.1
 /* line 1, ../scss/base/_base.scss */
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  color: #666666;
+  color: #404040;
   line-height: 26px;
   font-weight: lighter;
   font-size: 16px;
@@ -468,7 +468,7 @@ small {
 
 /* line 148, ../scss/modules/_sections.scss */
 .note p {
-  color: #666666;
+  color: #404040;
 }
 
 /* line 152, ../scss/modules/_sections.scss */
