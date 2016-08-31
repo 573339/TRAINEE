@@ -14,30 +14,38 @@ body {
 }
 
 /* line 9, ../scss/base/_base.scss */
+li > span {
+  float: left;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  color: #2e7dbb;
+}
+
+/* line 16, ../scss/base/_base.scss */
 ul {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 14, ../scss/base/_base.scss */
+/* line 21, ../scss/base/_base.scss */
 a {
   color: #e25858;
   text-decoration: none;
 }
 
-/* line 20, ../scss/base/_base.scss */
+/* line 27, ../scss/base/_base.scss */
 a:hover, a:focus {
   text-decoration: none;
   color: #c84e4e;
 }
 
-/* line 25, ../scss/base/_base.scss */
+/* line 32, ../scss/base/_base.scss */
 p {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 30, ../scss/base/_base.scss */
+/* line 37, ../scss/base/_base.scss */
 h2 {
   font-weight: 100;
   color: #2e7dbb;
@@ -45,18 +53,18 @@ h2 {
   line-height: 40px;
 }
 
-/* line 37, ../scss/base/_base.scss */
+/* line 44, ../scss/base/_base.scss */
 .main-content {
   margin-top: 30px;
 }
 
-/* line 41, ../scss/base/_base.scss */
+/* line 48, ../scss/base/_base.scss */
 #portal span.highlight {
   background-color: yellow;
   display: inline-block;
 }
 
-/* line 47, ../scss/base/_base.scss */
+/* line 54, ../scss/base/_base.scss */
 .fullImage {
   width: 100%;
   height: auto;
@@ -64,42 +72,42 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 54, ../scss/base/_base.scss */
+/* line 61, ../scss/base/_base.scss */
 .rank-study {
   text-align: center;
 }
-/* line 57, ../scss/base/_base.scss */
+/* line 64, ../scss/base/_base.scss */
 .rank-study img {
   display: inline-block;
   max-width: 180px;
 }
 
-/* line 64, ../scss/base/_base.scss */
+/* line 71, ../scss/base/_base.scss */
 .list-wrapper h2, .list-wrapper h4 {
   margin-top: 30px;
 }
-/* line 67, ../scss/base/_base.scss */
+/* line 74, ../scss/base/_base.scss */
 .list-wrapper ol {
   list-style-type: decimal;
 }
-/* line 70, ../scss/base/_base.scss */
+/* line 77, ../scss/base/_base.scss */
 .list-wrapper ol ol {
   list-style-type: lower-alpha;
 }
-/* line 73, ../scss/base/_base.scss */
+/* line 80, ../scss/base/_base.scss */
 .list-wrapper ol ol ol {
   list-style-type: decimal;
 }
-/* line 75, ../scss/base/_base.scss */
+/* line 82, ../scss/base/_base.scss */
 .list-wrapper ol ol ol ol {
   list-style-type: lower-alpha;
 }
 
-/* line 89, ../scss/base/_base.scss */
+/* line 96, ../scss/base/_base.scss */
 .study-list-wrapper ol {
   list-style-type: decimal;
 }
-/* line 92, ../scss/base/_base.scss */
+/* line 99, ../scss/base/_base.scss */
 .study-list-wrapper ol ol {
   list-style-type: lower-alpha;
 }
