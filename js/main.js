@@ -116,7 +116,7 @@ $(window).scroll(function(){
   var scrolled=$(window).scrollTop();
   console.log(scrolled);
 
-  if(scrolled>331){
+  if(scrolled>270){
     $('.utility').addClass('scroll-sticky');
   }
   else{
