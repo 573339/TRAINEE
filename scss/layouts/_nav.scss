@@ -255,10 +255,42 @@ display:block;
 
 			.icon-wrapper{
 				display:block;
+				width: 320px;
 			}
 			#topicNav-search{
 				display: block;
 				width: 100%
+			}
+
+			.topicNav-bookmarks-btn{
+				display: block;
+				width: 34px;
+				height: 34px;
+				border-radius: 4px;
+				border:1px solid $blue-color;
+				float: right;
+				
+				&::before{
+					content: "\f097";
+					color: $blue-color;
+					position:relative;
+					top:4px;
+					display: inline-block;
+					font: normal normal normal 14px/1 FontAwesome;
+					font-size: inherit;
+					text-rendering: auto;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+				}
+
+				&.filter-selected{
+					background-color: $blue-color;
+					&::before{
+						content: "\f02e";
+						color:white;
+					}
+					
+				}
 			}
 		}
 
@@ -274,9 +306,23 @@ display:block;
 			li{
 
 				a{
-					padding: 6px 15px;
+					padding: 6px 15px 6px 15px;
 					display:block;
 					color: #2e7dbb;
+					text-align:left;
+
+					&.bookmarked::before{
+						content: "\f02e";
+						position:relative;
+						top:4px;
+						display: inline-block;
+						float:right;
+						font: normal normal normal 14px/1 FontAwesome;
+						font-size: inherit;
+						text-rendering: auto;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+					}
 				}
 
 				&.even a{

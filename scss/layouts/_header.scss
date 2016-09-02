@@ -65,6 +65,29 @@ padding-left:5px;
     width: 100%;
     margin-top:61px;
     position:relative;
+
+    .bookmark-toggle-btn{
+      position: absolute;
+      display:block;
+      right: 30px;
+      bottom: 20px;
+      color: white;
+
+      .bookmark-toggle-icon::before{
+        content: "\f097";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+      }
+
+      &.bookmark-toggle-btn.bookmarked .bookmark-toggle-icon::before{
+        content: "\f02e";
+      }
+    }
 }
 
 .hero-header {
