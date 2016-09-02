@@ -72,6 +72,9 @@ padding-left:5px;
       right: 30px;
       bottom: 20px;
       color: white;
+      padding: 6px 12px;
+      border: 1px solid white;
+      border-radius: 4px;
 
       .bookmark-toggle-icon::before{
         content: "\f097";

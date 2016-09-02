@@ -766,7 +766,10 @@ label {
     display: block;
     right: 30px;
     bottom: 20px;
-    color: white; }
+    color: white;
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 4px; }
     .hero .bookmark-toggle-btn .bookmark-toggle-icon::before {
       content: "\f097";
       display: inline-block;
