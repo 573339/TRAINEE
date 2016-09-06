@@ -6,6 +6,12 @@
 		"image": "content/bill.jpg"
 	},
 	{
+		"id":"basic",
+		"title": "Basic Military Training",
+		"location": "content/basic.html",
+		"image": "content/bill.jpg"
+	},
+	{
 		"id":"introduction",
 		"title": "Introduction To The Navy",
 		"location": "content/introduction.html",
@@ -247,7 +253,7 @@
 	},
 	{
 		"id":"basicseamanship",
-		"title": "Basic Seamanship, Part 2- Lines, Wire Ropes, Small Boats and Sound-Powered Telephones",
+		"title": "Seamanship, P2- Lines, Ropes, Small Boats and STACP",
 		"location": "content/seamanship2.html",
 		"image": "content/bill.jpg"
 	},
@@ -429,6 +435,12 @@
 		"id":"pass",
 		"title": "Inter-station Pass",
 		"location": "content/pass.html",
+		"image": "content/bill.jpg"
+	},
+	{
+		"id":"map",
+		"title": "Recruit Training Command",
+		"location": "content/map.html",
 		"image": "content/bill.jpg"
 	},
 	{
