@@ -1,7 +1,7 @@
 [
 	{
 		"id":"pledge",
-		"title": "The Pledge of Allegiance",
+		"title": "The Pledge Of Allegiance",
 		"location": "content/pledge.html",
 		"image": "content/bill.jpg"
 	},
@@ -15,12 +15,6 @@
 		"id":"introduction",
 		"title": "Introduction To The Navy",
 		"location": "content/introduction.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"record",
-		"title": "Change Record",
-		"location": "content/record.html",
 		"image": "content/bill.jpg"
 	},
 	{
@@ -55,7 +49,7 @@
 	},
 	{
 		"id":"ethics",
-		"title": "Code of Ethics",
+		"title": "Code Of Ethics",
 		"location": "content/ethics.html",
 		"image": "content/bill.jpg"
 	},
@@ -73,13 +67,13 @@
 	},
 	{
 		"id":"command",
-		"title": "Recruit Chain of Command",
+		"title": "Recruit Chain Of Command",
 		"location": "content/command.html",
 		"image": "content/bill.jpg"
 	},
 	{
 		"id":"sentry",
-		"title": "General Orders of a Sentry",
+		"title": "General Orders Of A Sentry",
 		"location": "content/sentry.html",
 		"image": "content/bill.jpg"
 	},
@@ -127,7 +121,7 @@
 	},
 	{
 		"id":"ucmj",
-		"title": "Uniform Code of Military Justice",
+		"title": "Uniform Code Of Military Justice",
 		"location": "content/ucmj.html",
 		"image": "content/bill.jpg"
 	},
@@ -151,7 +145,7 @@
 	},
 	{
 		"id":"nutrition",
-		"title": "Introduction to Nutrition",
+		"title": "Introduction To Nutrition",
 		"location": "content/nutrition.html",
 		"image": "content/bill.jpg"
 	},
@@ -301,7 +295,7 @@
 	},
 	{
 		"id":"alcohol",
-		"title": "Navy Drug and Alcohol Program",
+		"title": "Navy Drug And Alcohol Program",
 		"location": "content/alcohol.html",
 		"image": "content/bill.jpg"
 	},
@@ -355,7 +349,7 @@
 	},
 	{
 		"id":"chemistry",
-		"title": "Chemistry and Classes of Fires",
+		"title": "Chemistry and Classes Of Fires",
 		"location": "content/chemistry.html",
 		"image": "content/bill.jpg"
 	},
