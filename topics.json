@@ -1,458 +1,452 @@
 [
 	{
 		"id":"pledge",
-		"title": "The Pledge of Allegiance",
+		"title": "The Pledge Of Allegiance",
 		"location": "content/pledge.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"basic",
 		"title": "Basic Military Training",
 		"location": "content/basic.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-07.jpg"
 	},
 	{
 		"id":"introduction",
 		"title": "Introduction To The Navy",
 		"location": "content/introduction.html",
-		"image": "content/bill.jpg"
-	},
-	{
-		"id":"record",
-		"title": "Change Record",
-		"location": "content/record.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-03.jpg"
 	},
 	{
 		"id":"safety",
 		"title": "Safety/Hazard Awareness Notice",
 		"location": "content/safety.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-14.jpg"
 	},
 	{
 		"id":"how",
 		"title": "How To Use Your Trainee Guide",
 		"location": "content/how.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-10.jpg"
 	},
 	{
 		"id":"terminal",
 		"title": "Terminal Objectives",
 		"location": "content/terminal.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-00.jpg"
 	},
 	{
 		"id":"topsix",
 		"title": "CO's Top Six",
 		"location": "content/topsix.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-00.jpg"
 	},
 	{
 		"id":"legal",
 		"title": "Legal Readiness For New Sailors",
 		"location": "content/legal.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"ethics",
-		"title": "Code of Ethics",
+		"title": "Code Of Ethics",
 		"location": "content/ethics.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"attention",
 		"title": "Office Entering Procedures",
 		"location": "content/attention.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"address",
 		"title": "Recruit Mailing Address",
 		"location": "content/address.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"command",
-		"title": "Recruit Chain of Command",
+		"title": "Recruit Chain Of Command",
 		"location": "content/command.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"sentry",
-		"title": "General Orders of a Sentry",
+		"title": "General Orders Of A Sentry",
 		"location": "content/sentry.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"creed",
 		"title": "Sailors Creed",
 		"location": "content/creed.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"rtc",
 		"title": "RTC Maxim",
 		"location": "content/maxim.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"recruit",
 		"title": "Recruit Writing",
 		"location": "content/writing.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"time",
 		"title": "24-Hour Time",
 		"location": "content/time.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"alphabet",
 		"title": "Phonetic Alphabet",
 		"location": "content/alphabet.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"operational",
 		"title": "Operational Stress Control",
 		"location": "content/operational.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"learning",
 		"title": "Learning Skills",
 		"location": "content/learning.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"ucmj",
-		"title": "Uniform Code of Military Justice",
+		"title": "Uniform Code Of Military Justice",
 		"location": "content/ucmj.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"pay",
 		"title": "Military Pay",
 		"location": "content/pay.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-07.jpg"
 	},
 	{
 		"id":"benefits",
 		"title": "Military Benefits",
 		"location": "content/benefits.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-07.jpg"
 	},
 	{
 		"id":"bill",
 		"title": "Montgomery GI Bill",
 		"location": "content/bill.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"nutrition",
-		"title": "Introduction to Nutrition",
+		"title": "Introduction To Nutrition",
 		"location": "content/nutrition.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"procedures",
 		"title": "Water Bottle Cleaning Procedures",
 		"location": "content/procedures.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-11.jpg"
 	},
 	{
 		"id":"uniforms",
 		"title": "Navy Working Uniforms",
 		"location": "content/uniforms.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"survival",
 		"title": "Survival At Sea",
 		"location": "content/survival.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-13.jpg"
 	},
 	{
 		"id":"watch",
 		"title": "Watchstanding/Weapons Turnover",
 		"location": "content/watchstanding.html",
-		"image": "content/watch.jpg"
+		"image": "img/watch.jpg"
 	},
 	{
 		"id":"first",
 		"title": "First Aid Training",
 		"location": "content/firstaid.html",
-		"image": "content/watch.jpg"
+		"image": "img/watch.jpg"
 	},
 	{
 		"id":"navyships",
 		"title": "U.S. Navy Ships",
 		"location": "content/navy.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-12.jpg"
 	},
 	{
 		"id":"aircraft",
 		"title": "U.S. Navy Aircraft",
 		"location": "content/aircraft.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-18.jpg"
 	},
 	{
 		"id":"assault",
 		"title": "Sexual Assault Prevention and Reporting",
 		"location": "content/assault.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"civil",
 		"title": "Service Members Civil Relief Act",
 		"location": "content/civil.html",
-		"image": "content/watch.jpg"
+		"image": "img/watch.jpg"
 	},
 	{
 		"id":"enlisted",
 		"title": "Enlisted Rate and Officer Rank Recognition",
 		"location": "content/enlisted.html",
-		"image": "content/watch.jpg"
+		"image": "img/watch.jpg"
 	},
 	{
 		"id":"values",
 		"title": "Navy Core Values",
 		"location": "content/values.html",
-		"image": "content/watch.jpg"
+		"image": "img/banner-05.jpg"
 	},
 	{
 		"id":"risk",
 		"title": "Time Critical Risk Management",
 		"location": "content/risk.html",
-		"image": "content/watch.jpg"
+		"image": "img/watch.jpg"
 	},
 	{
 		"id":"grooming",
 		"title": "Uniforms and Grooming",
 		"location": "content/grooming.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"equal",
 		"title": "Navy Equal Opportunity Program",
 		"location": "content/equal.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"courtesy",
 		"title": "Military Customs and Courtesies",
 		"location": "content/courtesy.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"seamanship",
 		"title": "Basic Seamanship, Part 1- Nomenclature",
 		"location": "content/seamanship1.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-05.jpg"
 	},
 	{
 		"id":"basicseamanship",
-		"title": "Seamanship, P2- Lines, Ropes, Small Boats and STACP",
+		"title": "Seamanship, P2- Lines, Ropes, Small Boats and SP Telephones",
 		"location": "content/seamanship2.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-07.jpg"
 	},
 	{
 		"id":"line",
 		"title": "Line Handling Laboratory",
 		"location": "content/line.html",
-		"image": "content/bill.jpg"
+		"image": "img/bill.jpg"
 	},
 	{
 		"id":"tour",
 		"title": "Marlinespike Tour and Line Handling Laboratory 2",
 		"location": "content/tour.html",
-		"image": "content/bill.jpg"
+		"image": "img/bill.jpg"
 	},
 	{
 		"id":"family",
 		"title": "Family Planning and Care Policies",
 		"location": "content/family.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"history",
 		"title": "Naval History and Traditions",
 		"location": "content/history.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-19.jpg"
 	},
 	{
 		"id":"armsa",
 		"title": "Smalls Arms Familiarization (Sim)",
 		"location": "content/arms.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"armsb",
 		"title": "Smalls Arms Familiarization (Live)",
 		"location": "content/arms2.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"conflict",
 		"title": "Conduct During Armed Conflict",
 		"location": "content/conflict.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"alcohol",
-		"title": "Navy Drug and Alcohol Program",
+		"title": "Navy Drug And Alcohol Program",
 		"location": "content/alcohol.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"thrift",
 		"title": "Thrift Savings Plan",
 		"location": "content/thrift.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"force",
 		"title": "Antiterrorism/Force Protection",
 		"location": "content/force.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-04.jpg"
 	},
 	{
 		"id":"commission",
 		"title": "Enlisted to Officer Commissioning Programs",
 		"location": "content/comissioning.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"path",
 		"title": "Career Path and Advancement",
 		"location": "content/path.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"transfer",
 		"title": "Military Transfer Orders",
 		"location": "content/transfer.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-09.jpg"
 	},
 	{
 		"id":"damage",
 		"title": "Basic Damage Control",
 		"location": "content/damage.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"control",
 		"title": "Portable Damage Control Pumps",
 		"location": "content/control.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"breathing",
 		"title": "Emergency Breathing Devices",
 		"location": "content/breathing.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"chemistry",
-		"title": "Chemistry and Classes of Fires",
+		"title": "Chemistry and Classes Of Fires",
 		"location": "content/chemistry.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-16.jpg"
 	},
 	{
 		"id":"portable",
 		"title": "Portable and Fixed Fire Extinguishing Systems",
 		"location": "content/portable.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"chemical",
 		"title": "Chemical, Biological, and Radiological Defense (CBRD)",
 		"location": "content/chemical.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-15.jpg"
 	},
 	{
 		"id":"fighting",
 		"title": "General Firefighting Procedures and Fire Party Organization",
 		"location": "content/fighting.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-16.jpg"
 	},
 	{
 		"id":"laboratory",
 		"title": "Firefighting Trainer Laboratory",
 		"location": "content/laboratory.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"predatory",
 		"title": "Predatory Lending",
 		"location": "content/predatory.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-17.jpg"
 	},
 	{
 		"id":"conduct",
 		"title": "Conduct and Precautions Ashore",
 		"location": "content/percautions.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"tools",
 		"title": "Navy Career Tools",
 		"location": "content/tools.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"reading",
 		"title": "Navy Professional Reading Program",
 		"location": "content/reading.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-10.jpg"
 	},
 	{
 		"id":"center",
 		"title": "Naval Dental Center",
 		"location": "content/center.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-07.jpg"
 	},
 	{
 		"id":"fitness",
 		"title": "Navy Operational Fitness Series",
 		"location": "content/fitness.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-06.jpg"
 	},
 	{
 		"id":"standards",
 		"title": "Navy Standards",
 		"location": "content/standards.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-08.jpg"
 	},
 	{
 		"id":"formations",
 		"title": "Detail / Element Formations",
 		"location": "content/formation.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"pass",
 		"title": "Inter-station Pass",
 		"location": "content/pass.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"map",
 		"title": "Recruit Training Command",
 		"location": "content/map.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-04.jpg"
 	},
 	{
 		"id":"ethos",
 		"title": "Navy Ethos",
 		"location": "content/ethos.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"protection",
 		"title": "Force Protection Conditions",
 		"location": "content/protection.html",
-		"image": "content/bill.jpg"
+		"image": "img/banner-09.jpg"
 	}
 ]
