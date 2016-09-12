@@ -1,19 +1,54 @@
 [
 	{
-		"question": "This is an example question",
-		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+		"question":"How do I use this guide?",
+		"answer":"Each “Topic” represents a lesson or lesson series. Each Topic area has an associated sub navigation with related materials.  You will be directed or reference the Daily Schedule in your compartment to learn what classes are scheduled and the topics to study.  Use the bookmark feature to flag Topics and use the notes feature for annotations.  Export individual topic areas to email for future reference post RTC."
 	},
 	{
-		"question": "Another common question",
-		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
-	},{
-		"question": "Question about this thing",
-		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
-	},{
-		"question": "What do I do here?",
-		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
-	},{
-		"question": "Common problem people run into",
-		"answer": "Lorem ipsum Velit non in irure in non cupidatat esse laboris pariatur enim irure id sunt eiusmod magna ut minim ex irure."
+		"question":"What are Outline sheets?",
+		"answer":"Outline sheet summarize the major teaching points and follow the instructor’s lesson plan. "
+	},
+	{
+		"question":"What are Assignment sheets?",
+		"answer":"Assignment sheets are study guides that help you prepare and study a topic before you take an examination."
+	},
+	{
+		"question":"What are Information sheets?",
+		"answer":"Information sheets are reference materials, technical manuals and books that serve as handy references for important topic material."
+	},
+	{
+		"question":"What are Job sheets?",
+		"answer":"Job sheets are step-by-step instructions to help you learn and perform job tasks."
+	},
+	{
+		"question":"What are Diagram sheets?",
+		"answer":"Diagram sheets are illustrations or images for related to a topic."
+	},
+	{
+		"question":"How do I export topics/notes?",
+		"answer":"Go to a specific topic area and select ‘export’.  This will capture the topic/notes content and allow you to copy and paste into your email account for later reference.  Note: you will need an internet connection."
+	},
+	{
+		"question":"How do I take notes?",
+		"answer":"Select the notes icon on the top left of your screen to open the notes panel.  Select ‘+’ to add a new note.  A popup window will allow you to indicate a note title and details.  Be sure to save the note before closing the window. "
+	},
+	{
+		"question":"How do I find specific sheets?",
+		"answer":"TBD."
+	},
+	{
+		"question":"How do I add/remove bookmarks?",
+		"answer":"Go to a Topic area and select the bookmark icon located in the blue header.  New bookmarks will appear in the Topics menu.  To remove a bookmark go to a bookmarked topic and select the icon."
+	},
+	{
+		"question":"How do I provide feedback on the guide?",
+		"answer":"TBD."
+	},
+	{
+		"question":"What are the CO’s Top Six?",
+		"answer":"<strong>S</strong>uccessful - NO Sexual Harassment<br><strong>R</strong>ecruits - NO Racism/Discrimination<br><strong>F</strong>ollow - NO Fraternization<br><strong>R</strong>eally - NO Recruit-to-Recruit Contact<br><strong>H</strong>igh - NO Hazing<br><strong>S</strong>tandards - NO Substance Abuse<br><br><strong>S</strong>uccessful <strong>R</strong>ecruits <strong>F</strong>ollow <strong>R</strong>eally <strong>H</strong>igh <strong>S</strong>tandards"
+	},
+	{
+		"question":"What is the RTC Maxim?",
+		"answer":"I will not lie, cheat, or steal, nor tolerate those among us who do."
 	}
 ]
