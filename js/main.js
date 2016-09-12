@@ -230,6 +230,13 @@ $(document).ready(function(){
 		//            NOTES
 		// ===========================================
 
+		//open note modal
+		$('#new-note-button').click(function(){
+			var currentdate=new Date();
+
+			$('#new-note-title').val($('#topic-title').text());
+		});
+
 		//save new note
 		$('.save-note-button').click(function(){
 			var title=$('#new-note-title').val();
