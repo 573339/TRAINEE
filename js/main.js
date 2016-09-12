@@ -470,7 +470,7 @@ $(document).ready(function(){
 
 		//clone portal content
 		var clone=$('#portal').clone();
-		//clone.text(($('#topic-title').text()+'\n'+clone.text()));
+		clone.text(($('#topic-title').text()+'\n'+clone.text()));
 		//process answers and insert as text
 		clone.find('input').each(function(){
 			if($(this).hasClass('inline-form')){
