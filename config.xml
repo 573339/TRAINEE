@@ -20,8 +20,12 @@
     
     <preference name="fullscreen" value="true" />
     
+    <platform name="ios" >
+        <preference name="target-device" value="tablet" />
+    </platform>
     
     <preference name="webviewbounce" value="false" />
+    <icon src="icon.png" />
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
