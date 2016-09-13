@@ -26,6 +26,7 @@
     
     <preference name="webviewbounce" value="false" />
     <icon src="icon.png" />
+    <gap:splash src="splash.png" />
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
