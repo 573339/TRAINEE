@@ -1,15 +1,15 @@
 [
 	{
-		"id":"pledge",
-		"title": "The Pledge Of Allegiance",
-		"location": "content/pledge.html",
-		"image": "img/banner-02.jpg"
-	},
-	{
 		"id":"basic",
 		"title": "Basic Military Training",
 		"location": "content/basic.html",
 		"image": "img/banner-07.jpg"
+	},
+	{
+		"id":"pledge",
+		"title": "The Pledge of Allegiance",
+		"location": "content/pledge.html",
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"introduction",
