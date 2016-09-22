@@ -246,6 +246,13 @@ ul.address {
   position: absolute;
   margin-right: -250px; }
 
+.notes-export-btn {
+  color: #636363;
+  float: right; }
+  .notes-export-btn i {
+    margin-left: 10px;
+    color: #636363; }
+
 .modal-dialog {
   margin: 100px auto; }
 

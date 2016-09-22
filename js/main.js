@@ -8,9 +8,7 @@ var topics;
 var currentTopic='';
 var prefix='NAVYTG';
 var bookmarks;
-
-
-
+var notesExport;
 
 
 
@@ -158,6 +156,7 @@ $(document).ready(function(){
 					$('#notes-counter').text(len+' notes');
 				}
 
+				notesExport='NOTES\n-----------------------------------------\n';
 
 				for (i = 0; i < len; i++){
 					msg = results.rows.item(i).title;
@@ -171,7 +170,15 @@ $(document).ready(function(){
 					'</a>';
 					$('.all-notes').append($(newNote));
 
+					notesExport+=results.rows.item(i).title;
+					notesExport+='\n';
+					notesExport+=results.rows.item(i).modified;
+					notesExport+='\n';
+					notesExport+=results.rows.item(i).note;
+					notesExport+='\n-----------------------------------------\n';
+
 				}
+				
 			}, null);
 		});
 	}
@@ -468,41 +475,41 @@ $(document).ready(function(){
 		//exports portal content as copyable
 		function exportPortal(){
 
-		//clone portal content
-		var clone=$('#portal').clone();
-		clone.text(($('#topic-title').text()+'\n'+clone.text()));
-		//process answers and insert as text
-		clone.find('input').each(function(){
-			if($(this).hasClass('inline-form')){
-				$(this).replaceWith('[ANSWER: '+$(this).val()+']]]');
-			}
-			else{
-				$(this).replaceWith('[ANSWER: '+$(this).val()+']');
-			}
+			//clone portal content
+			var clone=$('#portal').clone();
+			clone.text(($('#topic-title').text()+'\n'+clone.text()));
+			//process answers and insert as text
+			clone.find('input').each(function(){
+				if($(this).hasClass('inline-form')){
+					$(this).replaceWith('[ANSWER: '+$(this).val()+']]]');
+				}
+				else{
+					$(this).replaceWith('[ANSWER: '+$(this).val()+']');
+				}
 
-		});
+			});
 
 
-		//remove whitespaces
-		var oldString=clone.text();
-		var newString=oldString.replace(/^[ \t\r]+\b/gm,'');
+			//remove whitespaces
+			var oldString=clone.text();
+			var newString=oldString.replace(/^[ \t\r]+\b/gm,'');
 
-		oldString=newString;
-		newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
+			oldString=newString;
+			newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
 
-		oldString=newString;
-		newString=oldString.replace(/\]\]\]\n/gm,'\] ');
+			oldString=newString;
+			newString=oldString.replace(/\]\]\]\n/gm,'\] ');
 
-		oldString=newString;
-		newString=oldString.replace(/^\s+$/gm,'\n');
+			oldString=newString;
+			newString=oldString.replace(/^\s+$/gm,'\n');
 
-		oldString=newString;
-		newString=oldString.replace(/^\n+/gm,'\n');
+			oldString=newString;
+			newString=oldString.replace(/^\n+/gm,'\n');
 
-		//console.log(newString);
+			//console.log(newString);
 
-		//insert processed text into export textarea
-		$('.exportContainer').html(newString);
+			//insert processed text into export textarea
+			$('.exportContainer').html(newString);
 
 
 		}
@@ -510,6 +517,11 @@ $(document).ready(function(){
 		//export button triggers export function
 		$('#export').click(function(){
 			exportPortal();
+		});
+
+		//export button triggers export function
+		$('.notes-export-btn').click(function(){
+			$('.exportContainer').html(notesExport);
 		});
 
 		//select all exportable text
