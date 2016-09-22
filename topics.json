@@ -123,7 +123,10 @@
 		"id":"ucmj",
 		"title": "Uniform Code Of Military Justice",
 		"location": "content/ucmj.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"DoD Briefing on Separation Policy"
+		]
 	},
 	{
 		"id":"pay",
@@ -141,13 +144,23 @@
 		"id":"bill",
 		"title": "Montgomery GI Bill",
 		"location": "content/bill.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"Quick Comparison of Educational Benefits Programs",
+			"Montgomery GI Bill Enrollment Form"
+		]
 	},
 	{
 		"id":"nutrition",
 		"title": "Introduction To Nutrition",
 		"location": "content/nutrition.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"Nutrition Basics for a Healthy Lifestyle",
+			"Choose My Plate.gov",
+			"Hydration Needs",
+			"Water Bottle Cleaning Procedures"
+		]
 	},
 	{
 		"id":"procedures",
@@ -159,7 +172,10 @@
 		"id":"uniforms",
 		"title": "Navy Working Uniforms",
 		"location": "content/uniforms.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"Tying the Neckerchief"
+		]
 	},
 	{
 		"id":"survival",
@@ -231,7 +247,10 @@
 		"id":"equal",
 		"title": "Navy Equal Opportunity Program",
 		"location": "content/equal.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"Report of Grievance/Alleged Incident of Discrimination"
+		]
 	},
 	{
 		"id":"courtesy",
@@ -243,13 +262,20 @@
 		"id":"seamanship",
 		"title": "Basic Seamanship, Part 1- Nomenclature",
 		"location": "content/seamanship1.html",
-		"image": "img/banner-05.jpg"
+		"image": "img/banner-05.jpg",
+		"sheets":[
+			"Flags and Pennants"
+		]
 	},
 	{
 		"id":"basicseamanship",
 		"title": "Seamanship, P2- Lines, Ropes, Small Boats and SP Telephones",
 		"location": "content/seamanship2.html",
-		"image": "img/banner-07.jpg"
+		"image": "img/banner-07.jpg",
+		"sheets":[
+			"Knot Tying",
+			"Sound Powered Telephones"
+		]
 	},
 	{
 		"id":"line",
@@ -309,7 +335,12 @@
 		"id":"force",
 		"title": "Antiterrorism/Force Protection",
 		"location": "content/force.html",
-		"image": "img/banner-04.jpg"
+		"image": "img/banner-04.jpg",
+		"sheets":[
+			"Telephonic Threat Complaint",
+			"Combating Terrorism",
+			"DoD Code of Conduct for Personnel Subject to Terrorist Activity"
+		]
 	},
 	{
 		"id":"commission",
@@ -333,7 +364,10 @@
 		"id":"damage",
 		"title": "Basic Damage Control",
 		"location": "content/damage.html",
-		"image": "img/banner-02.jpg"
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			"Shipboard Markings"
+		]
 	},
 	{
 		"id":"control",

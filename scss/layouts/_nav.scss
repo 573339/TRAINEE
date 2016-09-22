@@ -304,7 +304,6 @@ display:block;
 
 
 			li{
-
 				a{
 					padding: 6px 15px 6px 15px;
 					display:block;
@@ -323,11 +322,23 @@ display:block;
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
 					}
+
+					span{
+						display:none;
+						float:none;
+						text-align:left;
+						font-size:14px;
+						color:gray;
+						padding-left:16px;
+					}
 				}
+
 
 				&.even a{
 					background:#f3f3f3
 				}
+
+				
 			}
 
 			

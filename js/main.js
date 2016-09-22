@@ -361,8 +361,14 @@ $(document).ready(function(){
 		function generateTopicNav(){
 
 			$.each(topics,function(index){
-				var newTopicNav='<li><a href="'+index+'" class="" data-topic="'+this.id+'">'+this.title+'</a></li>';
-				$(newTopicNav).appendTo('#topicNav');
+				var newTopicNav=$('<li><a href="'+index+'" class="" data-topic="'+this.id+'">'+this.title+'</a></li>');
+
+				if(this.sheets){
+					$.each(this.sheets,function(){
+						$('<span>'+this+'</span>').appendTo(newTopicNav.find('a'));
+					});
+				}
+				newTopicNav.appendTo('#topicNav');
 			});
 
 			resetTopicNav();
@@ -548,6 +554,7 @@ $(document).ready(function(){
 
 			if($('#topicNav-search').val()!=''){
 				$('#topicNav li').hide();
+				$('#topicNav li a span').css('display','block');
 				$('#topicNav li a:containsIN("'+$(this).val()+'")').parent().show();
 				$('#topicNav-search-clear').show().siblings('.fa').hide();
 				$('#topicNav li:visible:even').addClass('even');
@@ -555,6 +562,7 @@ $(document).ready(function(){
 			}
 			else{
 				$('#topicNav li').show();
+				$('#topicNav li a span').css('display','none');
 				$('#topicNav-search-clear').hide().siblings('.fa').show();
 				resetTopicNav();
 			}

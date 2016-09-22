@@ -718,6 +718,13 @@ label {
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
+      .topicNav-area .topicNav-wrapper #topicNav li a span {
+        display: none;
+        float: none;
+        text-align: left;
+        font-size: 14px;
+        color: gray;
+        padding-left: 16px; }
     .topicNav-area .topicNav-wrapper #topicNav li.even a {
       background: #f3f3f3; }
 
