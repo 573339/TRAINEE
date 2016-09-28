@@ -29,7 +29,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-     border-right:1px solid $light-grey;
+
 }
 
 
@@ -364,3 +364,10 @@ $medium: #333;
 .tooltip.in{
   z-index:1;
 }
+
+// BASIC TRAINING
+
+.basic {
+  margin-bottom:15px;
+}
+
