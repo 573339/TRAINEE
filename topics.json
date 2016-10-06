@@ -209,7 +209,7 @@
 	},
 	{
 		"id":"assault",
-		"title": "Sexual Assault Prevention and Reporting",
+		"title": "Sexual Assault Prevention & Reporting",
 		"location": "content/assault.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -221,7 +221,7 @@
 	},
 	{
 		"id":"enlisted",
-		"title": "Enlisted Rate and Officer Rank Recognition",
+		"title": "Enlisted Rate & Officer Rank Recognition",
 		"location": "content/enlisted.html",
 		"image": "img/watch.jpg"
 	},
@@ -239,7 +239,7 @@
 	},
 	{
 		"id":"grooming",
-		"title": "Uniforms and Grooming",
+		"title": "Uniforms & Grooming",
 		"location": "content/grooming.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -254,7 +254,7 @@
 	},
 	{
 		"id":"courtesy",
-		"title": "Military Customs and Courtesies",
+		"title": "Military Customs & Courtesies",
 		"location": "content/courtesy.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -269,7 +269,7 @@
 	},
 	{
 		"id":"basicseamanship",
-		"title": "Seamanship, P2- Lines, Ropes, Small Boats and SP Telephones",
+		"title": "Seamanship, P2- Lines, Ropes, Small Boats & SP Telephones",
 		"location": "content/seamanship2.html",
 		"image": "img/banner-07.jpg",
 		"sheets":[
@@ -285,19 +285,19 @@
 	},
 	{
 		"id":"tour",
-		"title": "Marlinespike Tour and Line Handling Laboratory 2",
+		"title": "Marlinespike Tour & Line Handling Laboratory 2",
 		"location": "content/tour.html",
 		"image": "img/bill.jpg"
 	},
 	{
 		"id":"family",
-		"title": "Family Planning and Care Policies",
+		"title": "Family Planning & Care Policies",
 		"location": "content/family.html",
 		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"history",
-		"title": "Naval History and Traditions",
+		"title": "Naval History & Traditions",
 		"location": "content/history.html",
 		"image": "img/banner-19.jpg"
 	},
@@ -321,7 +321,7 @@
 	},
 	{
 		"id":"alcohol",
-		"title": "Navy Drug And Alcohol Program",
+		"title": "Navy Drug & Alcohol Program",
 		"location": "content/alcohol.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -350,7 +350,7 @@
 	},
 	{
 		"id":"path",
-		"title": "Career Path and Advancement",
+		"title": "Career Path & Advancement",
 		"location": "content/path.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -383,25 +383,25 @@
 	},
 	{
 		"id":"chemistry",
-		"title": "Chemistry and Classes Of Fires",
+		"title": "Chemistry & Classes Of Fires",
 		"location": "content/chemistry.html",
 		"image": "img/banner-16.jpg"
 	},
 	{
 		"id":"portable",
-		"title": "Portable and Fixed Fire Extinguishing Systems",
+		"title": "Portable & Fixed Fire Extinguishing Systems",
 		"location": "content/portable.html",
 		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"chemical",
-		"title": "Chemical, Biological, and Radiological Defense (CBRD)",
+		"title": "Chemical, Biological, & Radiological Defense (CBRD)",
 		"location": "content/chemical.html",
 		"image": "img/banner-15.jpg"
 	},
 	{
 		"id":"fighting",
-		"title": "General Firefighting Procedures and Fire Party Organization",
+		"title": "General Firefighting Procedures & Fire Party Organization",
 		"location": "content/fighting.html",
 		"image": "img/banner-16.jpg"
 	},
@@ -419,7 +419,7 @@
 	},
 	{
 		"id":"conduct",
-		"title": "Conduct and Precautions Ashore",
+		"title": "Conduct & Precautions Ashore",
 		"location": "content/percautions.html",
 		"image": "img/banner-02.jpg"
 	},
@@ -455,7 +455,7 @@
 	},
 	{
 		"id":"formations",
-		"title": "Detail / Element Formations",
+		"title": "Detail/Element Formations",
 		"location": "content/formation.html",
 		"image": "img/banner-02.jpg"
 	},
