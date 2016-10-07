@@ -671,14 +671,15 @@ small {
 /* line 382, ../scss/modules/_sections.scss */
 .rtc p {
   text-align: center;
+  font-weight: bold;
 }
-/* line 386, ../scss/modules/_sections.scss */
+/* line 387, ../scss/modules/_sections.scss */
 .rtc img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 392, ../scss/modules/_sections.scss */
+/* line 393, ../scss/modules/_sections.scss */
 .rtc-wrap {
   margin: 0 auto;
   display: block;
@@ -686,12 +687,12 @@ small {
 }
 
 /* RECRUIT WRITING */
-/* line 403, ../scss/modules/_sections.scss */
+/* line 404, ../scss/modules/_sections.scss */
 .writing h3 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 408, ../scss/modules/_sections.scss */
+/* line 409, ../scss/modules/_sections.scss */
 .writing h5 {
   font-size: 60px;
   color: #404040;
@@ -699,14 +700,14 @@ small {
   margin-bottom: 30px;
 }
 
-/* line 417, ../scss/modules/_sections.scss */
+/* line 418, ../scss/modules/_sections.scss */
 .month-wrap {
   display: block;
   position: relative;
   left: 10%;
 }
 
-/* line 423, ../scss/modules/_sections.scss */
+/* line 424, ../scss/modules/_sections.scss */
 .month li {
   font-size: 50px;
   font-weight: bold;
@@ -714,7 +715,7 @@ small {
 }
 
 /* OFFICE ENTERING PROCEDURES */
-/* line 430, ../scss/modules/_sections.scss */
+/* line 431, ../scss/modules/_sections.scss */
 .attention {
   font-size: 20px;
   font-weight: lighter;
@@ -722,7 +723,7 @@ small {
 }
 
 /* IMAGE STYLES */
-/* line 438, ../scss/modules/_sections.scss */
+/* line 439, ../scss/modules/_sections.scss */
 .photos {
   border-top: 4px solid #9e9e9e;
   border-bottom: 1px solid #9e9e9e;
@@ -731,30 +732,30 @@ small {
   width: 100%;
 }
 
-/* line 446, ../scss/modules/_sections.scss */
+/* line 447, ../scss/modules/_sections.scss */
 .pad-left {
   padding-left: 0;
   border-left: 3px solid #ffffff;
 }
 
-/* line 451, ../scss/modules/_sections.scss */
+/* line 452, ../scss/modules/_sections.scss */
 .pad-right {
   padding-right: 0;
 }
 
-/* line 455, ../scss/modules/_sections.scss */
+/* line 456, ../scss/modules/_sections.scss */
 .img-wrap {
   display: inline-block;
   width: auto;
 }
-/* line 459, ../scss/modules/_sections.scss */
+/* line 460, ../scss/modules/_sections.scss */
 .img-wrap p {
   text-align: left;
   font-size: 14px;
   margin-top: 5px;
 }
 
-/* line 466, ../scss/modules/_sections.scss */
+/* line 467, ../scss/modules/_sections.scss */
 .img-float {
   float: left;
   margin-right: 2px;
