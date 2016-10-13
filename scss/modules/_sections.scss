@@ -436,6 +436,14 @@ $medium: #333;
 
 /* IMAGE STYLES */
 
+.photos-vertical {
+  border-top:4px solid $medium-grey;
+  border-bottom:1px solid $medium-grey;
+  padding:20px 0;
+  margin:50px 0;
+  width:450px;
+}
+
 .photos {
   border-top:4px solid $medium-grey;
   border-bottom:1px solid $medium-grey;
@@ -469,3 +477,17 @@ p {
   margin-right:2px;
 }
 
+/* RECRUIT CHAIN OF COMMAND */
+
+.chain-form-spacing input {
+  width:360px;
+  margin-bottom:15px;
+}
+
+.command-line li {
+  margin-bottom:10px;
+}
+
+.autoModal.modal .modal-body{
+    max-height: 100%;
+}
