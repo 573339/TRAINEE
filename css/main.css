@@ -787,6 +787,18 @@ small {
   max-height: 100%;
 }
 
+/* TYING THE NECKERCHIEF */
+/* line 497, ../scss/modules/_sections.scss */
+.tying img {
+  margin-bottom: 15px;
+}
+
+/* line 501, ../scss/modules/_sections.scss */
+.knot-text {
+  font-size: 13px;
+  line-height: 20px;
+}
+
 /* line 3, ../scss/modules/_components.scss */
 label {
   display: inline-block;
