@@ -442,6 +442,8 @@
 }
 .fa-question-circle:before {
   content: "\f059";
+  color:#007aff;
+  padding-right:5px;
 }
 .fa-info-circle:before {
   content: "\f05a";
