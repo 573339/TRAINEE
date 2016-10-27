@@ -41,6 +41,10 @@ h2 {
 	line-height: 40px;
 }
 
+table, th, td {
+	border:1px solid $light-grey;
+}
+
 .main-content {
 	margin-top:30px;
 }

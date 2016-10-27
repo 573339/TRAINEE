@@ -502,3 +502,21 @@ p {
     font-size: 13px;
     line-height: 20px;
 }
+
+/* NUTRITION */
+
+.food-title {
+  color:$blue-color;
+  font-weight:14px;
+  font-style:italic;
+}
+
+.food-qa h4 {
+text-align:left;
+margin-top:2px;
+  
+}
+
+.grain-list li {
+  list-style-type:disc;
+}
