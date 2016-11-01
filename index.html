@@ -64,7 +64,7 @@
 
 					<!-- Collect the nav links, forms, and other content for toggling -->  
 					<div class="row">
-						<div class="col-xs-4 navy">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 navy">
 							<a href="#menu-toggle" id="menu-toggle" class="navpadding" style="display: inline-block;" ><i class="fa fa-sticky-note" style=""></i>Notes</a>
 						</div>
 						
@@ -88,14 +88,14 @@
 							</div>
 						</div>
 
-						<div class="col-xs-4 navy text-right">
+						<div class="col-xs-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 navy text-right">
 							<a href="#" data-toggle="modal" data-target="#exportModal" id="export" class="navpadding" style="margin-right: 30px;display: inline-block;" ><i class="fa fa-download"></i>Export</a>
 							<a href="#" data-toggle="modal" data-target="#helpModal" class="navpadding" style="display: inline-block;" ><i class="fa fa-question-circle"></i>Help</a>
 						</div>
 					</div>
 
 				</div><!-- /.container-fluid -->
-			</nav>
+			</nav><!-- end of navbar -->
 
 
 			<section class="hero">
@@ -141,8 +141,8 @@
 			<!-- MAIN CONTENT -->
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-12 main-content" id="portal">
-						     
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main-content" id="portal">
+
 
 					</div>
 				</div><!-- end of row -->
@@ -150,14 +150,6 @@
 
 
 
-			<footer class="footer">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-6"><p class="left">A-950-0001 v1.4, October 25</p></div>
-						<div class="col-xs-6 col-sm-6 col-md-6"> <p class="right">For Training Use Only</p></div>
-					</div>
-				</div>
-			</footer>
 
 			<!-- NOTE MODAL ONE -->
 			<div id="new-note" class="modal fade" role="dialog">
@@ -306,7 +298,7 @@
 				</div>
 			</div><!-- USS CONSTITUTION END MODAL ONE -->
 
-				<!-- USS LAPWING MODAL ONE -->
+			<!-- USS LAPWING MODAL ONE -->
 			<div id="lapwing" class="modal fade" role="dialog">
 				<div class="modal-dialog">
 
@@ -428,7 +420,7 @@
 				</div>
 			</div><!-- USS XCLASS  MODAL ONE -->
 
-				<!-- USS RIB MODAL ONE -->
+			<!-- USS RIB MODAL ONE -->
 			<div id="rigid" class="modal fade" role="dialog">
 				<div class="modal-dialog">
 
@@ -467,8 +459,20 @@
 					</div>
 				</div>
 			</div><!-- USS RIB  MODAL ONE -->
+			<div class="push"></div>
 		</div><!-- /#wrapper -->
+
 	</div>
+
+	
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6"><p class="left">A-950-0001 v1.4, October 25</p></div>
+					<div class="col-xs-6 col-sm-6 col-md-6"> <p class="right">For Training Use Only</p></div>
+				</div>
+			</div>
+		</footer>
 
 	<div class="shroud"></div>
 	
@@ -484,10 +488,10 @@
 
     <!-- Menu Toggle Script -->
     <script>
-    	$("#menu-toggle").click(function(e) {
-    		e.preventDefault();
-    		$("#wrapper").toggleClass("toggled");
-    	});
+    $("#menu-toggle").click(function(e) {
+    	e.preventDefault();
+    	$("#wrapper").toggleClass("toggled");
+    });
     </script>
     <script>$(".dropdown-menu li a").click(function(){
     	var selText = $(this).text();

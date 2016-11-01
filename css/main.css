@@ -5,6 +5,12 @@ Version 0.0.1
 */
 /* BASE- Base styles, variables, mixins, etc*/
 /* line 1, ../scss/base/_base.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 6, ../scss/base/_base.scss */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   color: #404040;
@@ -13,7 +19,7 @@ body {
   font-size: 16px;
 }
 
-/* line 9, ../scss/base/_base.scss */
+/* line 14, ../scss/base/_base.scss */
 li > span {
   float: left;
   margin-right: 10px;
@@ -21,31 +27,31 @@ li > span {
   color: #2e7dbb;
 }
 
-/* line 16, ../scss/base/_base.scss */
+/* line 21, ../scss/base/_base.scss */
 ul {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 21, ../scss/base/_base.scss */
+/* line 26, ../scss/base/_base.scss */
 a {
   color: #eb7040;
   text-decoration: none;
 }
 
-/* line 27, ../scss/base/_base.scss */
+/* line 32, ../scss/base/_base.scss */
 a:hover, a:focus {
   text-decoration: none;
   color: #c84e4e;
 }
 
-/* line 32, ../scss/base/_base.scss */
+/* line 37, ../scss/base/_base.scss */
 p {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 37, ../scss/base/_base.scss */
+/* line 42, ../scss/base/_base.scss */
 h2 {
   font-weight: 100;
   color: #2e7dbb;
@@ -53,23 +59,23 @@ h2 {
   line-height: 40px;
 }
 
-/* line 44, ../scss/base/_base.scss */
+/* line 49, ../scss/base/_base.scss */
 table, th, td {
   border: 1px solid #d7d7d7;
 }
 
-/* line 48, ../scss/base/_base.scss */
+/* line 53, ../scss/base/_base.scss */
 .main-content {
   margin-top: 30px;
 }
 
-/* line 52, ../scss/base/_base.scss */
+/* line 57, ../scss/base/_base.scss */
 #portal span.highlight {
   background-color: yellow;
   display: inline-block;
 }
 
-/* line 58, ../scss/base/_base.scss */
+/* line 63, ../scss/base/_base.scss */
 .fullImage {
   width: 100%;
   height: auto;
@@ -77,42 +83,42 @@ table, th, td {
   margin-bottom: 30px;
 }
 
-/* line 65, ../scss/base/_base.scss */
+/* line 70, ../scss/base/_base.scss */
 .rank-study {
   text-align: center;
 }
-/* line 68, ../scss/base/_base.scss */
+/* line 73, ../scss/base/_base.scss */
 .rank-study img {
   display: inline-block;
   max-width: 180px;
 }
 
-/* line 75, ../scss/base/_base.scss */
+/* line 80, ../scss/base/_base.scss */
 .list-wrapper h2, .list-wrapper h4 {
   margin-top: 30px;
 }
-/* line 78, ../scss/base/_base.scss */
+/* line 83, ../scss/base/_base.scss */
 .list-wrapper ol {
   list-style-type: decimal;
 }
-/* line 81, ../scss/base/_base.scss */
+/* line 86, ../scss/base/_base.scss */
 .list-wrapper ol ol {
   list-style-type: lower-alpha;
 }
-/* line 84, ../scss/base/_base.scss */
+/* line 89, ../scss/base/_base.scss */
 .list-wrapper ol ol ol {
   list-style-type: decimal;
 }
-/* line 86, ../scss/base/_base.scss */
+/* line 91, ../scss/base/_base.scss */
 .list-wrapper ol ol ol ol {
   list-style-type: lower-alpha;
 }
 
-/* line 100, ../scss/base/_base.scss */
+/* line 105, ../scss/base/_base.scss */
 .study-list-wrapper ol {
   list-style-type: decimal;
 }
-/* line 103, ../scss/base/_base.scss */
+/* line 108, ../scss/base/_base.scss */
 .study-list-wrapper ol ol {
   list-style-type: lower-alpha;
 }
@@ -330,6 +336,8 @@ ul.address {
 
 /* line 7, ../scss/modules/_sections.scss */
 #wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -337,12 +345,12 @@ ul.address {
   transition: all 0.5s ease;
 }
 
-/* line 15, ../scss/modules/_sections.scss */
+/* line 17, ../scss/modules/_sections.scss */
 #wrapper.toggled {
   padding-left: 250px;
 }
 
-/* line 19, ../scss/modules/_sections.scss */
+/* line 21, ../scss/modules/_sections.scss */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -358,72 +366,72 @@ ul.address {
   transition: all 0.5s ease;
 }
 
-/* line 36, ../scss/modules/_sections.scss */
+/* line 38, ../scss/modules/_sections.scss */
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
 }
 
-/* line 40, ../scss/modules/_sections.scss */
+/* line 42, ../scss/modules/_sections.scss */
 #page-content-wrapper {
   width: 100%;
   position: absolute;
 }
 
-/* line 45, ../scss/modules/_sections.scss */
+/* line 47, ../scss/modules/_sections.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px;
 }
 
-/* line 54, ../scss/modules/_sections.scss */
+/* line 56, ../scss/modules/_sections.scss */
 .notes-export-btn {
   color: #636363;
   float: right;
 }
-/* line 57, ../scss/modules/_sections.scss */
+/* line 59, ../scss/modules/_sections.scss */
 .notes-export-btn i {
   margin-left: 10px;
   color: #636363;
 }
 
-/* line 63, ../scss/modules/_sections.scss */
+/* line 65, ../scss/modules/_sections.scss */
 .modal-dialog {
   margin: 100px auto;
 }
 
-/* line 69, ../scss/modules/_sections.scss */
+/* line 71, ../scss/modules/_sections.scss */
 .filter {
   color: #636363;
   font-size: 14px;
   float: right;
 }
 
-/* line 76, ../scss/modules/_sections.scss */
+/* line 78, ../scss/modules/_sections.scss */
 .date {
   text-transform: uppercase;
   font-size: 12px;
   color: #636363;
 }
 
-/* line 82, ../scss/modules/_sections.scss */
+/* line 84, ../scss/modules/_sections.scss */
 .all {
   color: #636363;
   float: left;
 }
 
-/* line 87, ../scss/modules/_sections.scss */
+/* line 89, ../scss/modules/_sections.scss */
 .all-notes {
   overflow: auto;
   height: 768px;
 }
 
-/* line 92, ../scss/modules/_sections.scss */
+/* line 94, ../scss/modules/_sections.scss */
 .all-notes a:active {
   background-color: #f4f6f6;
   display: block;
 }
 
-/* line 98, ../scss/modules/_sections.scss */
+/* line 100, ../scss/modules/_sections.scss */
 .sidebar-brand h2 {
   color: #fff;
   font-weight: lighter;
@@ -431,7 +439,7 @@ ul.address {
   margin: 0;
 }
 
-/* line 105, ../scss/modules/_sections.scss */
+/* line 107, ../scss/modules/_sections.scss */
 .sidebar-brand a {
   float: right;
   font-size: 14px;
@@ -440,13 +448,13 @@ ul.address {
   top: 2px;
 }
 
-/* line 113, ../scss/modules/_sections.scss */
+/* line 115, ../scss/modules/_sections.scss */
 .sort {
   top: 30px !important;
   left: -92px;
 }
 
-/* line 118, ../scss/modules/_sections.scss */
+/* line 120, ../scss/modules/_sections.scss */
 .sidebar-brand {
   background-color: #373b42;
   color: white;
@@ -454,7 +462,7 @@ ul.address {
   padding: 15px;
 }
 
-/* line 126, ../scss/modules/_sections.scss */
+/* line 128, ../scss/modules/_sections.scss */
 .sidebar-brand a {
   float: right;
   font-size: 14px;
@@ -463,7 +471,7 @@ ul.address {
   top: 2px;
 }
 
-/* line 135, ../scss/modules/_sections.scss */
+/* line 137, ../scss/modules/_sections.scss */
 #view {
   margin: 0 auto;
   text-align: center;
@@ -473,28 +481,28 @@ ul.address {
   display: inline-block;
 }
 
-/* line 144, ../scss/modules/_sections.scss */
+/* line 146, ../scss/modules/_sections.scss */
 #note-wrap {
   padding: 20px;
 }
 
-/* line 148, ../scss/modules/_sections.scss */
+/* line 150, ../scss/modules/_sections.scss */
 small {
   color: #373b42;
 }
 
-/* line 153, ../scss/modules/_sections.scss */
+/* line 155, ../scss/modules/_sections.scss */
 .note {
   border-bottom: 1px solid #d7d7d7;
   padding: 20px;
 }
 
-/* line 158, ../scss/modules/_sections.scss */
+/* line 160, ../scss/modules/_sections.scss */
 .note p {
   color: #404040;
 }
 
-/* line 162, ../scss/modules/_sections.scss */
+/* line 164, ../scss/modules/_sections.scss */
 .note h4 {
   margin-top: 0;
   color: #2e7dbb;
@@ -502,13 +510,13 @@ small {
   font-size: 22px;
 }
 
-/* line 170, ../scss/modules/_sections.scss */
+/* line 172, ../scss/modules/_sections.scss */
 .fa-plus-circle {
   margin-left: 8px;
   color: #d7d7d7;
 }
 
-/* line 178, ../scss/modules/_sections.scss */
+/* line 180, ../scss/modules/_sections.scss */
 .sidebar-nav {
   position: relative;
   top: 63px;
@@ -520,32 +528,32 @@ small {
   border-right: 1px solid #d7d7d7;
 }
 
-/* line 190, ../scss/modules/_sections.scss */
+/* line 192, ../scss/modules/_sections.scss */
 .sidebar-brand a:link, .sidebar-brand a:visited {
   color: #d7d7d7;
   text-decoration: none;
 }
 
-/* line 195, ../scss/modules/_sections.scss */
+/* line 197, ../scss/modules/_sections.scss */
 .sidebar-brand a:hover {
   color: white;
 }
 
-/* line 200, ../scss/modules/_sections.scss */
+/* line 202, ../scss/modules/_sections.scss */
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
 }
 
-/* line 219, ../scss/modules/_sections.scss */
+/* line 221, ../scss/modules/_sections.scss */
 #helpModal .modal-dialog {
   width: 480px;
 }
-/* line 223, ../scss/modules/_sections.scss */
+/* line 225, ../scss/modules/_sections.scss */
 #helpModal .help-filters {
   position: relative;
 }
-/* line 225, ../scss/modules/_sections.scss */
+/* line 227, ../scss/modules/_sections.scss */
 #helpModal .help-filters::after {
   content: "\f002";
   position: absolute;
@@ -556,7 +564,7 @@ small {
   font-size: 2rem;
   color: #d7d7d7;
 }
-/* line 237, ../scss/modules/_sections.scss */
+/* line 239, ../scss/modules/_sections.scss */
 #helpModal .help-filters .help-search {
   appearance: none;
   border: 0;
@@ -568,19 +576,19 @@ small {
   border: 1px solid #d7d7d7;
   box-shadow: none;
 }
-/* line 252, ../scss/modules/_sections.scss */
+/* line 254, ../scss/modules/_sections.scss */
 #helpModal .help-item:first-child {
   border: 0;
 }
-/* line 254, ../scss/modules/_sections.scss */
+/* line 256, ../scss/modules/_sections.scss */
 #helpModal .help-item:first-child .help-question {
   border-radius: 4px 4px 0 0;
 }
-/* line 260, ../scss/modules/_sections.scss */
+/* line 262, ../scss/modules/_sections.scss */
 #helpModal .help-item:last-child .help-question {
   border-radius: 0 0 4px 4px;
 }
-/* line 265, ../scss/modules/_sections.scss */
+/* line 267, ../scss/modules/_sections.scss */
 #helpModal .help-item .help-question {
   display: block;
   position: relative;
@@ -589,7 +597,7 @@ small {
   color: white;
   font-weight: normal;
 }
-/* line 275, ../scss/modules/_sections.scss */
+/* line 277, ../scss/modules/_sections.scss */
 #helpModal .help-item .help-question::after {
   content: '+';
   position: absolute;
@@ -599,11 +607,11 @@ small {
   font-size: 2rem;
   margin-top: -3px;
 }
-/* line 285, ../scss/modules/_sections.scss */
+/* line 287, ../scss/modules/_sections.scss */
 #helpModal .help-item .help-question.open::after {
   content: '–';
 }
-/* line 290, ../scss/modules/_sections.scss */
+/* line 292, ../scss/modules/_sections.scss */
 #helpModal .help-item .help-answer {
   display: none;
   position: relative;
@@ -611,31 +619,31 @@ small {
   background-color: #d7d7d7;
 }
 
-/* line 314, ../scss/modules/_sections.scss */
+/* line 316, ../scss/modules/_sections.scss */
 .dropdown-menu {
   top: 62px;
 }
 
 /* FLAGS AND PENNANTS */
-/* line 324, ../scss/modules/_sections.scss */
+/* line 326, ../scss/modules/_sections.scss */
 .flag-table img {
   max-width: 100px;
 }
-/* line 328, ../scss/modules/_sections.scss */
+/* line 330, ../scss/modules/_sections.scss */
 .flag-table td, .flag-table th {
   vertical-align: middle !important;
 }
-/* line 332, ../scss/modules/_sections.scss */
+/* line 334, ../scss/modules/_sections.scss */
 .flag-table td:nth-child(2n-1), .flag-table th:nth-child(2n-1) {
   border-right: 0;
 }
-/* line 336, ../scss/modules/_sections.scss */
+/* line 338, ../scss/modules/_sections.scss */
 .flag-table td:nth-child(2n), .flag-table th:nth-child(2n) {
   border-left: 0;
 }
 
 /* SHIPBOARD MARKINGS */
-/* line 345, ../scss/modules/_sections.scss */
+/* line 347, ../scss/modules/_sections.scss */
 .markings-example-box {
   width: 360px;
   min-height: 200px;
@@ -646,7 +654,7 @@ small {
   line-height: 120%;
   margin-bottom: 30px;
 }
-/* line 355, ../scss/modules/_sections.scss */
+/* line 357, ../scss/modules/_sections.scss */
 .markings-example-box .markings-example {
   display: block;
   border: 2px dotted #ffa500;
@@ -654,37 +662,37 @@ small {
   border-radius: 6px;
 }
 
-/* line 363, ../scss/modules/_sections.scss */
+/* line 365, ../scss/modules/_sections.scss */
 .tooltip.in {
   z-index: 1;
 }
 
-/* line 369, ../scss/modules/_sections.scss */
+/* line 371, ../scss/modules/_sections.scss */
 .basic {
   margin-bottom: 15px;
 }
 
 /* RTC MAXIM */
-/* line 375, ../scss/modules/_sections.scss */
+/* line 377, ../scss/modules/_sections.scss */
 .rtc {
   margin: 0 auto;
 }
-/* line 378, ../scss/modules/_sections.scss */
+/* line 380, ../scss/modules/_sections.scss */
 .rtc h1 {
   text-align: center;
 }
-/* line 382, ../scss/modules/_sections.scss */
+/* line 384, ../scss/modules/_sections.scss */
 .rtc p {
   text-align: center;
   font-weight: bold;
 }
-/* line 387, ../scss/modules/_sections.scss */
+/* line 389, ../scss/modules/_sections.scss */
 .rtc img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 393, ../scss/modules/_sections.scss */
+/* line 395, ../scss/modules/_sections.scss */
 .rtc-wrap {
   margin: 0 auto;
   display: block;
@@ -692,12 +700,12 @@ small {
 }
 
 /* RECRUIT WRITING */
-/* line 404, ../scss/modules/_sections.scss */
+/* line 406, ../scss/modules/_sections.scss */
 .writing h3 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 409, ../scss/modules/_sections.scss */
+/* line 411, ../scss/modules/_sections.scss */
 .writing h5 {
   font-size: 60px;
   color: #404040;
@@ -705,14 +713,14 @@ small {
   margin-bottom: 30px;
 }
 
-/* line 418, ../scss/modules/_sections.scss */
+/* line 420, ../scss/modules/_sections.scss */
 .month-wrap {
   display: block;
   position: relative;
   left: 10%;
 }
 
-/* line 424, ../scss/modules/_sections.scss */
+/* line 426, ../scss/modules/_sections.scss */
 .month li {
   font-size: 50px;
   font-weight: bold;
@@ -720,7 +728,7 @@ small {
 }
 
 /* OFFICE ENTERING PROCEDURES */
-/* line 431, ../scss/modules/_sections.scss */
+/* line 433, ../scss/modules/_sections.scss */
 .attention {
   font-size: 20px;
   font-weight: lighter;
@@ -728,7 +736,7 @@ small {
 }
 
 /* IMAGE STYLES */
-/* line 439, ../scss/modules/_sections.scss */
+/* line 441, ../scss/modules/_sections.scss */
 .photos-vertical {
   border-top: 4px solid #9e9e9e;
   border-bottom: 1px solid #9e9e9e;
@@ -737,7 +745,7 @@ small {
   width: 450px;
 }
 
-/* line 447, ../scss/modules/_sections.scss */
+/* line 449, ../scss/modules/_sections.scss */
 .photos {
   border-top: 4px solid #9e9e9e;
   border-bottom: 1px solid #9e9e9e;
@@ -746,79 +754,79 @@ small {
   width: 100%;
 }
 
-/* line 455, ../scss/modules/_sections.scss */
+/* line 457, ../scss/modules/_sections.scss */
 .pad-left {
   padding-left: 0;
   border-left: 3px solid #ffffff;
 }
 
-/* line 460, ../scss/modules/_sections.scss */
+/* line 462, ../scss/modules/_sections.scss */
 .pad-right {
   padding-right: 0;
 }
 
-/* line 464, ../scss/modules/_sections.scss */
+/* line 466, ../scss/modules/_sections.scss */
 .img-wrap {
   display: inline-block;
   width: auto;
 }
-/* line 468, ../scss/modules/_sections.scss */
+/* line 470, ../scss/modules/_sections.scss */
 .img-wrap p {
   text-align: left;
   font-size: 14px;
   margin-top: 5px;
 }
 
-/* line 475, ../scss/modules/_sections.scss */
+/* line 477, ../scss/modules/_sections.scss */
 .img-float {
   float: left;
   margin-right: 2px;
 }
 
 /* RECRUIT CHAIN OF COMMAND */
-/* line 482, ../scss/modules/_sections.scss */
+/* line 484, ../scss/modules/_sections.scss */
 .chain-form-spacing input {
   width: 360px;
   margin-bottom: 15px;
 }
 
-/* line 487, ../scss/modules/_sections.scss */
+/* line 489, ../scss/modules/_sections.scss */
 .command-line li {
   margin-bottom: 10px;
 }
 
-/* line 491, ../scss/modules/_sections.scss */
+/* line 493, ../scss/modules/_sections.scss */
 .autoModal.modal .modal-body {
   max-height: 100%;
 }
 
 /* TYING THE NECKERCHIEF */
-/* line 497, ../scss/modules/_sections.scss */
+/* line 499, ../scss/modules/_sections.scss */
 .tying img {
   margin-bottom: 15px;
 }
 
-/* line 501, ../scss/modules/_sections.scss */
+/* line 503, ../scss/modules/_sections.scss */
 .knot-text {
   font-size: 13px;
   line-height: 20px;
 }
 
 /* NUTRITION */
-/* line 508, ../scss/modules/_sections.scss */
+/* line 510, ../scss/modules/_sections.scss */
 .food-title {
   color: #2e7dbb;
   font-weight: 14px;
   font-style: italic;
 }
 
-/* line 514, ../scss/modules/_sections.scss */
+/* line 516, ../scss/modules/_sections.scss */
 .food-qa h4 {
   text-align: left;
   margin-top: 2px;
 }
 
-/* line 520, ../scss/modules/_sections.scss */
+/* line 522, ../scss/modules/_sections.scss */
 .grain-list li {
   list-style-type: disc;
 }
@@ -1328,17 +1336,23 @@ label {
 .footer {
   background-color: #373b42;
   color: white;
-  padding: 15px;
+  padding: 12px 15px;
   text-transform: uppercase;
   margin-top: 50px;
+  height: 50px;
 }
 
-/* line 9, ../scss/layouts/_footer.scss */
+/* line 10, ../scss/layouts/_footer.scss */
+.push {
+  height: 50px;
+}
+
+/* line 14, ../scss/layouts/_footer.scss */
 .footer p {
   font-size: 14px;
 }
 
-/* line 13, ../scss/layouts/_footer.scss */
+/* line 18, ../scss/layouts/_footer.scss */
 .right {
   float: right;
 }
