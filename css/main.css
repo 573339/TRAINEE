@@ -42,7 +42,7 @@ a {
 /* line 32, ../scss/base/_base.scss */
 a:hover, a:focus {
   text-decoration: none;
-  color: #c84e4e;
+  color: #ee500a;
 }
 
 /* line 37, ../scss/base/_base.scss */
@@ -829,6 +829,14 @@ small {
 /* line 522, ../scss/modules/_sections.scss */
 .grain-list li {
   list-style-type: disc;
+}
+
+/* NAVY CAREER TOOLS */
+/* line 528, ../scss/modules/_sections.scss */
+.tool-wrap {
+  border-bottom: 1px solid #9e9e9e;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 /* line 3, ../scss/modules/_components.scss */
