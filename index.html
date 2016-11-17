@@ -485,6 +485,21 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/fastclick.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.panzoom.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+
+<!-- MAP ZOOM IN/OUT SCRIPT -->
+     <script>
+        (function() {
+          var $section = $('section').first();
+          $section.find('.panzoom').panzoom({
+            $zoomIn: $section.find(".zoom-in"),
+            $zoomOut: $section.find(".zoom-out"),
+            $zoomRange: $section.find(".zoom-range"),
+            $reset: $section.find(".reset")
+          });
+        })();
+      </script>
 
     <!-- Menu Toggle Script -->
     <script>
@@ -497,6 +512,8 @@
     	var selText = $(this).text();
     	$(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
     });</script>
+
+
 
 
 </body>

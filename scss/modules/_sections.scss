@@ -530,3 +530,74 @@ margin-top:2px;
   padding-bottom:15px;
   margin-bottom:20px;
 }
+
+/* RTC MAP */
+
+.panel-title {
+  text-align:center;
+}
+
+.map-nav {
+  border-bottom:1px solid #9e9e9e;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+
+.legend {
+  width:auto;
+}
+
+.locNum {
+  color:$dark-grey;
+  font-weight:bold;
+}
+
+.dropdown-menu {
+  min-width:715px;
+  right:0 !important;
+  line-height:18px;
+  left:auto;
+}
+
+.dropdown-header {
+  color:$blue-color;
+  font-size:16px;
+  font-weight:bold;
+  text-transform:uppercase;
+  padding-bottom:15px;
+  margin-bottom:15px;
+}
+
+.locations li {
+  margin-bottom:14px !important;
+}
+
+.locations li a:link, a:visited {
+  color:$grey-color;
+}
+
+.locations li a:hover, a:focus {
+  color:$accent-color;
+}
+
+.mega-dropdown-menu {
+  padding: 15px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown {
+  position: static !important;
+  width: 100%;
+}

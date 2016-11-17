@@ -468,7 +468,7 @@
 		"id":"map",
 		"title": "Recruit Training Command",
 		"location": "content/map.html",
-		"image": "img/banner-04.jpg"
+		"image": "img/banner-02.jpg"
 	},
 	{
 		"id":"ethos",
@@ -482,4 +482,5 @@
 		"location": "content/protection.html",
 		"image": "img/banner-09.jpg"
 	}
+
 ]
