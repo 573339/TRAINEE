@@ -1,17 +1,9 @@
 <div class="container-fluid map-nav">
 	<div class="row">
-		<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 minusPadding">
-			<div class="dropdown">
-				<button class="btn btn-primary dropdown-toggle map-btn" type="button" data-toggle="dropdown">Naval Station Great Lakes
-					<span class="caret"></span></button>
-					<ul class="dropdown-menu">
-						<li><a href="#" class="camp-john">Camp John Paul Jones</a></li>
-						<li><a href="#">Camp Porter</a></li>
-						<li><a href="#">Camp Moffett</a></li>
-					</ul>
-				</div>
+		<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 minusPadding naval-title">
+			<h2>Naval Station Great Lakes</h2>
 			</div>
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 minusPadding">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 minusPadding" style="top:20px;">
 				<div class="dropdown mega-dropdown dropdown-accordion" data-accordion="#accordion">
 					<button class="btn btn-primary dropdown-toggle map-btn pull-right" type="button" data-toggle="dropdown">Legend
 						<span class="caret"></span></button>
@@ -125,7 +117,7 @@
 
 
 		<section id="focal">
-			<div class="parent">
+			<div class="parent" style="top:5px;">
 				<div class="panzoom">
 					<img src="img/rtcMaps-04.svg" width="715" height="715">
 				</div>
@@ -138,7 +130,22 @@
 				var $panzoom = $section.find('.panzoom').panzoom();
 
 				$('.quad1').click(function(){
-					$panzoom.panzoom('pan', 5,-3,{relative:true});
+					$panzoom.panzoom('pan', 620,150,{relative:true});
+					$panzoom.panzoom('zoom', 4.5);
+				});
+
+				$('.quad2').click(function(){
+					$panzoom.panzoom('pan', 900,-250,{relative:true});
+					$panzoom.panzoom('zoom', 3.5);
+				});
+
+				$('.quad3').click(function(){
+					$panzoom.panzoom('pan', 5,-200,{relative:true});
+					$panzoom.panzoom('zoom', 3.5);
+				});
+
+				$('.quad4').click(function(){
+					$panzoom.panzoom('pan', -850,-400,{relative:true});
 					$panzoom.panzoom('zoom', 3.5);
 				});
 
