@@ -537,6 +537,14 @@ margin-top:2px;
   padding-bottom:0;
 }
 
+.parent {
+  height:600px;
+}
+
+.panzoom {
+  transform:matrix(1, 0, 0, 1, 8, -231);
+}
+
 .panel-title {
   text-align:center;
 }

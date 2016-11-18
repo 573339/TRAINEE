@@ -858,29 +858,39 @@ small {
 }
 
 /* line 540, ../scss/modules/_sections.scss */
+.parent {
+  height: 600px;
+}
+
+/* line 544, ../scss/modules/_sections.scss */
+.panzoom {
+  transform: matrix(1, 0, 0, 1, 8, -231);
+}
+
+/* line 548, ../scss/modules/_sections.scss */
 .panel-title {
   text-align: center;
 }
 
-/* line 544, ../scss/modules/_sections.scss */
+/* line 552, ../scss/modules/_sections.scss */
 .map-nav {
   border-bottom: 1px solid #9e9e9e;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
-/* line 550, ../scss/modules/_sections.scss */
+/* line 558, ../scss/modules/_sections.scss */
 .legend {
   width: auto;
 }
 
-/* line 554, ../scss/modules/_sections.scss */
+/* line 562, ../scss/modules/_sections.scss */
 .locNum {
   color: #373b42;
   font-weight: bold;
 }
 
-/* line 559, ../scss/modules/_sections.scss */
+/* line 567, ../scss/modules/_sections.scss */
 .dropdown-menu {
   min-width: 715px;
   right: 0 !important;
@@ -888,7 +898,7 @@ small {
   left: auto;
 }
 
-/* line 566, ../scss/modules/_sections.scss */
+/* line 574, ../scss/modules/_sections.scss */
 .dropdown-header {
   color: #2e7dbb;
   font-size: 16px;
@@ -898,22 +908,22 @@ small {
   margin-bottom: 15px;
 }
 
-/* line 575, ../scss/modules/_sections.scss */
+/* line 583, ../scss/modules/_sections.scss */
 .locations li {
   margin-bottom: 14px !important;
 }
 
-/* line 579, ../scss/modules/_sections.scss */
+/* line 587, ../scss/modules/_sections.scss */
 .locations li a:link, a:visited {
   color: #404040;
 }
 
-/* line 583, ../scss/modules/_sections.scss */
+/* line 591, ../scss/modules/_sections.scss */
 .locations li a:hover, a:focus {
   color: #eb7040;
 }
 
-/* line 587, ../scss/modules/_sections.scss */
+/* line 595, ../scss/modules/_sections.scss */
 .mega-dropdown-menu {
   padding: 15px;
   width: 100%;
@@ -921,18 +931,18 @@ small {
   -webkit-box-shadow: none;
 }
 
-/* line 595, ../scss/modules/_sections.scss */
+/* line 603, ../scss/modules/_sections.scss */
 .mega-dropdown-menu > li > ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 600, ../scss/modules/_sections.scss */
+/* line 608, ../scss/modules/_sections.scss */
 .mega-dropdown-menu > li > ul > li {
   list-style: none;
 }
 
-/* line 604, ../scss/modules/_sections.scss */
+/* line 612, ../scss/modules/_sections.scss */
 .mega-dropdown {
   position: static !important;
   width: 100%;
