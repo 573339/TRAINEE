@@ -14,7 +14,7 @@
     </description>
 
 	<source-file src="libs/iText-4.2.0.jar" target-dir="libs" />
-    <plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" version="2.2.0" />
 
     <access origin="*"/>
     
