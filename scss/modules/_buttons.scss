@@ -43,4 +43,10 @@
 .slider {
 	position:relative;
 	top:9px;
+	background-color:$light-grey;
+	border:1px solid $medium-grey;
+}
+
+.zoom-range {
+	border:1px solid $light-grey;
 }

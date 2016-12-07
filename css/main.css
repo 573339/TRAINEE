@@ -352,6 +352,13 @@ ul.address {
 .slider {
   position: relative;
   top: 9px;
+  background-color: #d7d7d7;
+  border: 1px solid #9e9e9e;
+}
+
+/* line 50, ../scss/modules/_buttons.scss */
+.zoom-range {
+  border: 1px solid #d7d7d7;
 }
 
 /* line 1, ../scss/modules/_sections.scss */
