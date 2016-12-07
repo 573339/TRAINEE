@@ -33,3 +33,14 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 	background-color:#e5e5e6;
 }
+
+.zoom-in, .zoom-out, .reset {
+	background-color:$white-color;
+	text-shadow:none !important;
+	border:1px solid $light-grey;
+}
+
+.slider {
+	position:relative;
+	top:9px;
+}

@@ -117,11 +117,36 @@
 
 
 		<section id="focal">
+
+			<section id="pan-when-zoomed" class="container-fluid">
+			<div class="row buttons">
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 minusPadding"><button class="zoom-in">Zoom In</button></div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2  minusPadding"><button class="zoom-out">Zoom Out</button></div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 slider"><input type="range" class="zoom-range"></div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><button class="reset">Reset</button></div>
+			</div>
+			<br>
+			<br>
 			<div class="parent" style="top:5px;">
 				<div class="panzoom">
 					<img src="img/rtcMaps-04.svg" width="715" height="715">
 				</div>
 			</div>
+
+			<script>
+			(function() {
+				var $section = $('#pan-when-zoomed');
+				$section.find('.panzoom').panzoom({
+					$zoomIn: $section.find(".zoom-in"),
+					$zoomOut: $section.find(".zoom-out"),
+					$zoomRange: $section.find(".zoom-range"),
+					$reset: $section.find(".reset"),
+					panOnlyWhenZoomed: true,
+					minScale: 1
+				});
+			})();
+			</script>
+
 			<script>
 
 
