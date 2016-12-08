@@ -155,23 +155,35 @@
 				var $panzoom = $section.find('.panzoom').panzoom();
 
 				$('.quad1').click(function(){
-					$panzoom.panzoom('pan', 620,150,{relative:true});
+					$panzoom.panzoom('zoom', 1);
 					$panzoom.panzoom('zoom', 4.5);
+					$panzoom.panzoom('pan', 620,150,{relative:false});
+					
+
 				});
 
 				$('.quad2').click(function(){
-					$panzoom.panzoom('pan', 900,-250,{relative:true});
+					$panzoom.panzoom('zoom', 1);
 					$panzoom.panzoom('zoom', 3.5);
+					$panzoom.panzoom('pan', 900,-250,{relative:false});
+					
+
 				});
 
 				$('.quad3').click(function(){
-					$panzoom.panzoom('pan', 5,-200,{relative:true});
+					$panzoom.panzoom('zoom', 1);
 					$panzoom.panzoom('zoom', 3.5);
+					$panzoom.panzoom('pan', 5,-200,{relative:false});
+					
+
 				});
 
 				$('.quad4').click(function(){
-					$panzoom.panzoom('pan', -850,-400,{relative:true});
+					$panzoom.panzoom('zoom', 1);
 					$panzoom.panzoom('zoom', 3.5);
+					$panzoom.panzoom('pan', -850,-400,{relative:false});
+					
+
 				});
 
 
