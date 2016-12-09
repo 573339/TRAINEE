@@ -57,7 +57,10 @@ table, th, td {
 #portal span.highlight{
 	background-color: yellow;
 	display:inline-block;
-
+	float:none;
+	margin:0;
+	padding:0;
+	color:black;
 }
 
 .fullImage{
