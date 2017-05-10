@@ -1,0 +1,29 @@
+.main-content{
+
+	span.list-number {
+		display: inline-block;
+		width: 30px;
+		font-weight: bold;
+		position:absolute;
+		left:0;
+	}
+
+	ul {
+		position:relative;
+		list-style-type: none;
+		padding-left: 30px;
+	}
+
+	&>ul>li{
+		color:blue;
+	}
+
+	.form-control{
+		border:1px solid red;
+
+		&.inline-form{
+			display:inline-block;
+			width:200px;
+		}
+	}
+}

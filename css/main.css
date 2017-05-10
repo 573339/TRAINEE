@@ -16,12 +16,6 @@ body {
   font-weight: lighter;
   font-size: 16px; }
 
-li > span {
-  float: left;
-  margin-right: 10px;
-  padding-bottom: 15px;
-  color: #2e7dbb; }
-
 ul {
   text-decoration: none;
   list-style-type: none; }
@@ -72,6 +66,7 @@ table, th, td {
 
 .list-wrapper h2, .list-wrapper h4 {
   margin-top: 30px; }
+
 .list-wrapper ol {
   list-style-type: decimal; }
   .list-wrapper ol ol {
@@ -154,13 +149,16 @@ h5 {
 
 .section1 p {
   margin: 15px 0 15px 0; }
+
 .section1 em {
   font-size: 12px; }
+
 .section1 span {
   margin: 20px 0;
   font-size: 12px;
   color: #373b42;
   display: block; }
+
 .section1 h4 {
   text-align: center; }
 
@@ -405,6 +403,7 @@ small {
 
 #helpModal .modal-dialog {
   width: 480px; }
+
 #helpModal .help-filters {
   position: relative; }
   #helpModal .help-filters::after {
@@ -429,12 +428,15 @@ small {
     border-radius: 4px;
     border: 1px solid #d7d7d7;
     box-shadow: none; }
+
 #helpModal .help-item:first-child {
   border: 0; }
   #helpModal .help-item:first-child .help-question {
     border-radius: 4px 4px 0 0; }
+
 #helpModal .help-item:last-child .help-question {
   border-radius: 0 0 4px 4px; }
+
 #helpModal .help-item .help-question {
   display: block;
   position: relative;
@@ -453,6 +455,7 @@ small {
     margin-top: -3px; }
   #helpModal .help-item .help-question.open::after {
     content: '–'; }
+
 #helpModal .help-item .help-answer {
   display: none;
   position: relative;
@@ -465,6 +468,7 @@ small {
 /* FLAGS AND PENNANTS */
 .flag-table img {
   max-width: 100px; }
+
 .flag-table td, .flag-table th {
   vertical-align: middle !important; }
   .flag-table td:nth-child(2n-1), .flag-table th:nth-child(2n-1) {
@@ -541,6 +545,7 @@ small {
 .writing h3 {
   font-size: 40px;
   font-weight: bold; }
+
 .writing h5 {
   font-size: 60px;
   color: #404040;
@@ -719,19 +724,37 @@ label {
 @media (min-width: 768px) {
   #wrapper {
     padding-left: 250px; }
-
   #wrapper.toggled {
     padding-left: 0; }
-
   #sidebar-wrapper {
     width: 250px; }
-
   #wrapper.toggled #sidebar-wrapper {
     width: 0; }
-
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
+
+.main-content span.list-number {
+  display: inline-block;
+  width: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 0; }
+
+.main-content ul {
+  position: relative;
+  list-style-type: none;
+  padding-left: 30px; }
+
+.main-content > ul > li {
+  color: blue; }
+
+.main-content .form-control {
+  border: 1px solid red; }
+  .main-content .form-control.inline-form {
+    display: inline-block;
+    width: 200px; }
+
 /* LAYOUTS- Page Layout Styles*/
 .navbar {
   border: none;
@@ -829,6 +852,7 @@ label {
     -webkit-font-smoothing: antialiased;
     right: 28px;
     top: 10px; }
+
 .sectionNav-area #sectionNav {
   display: none;
   position: absolute;
@@ -881,6 +905,7 @@ label {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
+
 .topicNav-area .topicNav-wrapper {
   display: none;
   position: absolute;
@@ -1014,6 +1039,7 @@ label {
 
 .utility-menu #search {
   width: 250px; }
+
 .utility-menu #search-count {
   font-style: italic;
   margin-right: 10px; }
