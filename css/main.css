@@ -734,26 +734,32 @@ label {
     position: relative;
     margin-right: 0; } }
 
-.main-content span.list-number {
+#portal section span.list-number {
   display: inline-block;
   width: 30px;
   font-weight: bold;
   position: absolute;
   left: 0; }
 
-.main-content ul {
+#portal section ul {
   position: relative;
   list-style-type: none;
   padding-left: 30px; }
+  #portal section ul div + li {
+    margin-top: 20px; }
 
-.main-content > ul > li {
-  color: blue; }
+#portal section .form-control.inline-form {
+  display: inline-block;
+  width: 200px; }
 
-.main-content .form-control {
-  border: 1px solid red; }
-  .main-content .form-control.inline-form {
-    display: inline-block;
-    width: 200px; }
+#portal .sectionType-outline > ul > li, #portal .sectionType-assignment > ul > li {
+  font-weight: 100;
+  color: #2e7dbb;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 30px; }
+  #portal .sectionType-outline > ul > li > span.list-number, #portal .sectionType-assignment > ul > li > span.list-number {
+    font-weight: 100; }
 
 /* LAYOUTS- Page Layout Styles*/
 .navbar {

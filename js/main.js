@@ -374,20 +374,38 @@ $(document).ready(function(){
 			resetTopicNav();
 		}
 
+		//load sheet in
+		function loadSheet(topic,index,limit){
+			var newEl=$('<section class="sectionType-'+topic.sheets[index].type+'" data-index="'+index+'">');
+			newEl.load(topic.sheets[index].file,function(){
+				newEl.prepend($('<h1 data-sectiontitle="'+topic.sheets[index].number+'">'+topic.sheets[index].number+'</h1>'));
+				newEl.appendTo('#portal');
+
+				if(index<limit){
+					loadSheet(topic,index+1,limit);
+				}
+				else{
+					$('#topic-title').text(topic.title);
+					$('.hero').css('background-image','url(\''+topic.image+'\')');
+					$('#portal [data-toggle="tooltip"]').tooltip();
+					$('#portal .tooltip-show[data-toggle="tooltip"]').tooltip('show');
+					$('[data-save]').each(function(index){
+						$(this).attr('data-save',index);
+					});
+
+					restoreStudy();
+					evalBookmarks();
+					generateSectionNav();
+					$(window).scrollTop(0);
+				}
+			});
+		}
+
 		//function to load new topics
 		function loadTopic(topic){
 			currentTopic=topic.id;
-			$('#portal').load(topic.location,function(){
-				$('#topic-title').text(topic.title);
-				$('.hero').css('background-image','url(\''+topic.image+'\')');
-				$('#portal [data-toggle="tooltip"]').tooltip();
-				$('#portal .tooltip-show[data-toggle="tooltip"]').tooltip('show');
-
-				restoreStudy();
-				evalBookmarks();
-				generateSectionNav();
-				$(window).scrollTop(0);
-			});
+			$('#portal').empty();
+			loadSheet(topic,0,topic.sheets.length-1);
 		}
 
 		//load initial content

@@ -1,4 +1,4 @@
-.main-content{
+#portal section{
 
 	span.list-number {
 		display: inline-block;
@@ -12,18 +12,37 @@
 		position:relative;
 		list-style-type: none;
 		padding-left: 30px;
+
+		li{
+
+		}
+
+		div+li{
+			margin-top: 20px;
+		}
 	}
 
-	&>ul>li{
-		color:blue;
-	}
+	
 
 	.form-control{
-		border:1px solid red;
 
 		&.inline-form{
 			display:inline-block;
 			width:200px;
+		}
+	}
+}
+
+#portal .sectionType-outline,#portal .sectionType-assignment{
+	&>ul>li{
+		font-weight: 100;
+		color: #2e7dbb;
+		letter-spacing: 1px;
+		line-height: 40px;
+		font-size: 30px;
+
+		&>span.list-number{
+			font-weight: 100;
 		}
 	}
 }

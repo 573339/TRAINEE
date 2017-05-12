@@ -1,8 +1,57 @@
 [
 	{
-		"id":"watch",
+		"id":"watcha",
 		"title": "Watchstanding/Weapons Turnover",
-		"location": "content/watchstanding.html",
-		"image": "img/watch.jpg"
+		"image": "img/watch.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"title": "Outline Sheet",
+				"number":"OS 1-18 Outline",
+				"file": "content/watchstanding.html"
+			},
+			{
+				"type":"assignment",
+				"title": "Assignment Sheet",
+				"number":"AS 1-18 Assignment",
+				"file": "content/watchstanding-assignment.html"
+			},
+			{
+				"type":"assignment",
+				"title": "Assignment Sheet",
+				"number":"AS 1-18 Weapons Turnover Inspection",
+				"file": "content/watchstanding-assignment2.html"
+			},
+			{
+				"type":"information",
+				"title": "Information Sheet",
+				"number":"IS 1-18 Shipboard Force Protection Conditions",
+				"file": "content/watchstanding-information.html"
+			}
+		]
+	},
+	{
+		"id":"watchb",
+		"title": "Watchstanding/Weapons Turnover b",
+		"image": "img/watch.jpg",
+		"sheets":[
+			{
+				"title": "Outline Sheet",
+				"number":"OS 1-18-1 OUTLINE SHEET",
+				"file": "content/watchstanding.html"
+			}
+		]
+	},
+	{
+		"id":"watchc",
+		"title": "Watchstanding/Weapons Turnover c",
+		"image": "img/watch.jpg",
+		"sheets":[
+			{
+				"title": "Outline Sheet",
+				"number":"OS 1-18-1 OUTLINE SHEET",
+				"file": "content/watchstanding.html"
+			}
+		]
 	}
 ]
