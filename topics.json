@@ -1,6 +1,251 @@
 [
 	{
-		"id":"watcha",
+		"id":"benefits",
+		"title": "Military Benefits",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-16 Outline",
+				"file": "content/benefits.html"
+			}
+		]
+	},
+	{
+		"id":"pay",
+		"title": "Military Pay",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-01 Outline",
+				"file": "content/pay.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 2-01 Assignment",
+				"file": "content/pay-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"gibill",
+		"title": "Montgomery GI Bill/Post 9/11 GI Bill",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-02 Outline",
+				"file": "content/gibill.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-02 Comparison of Benefits",
+				"file": "content/gibill-comparison.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-02 Basic Enrollment",
+				"file": "content/gibill-enrollment.html"
+			}
+		]
+	},
+	{
+		"id":"uniforms",
+		"title": "Wear of Working Uniforms and Outergarments",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 8-08 Outline",
+				"file": "content/uniforms.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 8-08 Assignment",
+				"file": "content/uniforms-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"shooter",
+		"title": "Active Shooter Actions",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 8-28 Outline",
+				"file": "content/shooter.html"
+			}
+		]
+	},
+	{
+		"id":"ucmj",
+		"title": "Uniform Code of Military Justice (UCMJ)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"assignment",
+				"number":"AS 3-01 Assignment",
+				"file": "content/ucmj-assignment.html"
+			},
+			{
+				"type":"information",
+				"number":"AS 3-01 DoD Briefing on Separation Policy",
+				"file": "content/ucmj-separation.html"
+			}
+		]
+	},
+	{
+		"id":"survival",
+		"title": "Survival At Sea",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-20 Outline",
+				"file": "content/survival.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-20 Assignment",
+				"file": "content/survival-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"nutrition",
+		"title": "Introduction to Nutrition",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-15 Outline",
+				"file": "content/nutrition.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-15 Important Facts to Remember",
+				"file": "content/nutrition-important.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-15 Choose My Plate.gov",
+				"file": "content/nutrition-plate.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-15 Hydration Needs",
+				"file": "content/nutrition-hydration.html"
+			}
+		]
+	},
+	{
+		"id":"fitness",
+		"title": "Navy Operational Fitness Series",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"IS 2-15 Navy Operational Fitness Series",
+				"file": "content/fitness.html"
+			}
+		]
+	},
+	{
+		"id":"bottle",
+		"title": "Water Bottle Cleaning Procedures",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"IS 8-01 Water Bottle Cleaning Procedures",
+				"file": "content/bottle.html"
+			}
+		]
+	},
+	{
+		"id":"scra",
+		"title": "Servicemembers Civil Relief Act Of 2003 (SCRA)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-13 Outline",
+				"file": "content/scra.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-13 SERVICEMEMBERS CIVIL RELIEF ACT ADVICE AND STATEMENT OF UNDERSTANDING",
+				"file": "content/scra-understanding.html"
+			}
+		]
+	},
+	{
+		"id":"learning",
+		"title": "Learning Skills",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-06 Outline",
+				"file": "content/learning.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 2-06 Assignment",
+				"file": "content/learning-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"firstaid",
+		"title": "First AID",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-01 Outline",
+				"file": "content/firstaid.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 5-01 Assignment",
+				"file": "content/firstaid-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"values",
+		"title": "Navy Core Values",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-22 Outline",
+				"file": "content/values.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-22 Assignment",
+				"file": "content/values-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"risk",
+		"title": "Time Critical Risk Management",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-12 Outline",
+				"file": "content/tcrm.html"
+			}
+		]
+	},
+	{
+		"id":"watch",
 		"title": "Watchstanding/Weapons Turnover",
 		"image": "img/watch.jpg",
 		"sheets":[
@@ -31,26 +276,424 @@
 		]
 	},
 	{
-		"id":"watchb",
-		"title": "Watchstanding/Weapons Turnover b",
-		"image": "img/watch.jpg",
+		"id":"customs",
+		"title": "Military Customs and Courtesies",
+		"image": "img/banner-02.jpg",
 		"sheets":[
 			{
-				"title": "Outline Sheet",
-				"number":"OS 1-18-1 OUTLINE SHEET",
-				"file": "content/watchstanding.html"
+				"type":"outline",
+				"number":"OS 1-10 Outline",
+				"file": "content/customs.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-10 Assignment",
+				"file": "content/customs-assignment.html"
 			}
 		]
 	},
 	{
-		"id":"watchc",
-		"title": "Watchstanding/Weapons Turnover c",
-		"image": "img/watch.jpg",
+		"id":"stress",
+		"title": "Operational Stress Control",
+		"image": "img/banner-02.jpg",
 		"sheets":[
 			{
-				"title": "Outline Sheet",
-				"number":"OS 1-18-1 OUTLINE SHEET",
-				"file": "content/watchstanding.html"
+				"type":"outline",
+				"number":"OS 2-11 Outline",
+				"file": "content/stress.html"
+			}
+		]
+	},
+	{
+		"id":"family",
+		"title": "Family Planning And Care Policies",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 3-04 Outline",
+				"file": "content/family.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 3-04 Assignment",
+				"file": "content/family-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"history",
+		"title": "U.S. Naval History and Traditions",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-08 Outline",
+				"file": "content/history.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-08 Assignment",
+				"file": "content/history-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"livefire",
+		"title": "Small Arms Familiarization M9 (9mm) Pistol Live-Fire Phase",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-05 Outline",
+				"file": "content/livefire.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 5-05 Assignment",
+				"file": "content/livefire-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"conduct",
+		"title": "Conduct During Armed Conflict",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-09 Outline",
+				"file": "content/conduct.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-09 Assignment",
+				"file": "content/conduct-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"thrift",
+		"title": "Thrift Savings Plan (TSP)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-03 Outline",
+				"file": "content/thrift.html"
+			}
+		]
+	},
+	{
+		"id":"drug",
+		"title": "Navy Drug and Alcohol Program",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-21 Outline",
+				"file": "content/drug.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-21 Assignment",
+				"file": "content/drug-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"antiterrorism",
+		"title": "Antiterrorism/Force Protection",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-05 Outline",
+				"file": "content/antiterrorism.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-05 Telephonic Threat Complaint",
+				"file": "content/antiterrorism-telephonic.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-05 Combating Terrorism",
+				"file": "content/antiterrorism-combating.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-05 DoD Code Of Conduct For Personnel Subject To Terrorist Activity",
+				"file": "content/antiterrorism-subject.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-05 Assignment",
+				"file": "content/antiterrorism-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"transfer",
+		"title": "Military Transfer Orders",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-14-1 Outline",
+				"file": "content/transfer.html"
+			}
+		]
+	},
+	{
+		"id":"basic",
+		"title": "Basic Damage Control",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-11 Outline",
+				"file": "content/basic.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-11 Assignment",
+				"file": "content/basic-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"pumps",
+		"title": "Portable Damage Control Pumps",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-12 Outline",
+				"file": "content/pumps.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-12 Assignment",
+				"file": "content/pumps-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"breathing",
+		"title": "Emergency Breathing Devices (EEBD/SCBA)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-13 Outline",
+				"file": "content/breathing.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-13 Assignment",
+				"file": "content/breathing-assignment.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-13 Assignment",
+				"file": "content/breathing-image.html"
+			}
+		]
+	},
+	{
+		"id":"chemistry",
+		"title": "Chemistry and Classes of Fires",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-15 Outline",
+				"file": "content/chemistry.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-15 Assignment",
+				"file": "content/chemistry-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"extinguishing",
+		"title": "Portable and Fixed Fire Extinguishing Systems",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-16 Outline",
+				"file": "content/extinguishing.html"
+			},
+			{
+				"type":"outline",
+				"number":"OS 1-16 Portable CO2 Extinguisher Components",
+				"file": "content/extinguishing-co2.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-16 Assignment",
+				"file": "content/extinguishing-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"firefighting",
+		"title": "General Firefighting Procedures and Fire Party Organization",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-17 Outline",
+				"file": "content/firefighting.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-17 Assignment",
+				"file": "content/firefighting-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"training",
+		"title": "Enlisted to Officer Commissioning Programs",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-19 Outline",
+				"file": "content/training.html"
+			}
+		]
+	},
+	{
+		"id":"advancement",
+		"title": "Career Path and Advancement",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-23 Outline",
+				"file": "content/advancement.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-23 Assignment",
+				"file": "content/advancement-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"firelab",
+		"title": "Firefighting Trainer Laboratory",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-07 Laboratory",
+				"file": "content/firelab.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 5-07 Assignment",
+				"file": "content/firelab-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"cbrd",
+		"title": "Chemical, Biological, and Radiological Defense (CBRD)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-06 Outline",
+				"file": "content/cbrd.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 5-06 Assignment",
+				"file": "content/cbrd-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"lending",
+		"title": "Predatory Lending",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"IS 2-07 Predatory Lending",
+				"file": "content/lending.html"
+			}
+		]
+	},
+	{
+		"id":"ashore",
+		"title": "Conduct and Precautions Ashore",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-04 Outline",
+				"file": "content/ashore.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-04 Assignment",
+				"file": "content/ashore-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"tools",
+		"title": "Navy Career Tools",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"IS 2-08 Navy Career Tools",
+				"file": "content/tools.html"
+			}
+		]
+	},
+	{
+		"id":"dental",
+		"title": "Naval Dental Center",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Naval Dental Center",
+				"file": "content/dental.html"
+			}
+		]
+	},
+	{
+		"id":"formation",
+		"title": "Detail/Element Formations",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Detail/Element Formations",
+				"file": "content/formation.html"
+			}
+		]
+	},
+	{
+		"id":"pass",
+		"title": "Inter-Station Pass",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"pass",
+				"number":"Inter-Station Pass",
+				"file": "content/pass.html"
 			}
 		]
 	}
