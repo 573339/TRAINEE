@@ -287,6 +287,11 @@
 		"image": "img/banner-02.jpg",
 		"sheets":[
 			{
+				"type":"outline",
+				"number":"OS 3-01 Outline",
+				"file": "content/ucmj.html"
+			},
+			{
 				"type":"assignment",
 				"number":"AS 3-01 Assignment",
 				"file": "content/ucmj-assignment.html"
