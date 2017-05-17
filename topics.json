@@ -5,6 +5,208 @@
 		"image": "img/banner-02.jpg",
 		"sheets":[
 			{
+				"type":"information",
+				"number":"UNITED STATES NAVY BASIC MILITARY TRAINING RECRUIT TRAINEE GUIDE",
+				"file": "content/cover.html"
+			}
+		]
+	},
+	{
+		"id":"creed",
+		"title": "The Sailor's Creed",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"The Sailor's Creed",
+				"file": "content/creed.html"
+			}
+		]
+	},
+	{
+		"id":"security",
+		"title": "Security Awareness Notice",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Security Awareness Notice",
+				"file": "content/security.html"
+			}
+		]
+	},
+	{
+		"id":"safety",
+		"title": "Safety/Hazard Awareness Notice",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Safety/Hazard Awareness Notice",
+				"file": "content/safety.html"
+			}
+		]
+	},
+	{
+		"id":"howtouse",
+		"title": "How To Use Your Trainee Guide",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"How To Use Your Trainee Guide",
+				"file": "content/howtouse.html"
+			}
+		]
+	},
+	{
+		"id":"objectives",
+		"title": "Basic Military Training Terminal Objectives",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Basic Military Training Terminal Objectives",
+				"file": "content/objectives.html"
+			}
+		]
+	},
+	{
+		"id":"topsix",
+		"title": "RTC Commanding Officer’s Top Six",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"RTC Commanding Officer’s Top Six",
+				"file": "content/topsix.html"
+			}
+		]
+	},
+	{
+		"id":"legal",
+		"title": "Legal Readiness for New Sailors",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Legal Readiness for New Sailors",
+				"file": "content/legal.html"
+			}
+		]
+	},
+	{
+		"id":"ethics",
+		"title": "Code of Ethics",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Code of Ethics",
+				"file": "content/ethics.html"
+			}
+		]
+	},
+	{
+		"id":"office",
+		"title": "Office Entering Procedures",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Office Entering Procedures",
+				"file": "content/office.html"
+			}
+		]
+	},
+	{
+		"id":"address",
+		"title": "Recruit Mailing Address",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Recruit Mailing Address",
+				"file": "content/address.html"
+			}
+		]
+	},
+	{
+		"id":"command",
+		"title": "Chain of Command",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Chain of Command",
+				"file": "content/command.html"
+			}
+		]
+	},
+	{
+		"id":"sentry",
+		"title": "General Orders of a Sentry",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"General Orders of a Sentry",
+				"file": "content/sentry.html"
+			}
+		]
+	},
+	{
+		"id":"maxim",
+		"title": "RTC Maxim",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"RTC Maxim",
+				"file": "content/maxim.html"
+			}
+		]
+	},
+	{
+		"id":"writing",
+		"title": "Recruit Writing",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Letters, Numbers, and Months",
+				"file": "content/writing.html"
+			},
+			{
+				"type":"information",
+				"number":"Military Time",
+				"file": "content/time.html"
+			},
+			{
+				"type":"information",
+				"number":"Phonetic Alphabet",
+				"file": "content/alphabet.html"
+			}
+		]
+	},
+	{
+		"id":"introduction",
+		"title": "Introduction to the Navy",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Introduction to the Navy",
+				"file": "content/introduction.html"
+			}
+		]
+	},
+	{
+		"id":"benefits",
+		"title": "Military Benefits",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
 				"type":"outline",
 				"number":"OS 2-16 Outline",
 				"file": "content/benefits.html"
@@ -226,9 +428,9 @@
 				"file": "content/values.html"
 			},
 			{
-				"type":"assignment",
+				"type":"assignvment",
 				"number":"AS 1-22 Assignment",
-				"file": "content/values-assignment.html"
+				"file": "content/alues-assignment.html"
 			}
 		]
 	},
@@ -335,6 +537,18 @@
 				"type":"assignment",
 				"number":"AS 1-08 Assignment",
 				"file": "content/history-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"smallarms",
+		"title": "Small Arms Familiarization M9 (9mm) Pistol Simulator Phase (SAMT)",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-04 Outline",
+				"file": "content/smallarms.html"
 			}
 		]
 	},
@@ -459,7 +673,12 @@
 				"type":"assignment",
 				"number":"AS 1-11 Assignment",
 				"file": "content/basic-assignment.html"
-			}
+			},
+			{
+				"type":"information",
+				"number":"IS 1-11 Shipboard Markings",
+				"file": "content/basic-markings.html"
+			}			
 		]
 	},
 	{
@@ -691,9 +910,57 @@
 		"image": "img/banner-02.jpg",
 		"sheets":[
 			{
-				"type":"pass",
+				"type":"information",
 				"number":"Inter-Station Pass",
 				"file": "content/pass.html"
+			}
+		]
+	},
+	{
+		"id":"map",
+		"title": "Base Map",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Base Map",
+				"file": "content/map.html"
+			}
+		]
+	},
+	{
+		"id":"ethos",
+		"title": "Navy Ethos",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Navy Ethos",
+				"file": "content/ethos.html"
+			}
+		]
+	},
+	{
+		"id":"pledge",
+		"title": "Pledge of Allegiance",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Pledge of Allegiance",
+				"file": "content/pledge.html"
+			}
+		]
+	},
+	{
+		"id":"fpcon",
+		"title": "Force Protection Conditions",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"information",
+				"number":"Force Protection Conditions",
+				"file": "content/fpcon.html"
 			}
 		]
 	}
