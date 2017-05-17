@@ -365,7 +365,7 @@ $(document).ready(function(){
 
 				if(this.sheets){
 					$.each(this.sheets,function(){
-						$('<span>'+this+'</span>').appendTo(newTopicNav.find('a'));
+						$('<span>'+this.number+'</span>').appendTo(newTopicNav.find('a'));
 					});
 				}
 				newTopicNav.appendTo('#topicNav');

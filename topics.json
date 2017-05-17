@@ -6,7 +6,7 @@
 		"sheets":[
 			{
 				"type":"information",
-				"number":"UNITED STATES NAVY BASIC MILITARY TRAINING RECRUIT TRAINEE GUIDE",
+				"number":"United States Navy Basic Military Training Recruit Trainee Guide",
 				"file": "content/cover.html"
 			}
 		]
@@ -390,7 +390,7 @@
 			},
 			{
 				"type":"information",
-				"number":"IS 2-13 SERVICEMEMBERS CIVIL RELIEF ACT ADVICE AND STATEMENT OF UNDERSTANDING",
+				"number":"IS 2-13 Servicemembers Civil Relief Act Advice and Statment of Understanding",
 				"file": "content/scra-understanding.html"
 			}
 		]
@@ -579,7 +579,7 @@
 			},
 			{
 				"type":"information",
-				"number":"IS 3-02 REPORT OF GRIEVENCE/ALLEGED INCIDENT OF DISCRIMINATION",
+				"number":"IS 3-02 Report Of Grievence/Alleged Incident Of Discrimination",
 				"file": "content/equal-report.html"
 			}
 		]
