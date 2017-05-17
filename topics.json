@@ -367,6 +367,18 @@
 		]
 	},
 	{
+		"id":"sexual",
+		"title": "Sexual Assault Prevention And Reporting",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 3-03 Outline",
+				"file": "content/sexual.html"
+			}
+		]
+	},
+	{
 		"id":"scra",
 		"title": "Servicemembers Civil Relief Act Of 2003 (SCRA)",
 		"image": "img/banner-02.jpg",
@@ -380,6 +392,23 @@
 				"type":"information",
 				"number":"IS 2-13 SERVICEMEMBERS CIVIL RELIEF ACT ADVICE AND STATEMENT OF UNDERSTANDING",
 				"file": "content/scra-understanding.html"
+			}
+		]
+	},
+	{
+		"id":"rank",
+		"title": "Enlisted Rate and Officer Rank Recognition",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-07 Outline",
+				"file": "content/rank.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-07 Assignment",
+				"file": "content/rank-assignment.html"
 			}
 		]
 	},
@@ -430,7 +459,41 @@
 			{
 				"type":"assignvment",
 				"number":"AS 1-22 Assignment",
-				"file": "content/alues-assignment.html"
+				"file": "content/values-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"ships",
+		"title": "U.S. Navy Ships",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-03 Outline",
+				"file": "content/ships.html"
+			},
+			{
+				"type":"assignvment",
+				"number":"AS 1-03 Assignment",
+				"file": "content/ships-assignment.html"
+			}
+		]
+	},
+	{
+		"id":"aircraft",
+		"title": "U.S. Navy Aircraft",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-06 Outline",
+				"file": "content/aircraft.html"
+			},
+			{
+				"type":"assignvment",
+				"number":"AS 1-06 Assignment",
+				"file": "content/aircraft-assignment.html"
 			}
 		]
 	},
@@ -478,6 +541,50 @@
 		]
 	},
 	{
+		"id":"grooming",
+		"title": "Uniforms and Grooming",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 2-04 Outline",
+				"file": "content/grooming.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 2-04 Assignment",
+				"file": "content/grooming-assignment.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 2-04 Tying the Neckerchief",
+				"file": "content/grooming-tying.html"
+			}
+		]
+	},
+	{
+		"id":"equal",
+		"title": "Navy Equal Opportunity Program",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 3-02 Outline",
+				"file": "content/equal.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 3-02 Assignment",
+				"file": "content/equal-assignment.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 3-02 REPORT OF GRIEVENCE/ALLEGED INCIDENT OF DISCRIMINATION",
+				"file": "content/equal-report.html"
+			}
+		]
+	},
+	{
 		"id":"customs",
 		"title": "Military Customs and Courtesies",
 		"image": "img/banner-02.jpg",
@@ -503,6 +610,67 @@
 				"type":"outline",
 				"number":"OS 2-11 Outline",
 				"file": "content/stress.html"
+			}
+		]
+	},
+	{
+		"id":"seamanship1",
+		"title": "Basic Seamanship Part 1",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-01 Outline",
+				"file": "content/seamanship1.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-01 Assignment",
+				"file": "content/seamanship1-assignment.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-01 Flags and Pennants",
+				"file": "content/seamanship1-flags.html"
+			}
+		]
+	},
+	{
+		"id":"seamanship2",
+		"title": "Basic Seamanship Part 2",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 1-02 Outline",
+				"file": "content/seamanship2.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 1-02 Assignment",
+				"file": "content/seamanship2-assignment.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-02 Knot Tying",
+				"file": "content/seamanship2-knots.html"
+			},
+			{
+				"type":"information",
+				"number":"IS 1-02 Sound-Powered Telephones (Headset)",
+				"file": "content/seamanship2-telephones.html"
+			}
+		]
+	},
+	{
+		"id":"linelab",
+		"title": "Line Handing Lab 1",
+		"image": "img/banner-02.jpg",
+		"sheets":[
+			{
+				"type":"outline",
+				"number":"OS 5-02 Outline",
+				"file": "content/linelab.html"
 			}
 		]
 	},
