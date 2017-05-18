@@ -427,7 +427,7 @@ $(document).ready(function(){
 		$('#sectionNav').on('click','a',function(){
 			var el=$(this);
 
-			$(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-70);
+			$(window).scrollTop($('[data-sectionTitle="'+el.attr('data-sectionTarget')+'"]').offset().top-200);
 			$('#sectionNav,.shroud').hide();
 
 			return false;
@@ -501,11 +501,11 @@ $(document).ready(function(){
 
 			//clone portal content
 			var clone=$('#portal').clone();
-			clone.text(($('#topic-title').text()+'\n'+clone.text()));
+			clone.html(($('#topic-title').html()+'\n'+clone.html()));
 			//process answers and insert as text
 			clone.find('input').each(function(){
 				if($(this).hasClass('inline-form')){
-					$(this).replaceWith('[ANSWER: '+$(this).val()+']]]');
+					$(this).replaceWith('[ANSWER: '+$(this).val()+']');
 				}
 				else{
 					$(this).replaceWith('[ANSWER: '+$(this).val()+']');
@@ -515,20 +515,72 @@ $(document).ready(function(){
 
 
 			//remove whitespaces
-			var oldString=clone.text();
-			var newString=oldString.replace(/^[ \t\r]+\b/gm,'');
+			var oldString=clone.html();
+			var newString=oldString;
 
 			oldString=newString;
-			newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
+			newString=oldString.replace(/^\s+/gm,'');
 
 			oldString=newString;
-			newString=oldString.replace(/\]\]\]\n/gm,'\] ');
+			newString=oldString.replace(/<\/li>/gm,'\n');
 
 			oldString=newString;
-			newString=oldString.replace(/^\s+$/gm,'\n');
+			newString=oldString.replace(/<\/ul>/gm,'\n');
 
 			oldString=newString;
-			newString=oldString.replace(/^\n+/gm,'\n');
+			newString=oldString.replace(/<\/div>/gm,'\n');
+
+			oldString=newString;
+			newString=oldString.replace(/<li><span class="list-number">/gm,'');
+
+			oldString=newString;
+			newString=oldString.replace(/<\/span>/gm,' ');
+
+			oldString=newString;
+			newString=oldString.replace(/<script.+<\/script>/gm,'');
+
+			oldString=newString;
+			newString=oldString.replace(/<.+>/gm,'');
+
+			oldString=newString;
+			newString=oldString.replace(/^\n/gm,'');
+
+			oldString=newString;
+			newString=oldString.replace(/(^[A-Z]+?\.)/gm,'$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^[0-9]+?\.)/gm,'\t$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^[a-z]+?\.)/gm,'\t\t$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^\([0-9]+?\))/gm,'\t\t\t$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^\([a-z]+?\))/gm,'\t\t\t\t$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^[0-9]+?\))/gm,'\t\t\t\t\t$1');
+
+			oldString=newString;
+			newString=oldString.replace(/(^[a-z]+?\))/gm,'\t\t\t\t\t\t$1');
+			
+
+
+			// var newString=oldString.replace(/^[ \t\r]+\b/gm,'');
+
+			// oldString=newString;
+			// newString=oldString.replace(/^\s*?(?=\[)/gm,'\n');
+
+			// oldString=newString;
+			// newString=oldString.replace(/\]\]\]\n/gm,'\] ');
+
+			// oldString=newString;
+			// newString=oldString.replace(/^\s+$/gm,'\n');
+
+			// oldString=newString;
+			// newString=oldString.replace(/^\n+/gm,'\n');
 
 			//console.log(newString);
 
