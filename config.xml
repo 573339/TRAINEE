@@ -20,10 +20,6 @@
     
     <preference name="fullscreen" value="true" />
     
-    <platform name="ios" >
-        <preference name="target-device" value="tablet" />
-        <preference name="orientation" value="portrait" />
-    </platform>
 
     <platform name="android" >
         <preference name="orientation" value="portrait" />
@@ -40,6 +36,17 @@
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
         <false/>
     </gap:config-file>
+
+    <platform name="ios" >
+        <preference name="target-device" value="tablet" />
+        <preference name="orientation" value="portrait" />
+        
+
+        <splash src="portrait.png" platform="ios" width="768" height="1024" />
+        <splash src="portrait@2x.png" platform="ios" width="1536" height="2048" />
+
+        
+    </platform>
 
 
 
