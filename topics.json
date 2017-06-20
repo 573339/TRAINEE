@@ -676,6 +676,11 @@
 				"type":"outline",
 				"number":"OS 5-02 Outline",
 				"file": "content/linelab.html"
+			},
+			{
+				"type":"assignment",
+				"number":"AS 5-02 Assignment",
+				"file": "content/line-assignment.html"
 			}
 		]
 	},

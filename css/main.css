@@ -173,6 +173,9 @@ h5 {
   .inline-form.inline-form-small {
     width: 100px; }
 
+.numerical-spacing {
+  padding-left: 18px; }
+
 .section {
   margin: 30px 0; }
 
@@ -259,6 +262,8 @@ ul.address {
   margin-bottom: -50px;
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 #wrapper.toggled {
@@ -274,6 +279,8 @@ ul.address {
   overflow: hidden;
   background: #ffffff;
   -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -411,15 +418,12 @@ small {
     position: absolute;
     right: 1.5rem;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     font-family: 'FontAwesome';
     font-size: 2rem;
     color: #d7d7d7; }
   #helpModal .help-filters .help-search {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
     border: 0;
     display: block;
     width: 100%;
@@ -449,8 +453,7 @@ small {
     position: absolute;
     right: 1.5rem;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     font-size: 2rem;
     margin-top: -3px; }
   #helpModal .help-item .help-question.open::after {
@@ -621,7 +624,6 @@ small {
   font-size: 13px;
   line-height: 20px; }
 
-/* NUTRITION */
 .food-title {
   color: #2e7dbb;
   font-weight: 14px;
@@ -648,8 +650,7 @@ small {
   height: 600px; }
 
 .panzoom {
-  -webkit-transform: matrix(1, 0, 0, 1, 8, -231);
-          transform: matrix(1, 0, 0, 1, 8, -231); }
+  transform: matrix(1, 0, 0, 1, 8, -231); }
 
 .panel-title {
   text-align: center; }
@@ -909,16 +910,14 @@ label {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%); }
+    transform: translateX(-50%); }
 
 .topicNav-area .topicNav-wrapper {
   display: none;
   position: absolute;
   width: 400px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   margin-top: 20px;
   z-index: 9999999;
   background: white;
@@ -1040,8 +1039,7 @@ label {
     position: absolute;
     right: 12px;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%); }
+    transform: translateY(-50%); }
 
 .utility-menu #search {
   width: 250px; }
